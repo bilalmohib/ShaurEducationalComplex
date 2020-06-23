@@ -1,0 +1,116 @@
+#CGA
+{
+   background-color:#104661;;
+   width: 100%;
+   display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards;
+   margin-left: 0px;
+   height: fit-content;
+   margin-top: 10px;
+}
+#BGA
+{
+    box-shadow: 5px 10px #052f44;;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 2px lightcoral;
+}
+#imggallery{
+   width: 300px;
+   height: 300px;
+}
+
+@media all and (max-width:600px)
+{
+    #CGA
+    {
+       width: 100%;
+       margin-left: 0px;
+    }
+    #BGA
+    {
+       width: 100%;
+    }
+    #imggallery{
+       width: 100%;
+    }
+
+}
+@media all and (max-width:400px)
+{
+    #CGA
+    {
+       width: 100%;
+       margin-left: 0px;
+    }
+    #BGA
+    {
+       width: 100%;
+    }
+    #imggallery{
+      width: 100%;
+   }
+}
+@media all and (max-width:350px)
+{
+    #CGA
+    {
+       width: 100%;
+       margin-left: 0px;
+    }
+    #BGA
+    {
+       width: 100%;
+    }
+    #imggallery{
+      width: 100%;
+   }
+}
+@media all and (max-width:290px)
+{
+    #CGA
+    {
+       width: 100%;
+       margin-left:0px;
+    }
+    #BGA
+    {
+       width: 100%;
+    }
+    #imggallery{
+      width: 100%;
+   }
+}
+@media all and (max-width:400px)
+{
+    #CGA
+    {
+       width: 100%;
+       margin-left: 0px;
+    }
+    #BGA
+    {
+       width: 100%;
+    }
+    #imggallery{
+      width: 100%;
+   }
+}
+
+/* add responive media queries */
+@media screen and (max-width:800px)
+{   
+
+}
+@media screen and (max-width:600px){
+   #imggallery{
+      width: 100%;
+   }    
+}

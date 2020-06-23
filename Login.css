@@ -1,0 +1,202 @@
+body{
+      background: url("Images/SlideShow/1.JPG");
+      background-size: cover;
+}
+.login-box{
+    width: 320px;
+    height: 450px;
+    background: rgba(17, 19, 112, 0.5);
+    color:white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    box-shadow: aliceblue;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    color: rgb(141, 218, 118); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+
+.login-box input[type="button"]:hover
+{
+    color: #1c8adb;
+    background-color: #fff;
+    border: 1 px solid black;
+    transition: 1s linear;
+}
+
+#head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #9bcbe4;font-size: 30px; text-shadow: aqua;
+}
+
+
+@media all and (max-width:600px)
+{
+    #head{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #9bcbe4;font-size: 50px; text-shadow: aqua;
+    }
+ 
+    .login-box{
+        margin-top: 10%;
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 10%;
+    }
+}
+ @media all and (max-width:400px)
+{
+    #head{
+    font-size: 50px; 
+    }
+    .login-box{
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 10%;
+    }
+}
+@media all and (max-width:290px)
+{
+    #head{
+       font-size: 50px;
+    }
+    .login-box{
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 10%;
+    }
+}
+@media all and (max-width:200px)
+{
+    #head{
+    font-size: 50px; 
+    }
+    .login-box{
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 10%;
+    }
+}
+/* body */
+@media all and (max-width:400px)
+{
+    #head{
+font-size: 50px; 
+    }
+    .login-box{
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 10%;
+    }
+}
+/* body */
+
+/* add responive media queries */
+@media screen and (max-width:800px){
+    .login-box{
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 0%;
+    }
+    #head{
+        font-size: 50px; 
+    }
+}
+@media screen and (max-width:900px){
+    .login-box{
+        width: 100%;
+        height: 60%px;
+        top: 50%;
+        left: 50%;
+        margin-top: 0%;
+    }
+    #head
+    {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1000px){    
+    #head{
+        font-size: 50px; 
+    }    
+    .login-box{
+        margin-top: 0%;
+        width: 100%;
+        height: 70%;
+        top: 50%;
+        left: 50%;
+
+    }
+}
+
+

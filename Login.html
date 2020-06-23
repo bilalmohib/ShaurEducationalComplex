@@ -1,0 +1,71 @@
+<html>
+<head>
+  <title>E-learning Portal Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <div style="background-color:rgb(55, 55, 104); height: auto; width: fit-content; border: 1px solid black;" id="login_div" class="main-div">
+    <img src="Images/logo.ico" style="text-align: center; position: relative; margin-left: 110px;"  width="100px" height="100px" alt=""><br>
+    <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%;">Shaur Educational Complex</h2>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
+  </div>
+
+  <div style="width: fit-content;" id="user_div" class="loggedin-div">
+    <h1 style="color: bisque;">Welcome to Shaur Educational Complex</h1>
+    <p style="color: #238028; font-size: 25px;" id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button style="text-align: center; width: 200px; font-size: 20px;" onclick="logout()">Logout</button>
+  </div>
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyBOqxTWU6oNu-XrNzZI3_3YX7WvQIItGeQ",
+  authDomain: "shaureducationalscomplex.firebaseapp.com",
+  databaseURL: "https://shaureducationalscomplex.firebaseio.com",
+  projectId: "shaureducationalscomplex",
+  storageBucket: "shaureducationalscomplex.appspot.com",
+  messagingSenderId: "524371658325",
+  appId: "1:524371658325:web:4e3c984b9173f0c7f2f6dc",
+  measurementId: "G-GP55TWQQRG"
+};
+    firebase.initializeApp(firebaseConfig);
+  </script> 
+
+<!-- ///////////////////////////////////////////////////////////////// -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+ TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<!-- <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+<script> -->
+  <!-- // Your web app's Firebase configuration
+  // var firebaseConfig = {
+  //   apiKey: "AIzaSyAR71UUc6Aa0UKHL0uAodSJCHxJJG_pRXk",
+  //   authDomain: "shaureducationalcomplexschool.firebaseapp.com",
+  //   databaseURL: "https://shaureducationalcomplexschool.firebaseio.com",
+  //   projectId: "shaureducationalcomplexschool",
+  //   storageBucket: "shaureducationalcomplexschool.appspot.com",
+  //   messagingSenderId: "997667524013",
+  //   appId: "1:997667524013:web:ea9df427146f43ccad6524",
+  //   measurementId: "G-9ZLWPTM0SN"
+  // };
+//   // Initialize Firebase
+//   firebase.initializeApp(firebaseConfig);
+//   firebase.analytics();
+// </script> -->
+
+
+<!-- /////////////////////////////////////////////////////// -->
+
+
+  <script src="app.js"></script>
+</body>
+</html>

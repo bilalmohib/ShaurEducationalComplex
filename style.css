@@ -1,0 +1,1515 @@
+#btns{
+    line-height: 0px;
+}
+#btn3{
+    margin-bottom: 7px;
+    background-color:whitesmoke;
+    color: darkolivegreen;
+    height: 30px;
+}
+.btns{
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    
+  }
+  #contactmap{
+      margin-top: 40px;
+      margin-left: 210px;
+      width: 1100px;
+      height: 600px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btns:hover {
+    background-color: RoyalBlue;
+  }
+.container7{
+    margin-left:0px;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    min-height: 40px;
+    background-color:aliceblue;
+    border-bottom: 1px solid aliceblue;
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards; 
+}
+.box7{
+    width: fit-content;
+    height: 20px;
+    box-sizing: border-box;
+    align-items:center;
+    text-align: center;
+    justify-content: center;
+}
+#iconabove{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    color:	#104661;
+    transition: 0.2s linear;
+}
+#iconabove:hover{
+   color:white;
+   background-color: transparent;
+   transition: .5s linear;
+}
+.container7inside{
+    margin-left:0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: fit-content;
+    background:transparent;
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+.box7inside{
+    width: 35px;
+    height: fit-content;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #f1f1f1;
+    margin: 3px;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color:aliceblue;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border-radius: 30%;
+}
+.box7inside:hover{
+    transform: scale(1.3);
+    color:	aliceblue;
+    transition: .5s linear;
+    
+   background-color:#063146;
+}
+.box7inside::before{
+    width: 120%;
+    height: 120%;
+    background:transparent;
+    transform: rotate(45deg);
+    left: -110%;
+    transition: 0.2s linear;
+    top:90%
+}
+.box7inside:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top:90%
+    }50%{
+        left: 10%;
+        top:-30%
+    }100%{
+        top: -10%;
+        left: -10%;
+    }
+}
+.box7para{
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 80px;
+    margin-right: 0px;
+    color: 	#063146;
+    
+}
+
+/* This is for navigation bar */
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: white;
+    background-color: aliceblue;
+}
+nav{
+    /* background:	#2c1362; */
+    background: #063146;
+    opacity: 0.9;
+    position: fixed;
+    border-bottom:1px solid black;
+    z-index: 2;
+      top: 6.4%;
+      width: 100%;
+      height: fit-content;
+      left: 0;
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav ul{
+    float: right;
+    list-style: none;
+
+    margin-left: 0px;
+    margin-right: 50px;
+    line-height: 10px;
+    position: relative;
+}
+nav ul li{
+    
+    display: inline-block;
+    background:transparent;
+    margin: 0 5px;
+}
+nav ul li a{
+   margin-left: 0px;
+    border-radius: 10px 10px 10px 10px;
+    transition: .5s linear;    
+    color:purple;
+    background-color:aliceblue;
+    text-decoration: none;
+    line-height: 100px;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+nav ul li a:hover{
+    margin-left: 20px;
+    position: relative;
+    z-index: 10000;
+    text-decoration: none;
+    color:green;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+}
+nav ul ul li a:hover{
+    position: relative;
+    z-index: 10000;
+    color: cyan;
+    box-shadow: none;
+}
+nav ul ul li{
+    background-color: cornsilk;
+}
+nav ul ul li a{
+    color: black;
+    line-height: 50px;
+}
+nav ul ul li a:hover{
+    color:orange;
+}
+nav ul li:hover > ul{
+    
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    border-top: 3px solid cyan;
+    opacity: 0;
+    line-height: 50px;
+    visibility: hidden;
+    transition: top .3s;
+}
+nav ul ul ul{
+    border-top: none;
+    line-height: 50px;
+}
+nav ul ul li{    
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    line-height: 50px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+nav ul ul li a{
+    line-height: 50px;
+    
+}
+
+#slideshow{
+    position: relative;
+    z-index: -1;
+}
+#image{
+    width: 100%;
+    height: 600px;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    color: #1b1b1b;
+    left:150px;
+}
+/* This is for navigation bar coding nepal */
+.fa-caret-down{
+    margin-left: 40px;
+    font-size: 15px;
+    color: black
+}
+/* second part responsive nav bar */
+.show,.icon, input{
+    display: none;
+}
+nav ul li ul li a{
+    color: black;
+}
+
+/* responsive part for navigation bar */
+
+@media all and (max-width:600px)
+{
+    #logo2{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+@media all and (max-width: 968px)
+{ 
+    #image{
+        width: 100%;
+        height: 500px;
+    }
+    .container7{
+        position: relative;
+    }
+    nav{
+        background:	#063146;
+        position: relative;
+        border-bottom:0px solid transparent;
+        z-index: 2;
+          margin-top: 0px;
+          width: 100%;
+          height: fit-content;
+          left: 0;
+    }
+     nav ul{
+        margin-right: 0px;
+        float:left;
+        color: azure;
+       
+    }
+    nav ul li,nav ul ul li{
+        display:block;
+        background: transparent;
+        width: 100%;
+    }
+    nav ul ul{
+        top:70px;
+        position: static;
+        border-top: none;
+        float:none;
+        display: none;
+        opacity:1;
+        visibility: visible;
+    }
+    nav ul ul ul li{
+        position: static;
+    }
+    nav ul ul li{
+        border-bottom: 0px;
+    }
+    nav ul ul a{
+    padding-left: 40px;
+    }
+    nav ul ul ul a{
+        padding-left: 80px;
+    }
+    .show{
+        display: block;
+        color:purple;
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 40px;
+        width: fit-content;
+        height: 40px;
+        background-color: white;
+        cursor: pointer;
+    }
+    /* .show1{
+        color: #1b1b1b;
+    } */
+    .show:hover{
+        color:cyan;
+    }
+    .icon{
+        display: block;
+        color: white;
+        position: absolute;
+        right: 40px;
+        line-height: 70px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    nav ul li a:hover{
+       box-shadow: none; 
+    }
+    .show + a,ul{
+    display: none;
+    }
+    [id^=btn]:checked + ul{
+        display: block;
+    }
+}
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+/* responsive part for navigation bar */
+/* second part responsive nav bar*/
+/* this is the flex box div */
+.container2{
+    width: 100%;
+    min-height:300px ;
+    background-color:#063146;
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box2{
+    width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    background:transparent;
+    margin: 2px;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+#img2
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* this is the flex box div */
+/* This is image hover effects */
+.overlay {
+    position: relative;
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background:radial-gradient(rgba(1, 2, 3, 0.1),rgba(3, 4, 5, 0.9));  /* Black see-through */
+    /* background: #466368;
+    background: radial-gradient(#648880, #293f50);*/
+    color: #f1f1f1;  
+    width: 100%;
+    transition: .5s ease-in-out;
+    opacity:0;
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    top: -300px;
+    float: unset;
+    bottom: 0px;
+  }
+  .box2:hover .overlay {
+    opacity: 5;
+  }
+
+/* This is image hover effects */
+
+.welcome{                                             
+    position: relative;
+}
+#welcomehead{
+    margin-left: 0px;
+    position: relative;
+margin-top: 0px;
+top: 0px;
+    background-color:#063146;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+}
+#about{
+    margin-left: 40px;
+    color: inherit;
+    font-family: inherit;
+}
+#welcomehead1
+{
+    margin-top: 0px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 0px;
+    width: 100%;
+    position: absolute;
+    border: 1px solid red;
+    top: 130px;
+    background-color:#063146;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+}
+#welcomehead2
+{
+    margin-top: 160px;
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+    background-color:black;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+#welcomehead3
+{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;
+    position: relative;
+    border: 1px solid red;
+    background-color:black;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+#Juniorhead1
+{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 50px;
+    font-weight: bolder;
+    width: fit-content;
+    position: relative;
+    background-color:blue;
+    border-radius: 30%;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:seashell;
+}
+#containerSubjects
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 100%;
+    background-color:aliceblue;
+    height: fit-content;
+    position: relative;
+}
+#boxSubjects
+{
+    border-radius: 25px;
+    border: 1px solid red;
+    background-color: orange;
+    color:aliceblue;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.vertical-menu {
+    width: 200px;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+#boxSubjects:hover
+{
+   background-color: #1b1b1b;
+   color: white;
+   border-radius: 25px;
+}
+#mapbox
+{
+    border-bottom: 0px transparent;
+    display: flex;
+    box-shadow: none;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards;
+    height: 400px;
+}
+#map
+{
+    height: 400px;
+   width: 80%;
+}
+/* This is the icons */
+#icondown
+{
+
+    min-height: fit-content;
+    margin-left: 20px;
+    margin: 40px;
+    margin-top: -30px;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards;
+    line-height: 20px;
+    
+}
+#icondf{
+    border-radius: 50%;
+    background-color: blue;
+    color:aliceblue;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+
+    margin-top: 10px;
+    font-size: 30px;
+    transition: 0.2s linear;
+}
+#icondt{
+    border-radius: 20%;
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+   text-align: center;
+   line-height: 40px;
+    font-size: 30px;
+    transition: 0.2s linear;
+}#icondi{
+    border-radius: 20%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color:white;
+    /* instagram color code */
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    /* instagram color code */     
+
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 30px;
+    transition: 0.2s linear;
+}
+#icondy{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: red;
+
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 45px;
+    transition: 0.2s linear;
+}
+#icondw{
+    width: 40;
+    height: 40;
+    text-align: center;
+    color: green;
+
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 45px;
+    transition: 0.2s linear;
+}
+/* This is the icons */
+#copyright
+{
+   background-color: purple;
+   color: white;
+   height: 50px;
+   line-height: 50px;
+   font-size: 15px;
+   color: orange;
+}
+.container6{
+    margin-top: 0px;
+    width: 100%;
+    min-height: 350px;
+    background:transparent;
+    border: 1px black;
+    background-color: #25272e;
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box6{
+    width: 70vh;
+    height: fit-content;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: grey;
+}
+#hocontainer6{
+    font-size: 17px;
+    
+}
+#icon{
+    width: 20px;
+    height: 20px;
+    color:green;
+}
+#usefullink{
+    color: white;
+    font-size: 20px;
+    margin-left: 12px;
+}
+#boxdash{
+    font-size: 60px;
+    margin-top: -60px;
+    margin-left: 12px;
+    color: darkgreen;
+}
+#iconbox{
+    font-size: 30px;
+    margin-top: 10px;
+    color: blue;
+    margin-left: 10px;
+}
+
+#divsocial{
+    height: 400px;
+    width: 20%;
+    color: #1b1b1b;
+    font-size: 25px;
+    border: 1px solid white;
+    background-color: white;
+}
+#welcomepara{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    visibility: visible;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container3{
+    width: 100%;
+    min-height:300px;
+    margin-top: 0px;
+    /*add flexbox style*/
+    display: flex;
+    margin-bottom:0px;
+    background-color: #063146;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box3{
+    width: 335px;
+    height: 335px;
+    background:transparent;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.txtover{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);    
+}
+
+/* this is for special image hover */
+.overlay1{
+    position: relative;
+    top: -335px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 335px;
+    width: 335px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  #containermarq{
+    background-color: rgb(41, 38, 38);
+    max-width: 100%;
+  }
+  #marq
+  {
+      margin-top: 5px;
+      margin-left: 10%;
+      margin-right: 10%;
+     max-width: 1150px;
+     line-height: 40px;
+     background-color: transparent;
+  }
+  #txtmarq
+  {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+  }
+  .box3:hover .overlay1 {
+        opacity: 0.7;
+  }
+  
+  .text{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+/* This is for special image hover   */
+
+
+/* This is the div inside div */
+[id^=switch] + *{
+    display:none;
+  }
+  [id^=switch]:target + *{
+    display:block;
+}
+/* This is the div inside div */
+
+#logo2
+{
+    position: relative;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    z-index: 1000;    
+}
+#logo3
+{
+   font-size: 30px;
+}
+
+#contactmap1{
+    width: 80%;
+    height: 500px;
+}
+
+@media all and (max-width:600px)
+{/* This is the icons */
+    #icondf{
+        background-color: blue;
+        color:aliceblue;
+        width: 25px;
+        line-height: 25px;
+        text-align: center;
+        height: 25px;
+        border: 1px solid black; 
+        margin-top: 10px;
+        font-size: 15px;
+        transition: 0.2s linear;
+    }
+    #icondt{
+        text-align: left;
+        background-color: skyblue;
+        color: white;
+        margin-top: 10px;
+        width: 25px;
+        height: 25px;
+       line-height: 25px;
+       text-align: center;
+        font-size: 20px;
+        transition: 0.2s linear;
+    }#icondi{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        color:white;
+        background-color:orangered;
+ 
+        margin-top: 10px;
+        
+        font-size: 20px;
+        transition: 0.2s linear;
+    }
+    #icondy{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        color: red;
+         
+        margin-top: 10px;
+     
+        font-size: 25px;
+        transition: 0.2s linear;
+    }
+    #icondw{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        color: green;
+         
+        margin-top: 10px;
+     
+        font-size: 25px;
+        transition: 0.2s linear;
+    }
+    /* This is the icons */
+
+
+    .overlay{
+        width: 100%;
+    }   
+    .overlay1{
+        width: 100%;
+    }
+    .box2{
+    width: 100%;
+    }
+    .box3{
+    width: 100%;
+    }
+    #welcomepara{
+        margin-right: 0px;
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+#logo2
+{
+    position: relative;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    z-index: 1000;    
+}
+#logo3
+{
+   font-size: 20px;
+}
+
+}
+@media all and (max-width:400px)
+{
+/* This is the icons */
+#icondf{
+    background-color: blue;
+    color:aliceblue;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    height: 25px;
+    border: 1px solid black; 
+    margin-top: 10px;
+    font-size: 15px;
+    transition: 0.2s linear;
+}
+#icondt{
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+   line-height: 25px;
+   text-align: center;
+    font-size: 20px;
+    transition: 0.2s linear;
+}#icondi{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+
+    margin-top: 10px;
+    
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+#icondy{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: red;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+#icondw{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: green;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+/* This is the icons */
+
+
+    .overlay{
+        width: 100%;
+    }
+    .overlay1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        }
+        .box3{
+        width: 100%;
+        }
+    #welcomepara{
+        margin-right: 0px;
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+    #logo3
+    {
+        font-size: 18px;   
+    }
+
+}
+@media all and (max-width:350px)
+{
+/* This is the icons */
+#icondf{
+    background-color: blue;
+    color:aliceblue;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    height: 25px;
+    border: 1px solid black; 
+    margin-top: 10px;
+    font-size: 15px;
+    transition: 0.2s linear;
+}
+#icondt{
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+   line-height: 25px;
+   text-align: center;
+    font-size: 20px;
+    transition: 0.2s linear;
+}#icondi{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+
+    margin-top: 10px;
+    
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+#icondy{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: red;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+#icondw{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: green;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+/* This is the icons */
+
+
+    .overlay{
+        width: 100%;
+    }
+    .overlay1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        }
+        .box3{
+        width: 100%;
+        }
+    #welcomepara{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+    #logo2{
+        width:50px;
+        height: 50px;
+    }
+    #logo3
+    {
+        font-size: 17px;
+        margin-right: 10px;   
+    }
+    #slideshow{
+        height: 400px;
+    }
+    .box7para{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #containermarq{
+        height: 50px;
+    }
+    #marq{
+        height: 30px;
+        line-height: 30px;
+    }
+    
+}
+@media all and (max-width:290px)
+{
+/* This is the icons */
+#icondf{
+    background-color: blue;
+    color:aliceblue;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    height: 25px;
+    border: 1px solid black; 
+    margin-top: 10px;
+    font-size: 15px;
+    transition: 0.2s linear;
+}
+#icondt{
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+   line-height: 25px;
+   text-align: center;
+    font-size: 20px;
+    transition: 0.2s linear;
+}#icondi{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+
+    margin-top: 10px;
+    
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+#icondy{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: red;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+#icondw{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: green;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+/* This is the icons */
+
+
+    .overlay{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+        }
+        .box3{
+        width: 100%;
+        }
+    #welcomepara{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+    #logo2{
+        width:40px;
+        height: 40px;
+    }
+    #logo3
+    {
+        font-size: 17px;
+        margin-right: 10px;   
+    }
+
+    .overlay1{
+        width: 100%;
+    }
+}
+/* body */
+@media all and (max-width:400px)
+{
+/* This is the icons */
+#icondf{
+    background-color: blue;
+    color:aliceblue;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    height: 25px;
+    border: 1px solid black; 
+    margin-top: 10px;
+    font-size: 15px;
+    transition: 0.2s linear;
+}
+#icondt{
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+   line-height: 25px;
+   text-align: center;
+    font-size: 20px;
+    transition: 0.2s linear;
+}#icondi{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color:white;
+    background-color:orangered;
+
+    margin-top: 10px;
+    
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+#icondy{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: red;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+#icondw{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: green;
+     
+    margin-top: 10px;
+ 
+    font-size: 25px;
+    transition: 0.2s linear;
+}
+/* This is the icons */
+
+
+    .overlay{
+        width: 100%;
+    }
+    #welcomepara{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+    body{
+        position: absolute;
+        width: 100%;
+        right: 0px;
+    }
+    .overlay1{
+        width: 100%;
+    }
+}
+/* body */
+
+/* add responive media queries */
+@media screen and (max-width:800px){
+
+    .box7para::before{
+      text-align: center;
+    }
+    .box7para{
+        margin-left: 0px;
+    }
+    .container7inside{
+        margin-left: 0px;
+    }
+    #welcomepara{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 18px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+.overlay1{
+    width: 100%;
+}
+}
+@media screen and (max-width:900px){
+ 
+    .container7inside::before{
+        content: "\A";
+        text-align: center;
+         white-space: pre; 
+    } 
+    #block2{
+        text-align: center;
+    }
+    .box7para{
+        margin-left: 0px;
+    }
+    .container7inside{
+        margin-left: 0px;
+    }
+    
+    .overlay1{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px){    
+    .container7inside::before{
+        content: "\A";
+        text-align: center;
+         white-space: pre; 
+    } 
+    .box7para{
+        margin-left: 0px;
+    }
+    .container7inside{
+        margin-left: 0px;
+    }
+    
+    .overlay1{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:600px){
+    .container7inside{
+        margin-left: 0px;
+    }
+    .box7para::before{
+        text-align: center;
+    }
+    .box7para{
+        margin-left: 0px;
+    }
+    .container7inside{
+        margin-left: 0px;
+    }
+    #welcomepara{
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 20px;
+        
+    }
+#about
+{
+    margin-left: 5px;
+    font-size: 30px;
+}
+.box2{
+    width: 100%;
+    }
+    .box3{
+    width: 100%;
+    }
+    .overlay1{
+        width: 100%;
+    }
+    .overlay{
+        width: 100%;
+        
+    }
+    /* This is the icons */
+    #icondf{
+        background-color: blue;
+        color:aliceblue;
+        width: 25px;
+        line-height: 25px;
+        text-align: center;
+        height: 25px;
+        border: 1px solid black; 
+        margin-top: 10px;
+        font-size: 15px;
+        transition: 0.2s linear;
+    }
+    #icondt{
+        text-align: left;
+        background-color: skyblue;
+        color: white;
+        margin-top: 10px;
+        width: 25px;
+        height: 25px;
+       line-height: 25px;
+       text-align: center;
+        font-size: 20px;
+        transition: 0.2s linear;
+    }#icondi{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        color:white;
+        background-color:orangered;
+ 
+        margin-top: 10px;
+        
+        font-size: 20px;
+        transition: 0.2s linear;
+    }
+    #icondy{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        color: red;
+         
+        margin-top: 10px;
+     
+        font-size: 25px;
+        transition: 0.2s linear;
+    }
+    #icondw{
+        width: fit-content;
+        height: fit-content;
+        text-align: center;
+        color: green;
+         
+        margin-top: 10px;
+     
+        font-size: 25px;
+        transition: 0.2s linear;
+    }
+    /* This is the icons */
+
+}

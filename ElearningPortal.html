@@ -1,0 +1,284 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Portal</title>
+    <link rel="stylesheet" href="ElearningPortal.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+        
+    </label>
+    <div class="sidebar">
+        <header>My App</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                   <ul>
+                       <li><a href="#">Dashboard</a></li>
+                   </ul>
+                        <li>submenu1<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                       <li>submenu2<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                       <li>submenu3<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                    -->
+            <!-- <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+            <ul> -->
+                <!-- <li>submenu<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                <li>submenu<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                <li>submenu<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                <li>submenu<a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+            </ul> --> 
+            <!-- <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+            <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+            <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
+            <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+            <li><a href="#"><i class="far fa-envelope"></i>Contact Us</a></li>
+
+        </ul>
+    </div> -->
+<!-- 
+ddddddddddddddddddddddddd
+
+ddddddddddddddddddddddddd -->
+
+<!-- 
+</body>
+</html> -->
+<!DOCTYPE html>
+<!-- Created By dev -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SEC Elearning Portal</title>
+    <link rel = "icon" href =  "Images/logo.ico" type = "image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="ElearningPortal.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+    <style>
+      /* Center the loader */
+      #loader {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+      }
+      
+      @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Add animation to "page content" */
+      .animate-bottom {
+        position: relative;
+        -webkit-animation-name: animatebottom;
+        -webkit-animation-duration: 1s;
+        animation-name: animatebottom;
+        animation-duration: 1s
+      }
+      
+      @-webkit-keyframes animatebottom {
+        from { bottom:-100px; opacity:0 } 
+        to { bottom:0px; opacity:1 }
+      }
+      
+      @keyframes animatebottom { 
+        from{ bottom:-100px; opacity:0 } 
+        to{ bottom:0; opacity:1 }
+      }
+      
+      #myDiv {
+        display: none;
+        /* background: url("Images/SlideShow/1.jpg"); */
+        background-image: url("Images/studentsworking.png");
+        background-size: cover;
+      }
+      </style>
+
+  </head>
+  <body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+
+
+<!-- login this is -->
+<!-- <div style="background-color:rgb(55, 55, 104); height: auto; width: fit-content; border: 1px solid black; position: absolute; top: 50%;left: 50%;" id="login_div" class="main-div">
+  <img src="Images/logo.ico" style="text-align: center; position: relative; margin-left: 110px;"  width="100px" height="100px" alt=""><br>
+  <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%;">Shaur Educational Complex</h2>
+  <input type="email" placeholder="Email..." id="email_field" />
+  <input type="password" placeholder="Password..." id="password_field" />
+
+  <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
+</div> -->
+<!-- login this is -->
+
+
+    <div style="display:none; position: inherit;" id="myDiv" class="animate-bottom">
+    <div id="popUpMain" style="display: none;">
+      <div id="popup">
+      <h1 id="newsHeading" style="font-size: 30px;">Subscribe to our Newsletter </h1>
+      <input type="email" name="" id="emailId" placeholder="user@email.com"><br>
+      <button class="submitId"> Subscribe </button>
+      <button class="submitId">No Thanks</button>
+    </div>
+  </div>
+    <div class="btn">
+      <span class="fas fa-bars"></span>
+    </div>
+<nav class="sidebar">
+      <div class="text">
+          <img src="Images/Shaur Logo.png" style="background: transparent; color: aliceblue; width: 120px;margin-top: 20px; margin-bottom: 20px; height: 120px;" alt="">
+      </div>
+<ul>
+<li class="active"><a href="ElearningPortal.html">Home</a></li>
+<li>
+  <a  class="feat-btn">Primary Section
+    <span class="fas fa-caret-down first"></span>
+  </a>
+  <ul class="feat-show">
+<li><a href="ElearningPortalData.html#Prim3">Class III</a></li>
+<li><a href="ElearningPortalData.html#Prim4">Class IV</a></li>
+<li><a href="ElearningPortalData.html#Prim5">Class V</a></li>
+</ul>
+</li>
+
+
+<li>
+  <a class="serv-btn">Higher Section
+    <span class="fas fa-caret-down second"></span>
+  </a>
+  <ul class="serv-show">
+    <li><a href="ElearningPortalData.html#High6">Class VI</a></li>
+    <li><a href="ElearningPortalData.html#High7">Class VII</a></li>
+    <li><a href="ElearningPortalData.html#High8">Class Pre-Nine</a></li>
+    <li><a href="ElearningPortalData.html#High9">Class IX</a></li>
+    <li><a href="ElearningPortalData.html#High10">Class X</a></li>
+
+</ul>
+</li>
+
+<!-- <li>
+  <a href="#" class="prim-btn">Primary
+    <span class="fas fa-caret-down third"></span>
+  </a>
+  <ul class="prim-show">
+<li><a href="#">Class 1</a></li>
+<li><a href="#">Class 2</a></li>
+</ul>
+</li> -->
+</ul>
+</nav>
+
+<!-- <div class="content"> -->
+        <!-- the default -->
+        <div class="glow">Shaur Educational Complex</div>
+        <img id="imgschool" src="Images/Shaur Educational ComplexEdit.png" alt="School Image" />
+        <div style="width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;">Copyright © 2020 Shaur Educational Complex</div>
+        <!-- </div>  -->
+      </div>
+<!-- <i id="switch2"></i>
+<p></p>
+<i id="switch1"></i>
+<p>
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam distinctio tenetur at, tempora doloribus deleniti non aliquam molestiae impedit, rerum asperiores. Expedita autem quam nulla praesentium, provident eos eius nihil?</p> -->
+
+<!-- togle hide show button -->
+<!-- <a href="#switch1">SHOW 1</a>
+<a href="#switch2">SHOW 2</a> -->
+
+
+<!-- <i id="switch2"></i>
+<div id="switch1">2 Lorem Ipsum...
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure tenetur corrupti delectus quae, aperiam porro suscipit quas dolore ullam non labore temporibus, maxime impedit placeat. Assumenda veritatis harum molestias ipsa!
+</div> -->
+<!-- togle hide show button -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- loader function -->
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
+<!-- loader function -->
+
+
+<script>
+  $(document).ready(function(){
+     setTimeout(function(){
+        $('#popUpMain').css('display','block');
+     },5000);
+  });
+  $('.submitId').click(function(){
+    $('#popUpMain').css('display','none');
+  });
+</script>
+
+<script>
+$('.btn').click(function(){
+$(this).toggleClass("click");
+$('.sidebar').toggleClass("show");
+});
+$('.feat-btn').click(function(){
+$('nav ul .feat-show').toggleClass("show");
+$('nav ul .first').toggleClass("rotate");
+});
+$('.serv-btn').click(function(){
+$('nav ul .serv-show').toggleClass("show1");
+$('nav ul .second').toggleClass("rotate");
+});
+$('.prim-btn').click(function(){
+$('nav ul .prim-show').toggleClass("show2");
+$('nav ul .third').toggleClass("rotate");
+});
+$('nav ul li').click(function(){
+$(this).addClass("active").siblings().removeClass("active");
+});
+</script>
+<script src="app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyBOqxTWU6oNu-XrNzZI3_3YX7WvQIItGeQ",
+  authDomain: "shaureducationalscomplex.firebaseapp.com",
+  databaseURL: "https://shaureducationalscomplex.firebaseio.com",
+  projectId: "shaureducationalscomplex",
+  storageBucket: "shaureducationalscomplex.appspot.com",
+  messagingSenderId: "524371658325",
+  appId: "1:524371658325:web:4e3c984b9173f0c7f2f6dc",
+  measurementId: "G-GP55TWQQRG"
+};
+  firebase.initializeApp(firebaseConfig);
+</script> 
+</body>
+</html>
