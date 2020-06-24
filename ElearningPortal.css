@@ -90,6 +90,16 @@ label #cancel{
     left: 195px;
     visibility: visible;
 } */
+#copy{
+  width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
+  position: relative;
+  z-index: 10000;
+}
+#copy1{
+  width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
+  position: relative;
+  z-index: 100000;
+}
 body{
  
   background-size: cover;
