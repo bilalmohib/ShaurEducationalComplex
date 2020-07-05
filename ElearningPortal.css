@@ -419,7 +419,7 @@ text-align: center;
   height: 50px;
   color: #e6e6e6;
   line-height: 50px;
-  text-shadow: 1px 1px #b700ff;
+  text-shadow: 3px 2px 3px blue;
 }
 #boxwork a
 {
@@ -454,11 +454,27 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: fit-content; border: 2px solid blue; background-color: rgb(40, 65, 87); min-width: 50px; user-select: none;
 }
 .boxoptions{
-  border: 1px solid blue; font-size: 25px; background-color: green; color: aliceblue; user-select: none;
+  border: 1px solid blue; font-size: 40px; background-color: green; color: aliceblue; user-select: none;
 }
-  
+.Aheading
+{
+  font-size: 50px;
+   position: absolute;
+    top: -10%;
+    left: 20%;
+    color: #f2f4fd;
+    text-shadow: 4px 5px 1px #063146;
+}  
 
 .containeroptions .boxoptions a{
+  user-select: none;
+  text-decoration: none;
+}
+
+.containeroptions .boxoptions:hover{
+  transition: 1s linear;
+  color: #063146;
+  background-color: rgb(125, 158, 116);
   user-select: none;
 }
 
