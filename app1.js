@@ -2,14 +2,14 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyAR71UUc6Aa0UKHL0uAodSJCHxJJG_pRXk",
-    authDomain: "shaureducationalcomplexschool.firebaseapp.com",
-    databaseURL: "https://shaureducationalcomplexschool.firebaseio.com",
-    projectId: "shaureducationalcomplexschool",
-    storageBucket: "shaureducationalcomplexschool.appspot.com",
-    messagingSenderId: "997667524013",
-    appId: "1:997667524013:web:4db4e2d3d7a7a51ead6524",
-    measurementId: "G-LEQM2LGW26"
+     apiKey: "AIzaSyDE-miGu1Q_wQt91TgJojn7rwO6Lb6q8jg",
+    authDomain: "shaureducationalcomplex-123.firebaseapp.com",
+    databaseURL: "https://shaureducationalcomplex-123.firebaseio.com",
+    projectId: "shaureducationalcomplex-123",
+    storageBucket: "shaureducationalcomplex-123.appspot.com",
+    messagingSenderId: "4097585772",
+    appId: "1:4097585772:web:dad844855596a55fb11e49",
+    measurementId: "G-KRBPTCN44E"
   };
       firebase.initializeApp(firebaseConfig);
   // Reference messages collection
