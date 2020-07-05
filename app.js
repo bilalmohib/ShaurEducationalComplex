@@ -1,4 +1,4 @@
-alert("UserName:bilalmohib7896@gmail.com\nPassword:bilal");
+
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
