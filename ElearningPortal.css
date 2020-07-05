@@ -1,107 +1,13 @@
-/* body{
-    font-family: 'Roboto',sans-serif;
-    
-}
-*{
-    margin:0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    
-}
-
-.sidebar
-{
-    visibility: visible;    
-    position: fixed;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background:#042331;
-    transition:all .5s ease;
-}
-.sidebar header{
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    line-height: 70px;
-    background: #063146;
-    user-select: none;
-    
-}
-.sidebar ul a{
-    display: block;
-    height: 100%;
-    width: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(255,255,255,.1);
-    border-bottom: 1px solid black;
-    transition: .4s;
-    
-}
-ul li:hover a{
-    padding-left: 50px;
-}
-.sidebar ul a i{
-    margin-right: 16px;
-}
-#check{
-    display: none;
-    
-}
-label #btn,label #cancel{
-    position: absolute;
-    cursor: pointer;
-    background: #042331;
-    border-radius: 3px;
-}
-label #btn{
-    left: 40px;
-    top: 25px;
-    font-size: 35px;
-    color:white;
-    padding: 6px 12px;
-    transition: all .5s;
-}
-label #cancel{
-    z-index: 1111;
-    left: -195px;
-    top: 17px;
-    font-size: 30px;
-    color: #0a5275;
-    padding: 4px 9px;
-    transition: all .5s ease;
-}
-#check:checked ~ .sidebar{
-    left: 0;
-    visibility: visible;
-}
-#check:checked ~ label #btn{
-    left: 250;
-    opacity: 0;
-    pointer-events: none;
-    visibility: visible;
-}
-#check:checked ~ label #cancel{
-    left: 195px;
-    visibility: visible;
-} */
 #copy{
   width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
-  position: relative;
   z-index: 10000;
 }
 #copy1{
   width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
-  position: relative;
   z-index: 100000;
 }
 body{
- 
+ background-color: #ffffff;
   background-size: cover;
   background-position: center;
 }
@@ -164,8 +70,10 @@ user-select: none;
   position: absolute;
    top: 10%;
     left: 25%;
+    border-radius: 40%;
+    background-color:#7b569e;
       z-index: -0.5;
-       color:#063146;
+       color:white;
         font-size: 70px;
          font-family: Georgia, 'Times New Roman', Times, serif;
           user-select: none;
@@ -180,7 +88,7 @@ user-select: none;
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #063146, 0 0 40px #063146, 0 0 50px #063146, 0 0 60px #063146, 0 0 70px #063146, 0 0 80px #063146;
   }
-}
+} 
 /* This is glowing text */
 .sidebar.show{
   left: 0px;
@@ -334,7 +242,7 @@ nav ul li a span.rotate{
   z-index: 1001;
   font-family: 'Slabo 27px', serif;
 }
-#popup{
+/* #popup{
 width: 500px;
 height: 250px;
 background-image:url("Images/background-green-grass-lawn.jpg");
@@ -345,9 +253,9 @@ left: 50%;
 transform: translate(-50%,-50%);
 box-shadow: 1px 2px 5px 3px white;
 text-align: center;
-}
+} */
 
-#newsHeading{
+/* #newsHeading{
   transform: translateY(80px);
   color: white;
   font-family: 'Slabo 27px', serif;
@@ -365,7 +273,7 @@ text-align: center;
   font-size: 1rem;
   padding: 0.6rem;
   color: white;
-}
+} */
 /* pop up */
 
 
@@ -405,8 +313,8 @@ text-align: center;
   z-index: 1000;
   visibility: visible;
   font-weight: bold;
-  color: rgb(82, 76, 76);
-  text-shadow: 2px 2px solid rgb(78, 30, 19);
+  color: rgb(212, 5, 5);
+  text-shadow: 2px 3px 3px blue;
 }
 #boxwork
 {
@@ -443,7 +351,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   user-select: none;
   text-align: right; 
   position: absolute; 
-  border: 1px solid black; 
   min-width: 50px;
   z-index:0;
   width: fit-content;
@@ -451,20 +358,48 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   left: 30%;
 }
 .containeroptions{
-  width: fit-content; border: 2px solid blue; background-color: rgb(40, 65, 87); min-width: 50px; user-select: none;
+  width: fit-content; background-color: rgb(40, 65, 87); min-width: 50px; user-select: none;
 }
+.containeroptionsM
+{
+  width: 100%; min-width: 50px; user-select: none;
+  height: auto;margin-left: 0px; margin-top: 40px;
+
+
+}
+
+.boxoptionsM{
+ border: 2px solid blue; font-size: 70px; background-color: rgb(8, 15, 77); color: aliceblue; user-select: none;
+ text-align: center;
+ width: 300px;
+ line-height: 50px;
+ border-radius: 20px;
+ height: 200px;
+ margin: 10px;
+}
+
 .boxoptions{
   border: 1px solid blue; font-size: 40px; background-color: green; color: aliceblue; user-select: none;
 }
 .Aheading
 {
-  font-size: 50px;
-   position: absolute;
-    top: -10%;
+    font-size: 50px;
+    position: absolute;
+    top: -20%;
     left: 20%;
     color: #f2f4fd;
     text-shadow: 4px 5px 1px #063146;
 }  
+
+.Mheading
+{
+  font-size: 50px;
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    color: #f2f4fd;
+    text-shadow: 4px 5px 1px #063146;
+}
 
 .containeroptions .boxoptions a{
   user-select: none;
