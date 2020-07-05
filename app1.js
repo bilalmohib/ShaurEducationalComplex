@@ -2,7 +2,7 @@
 // Initialize Firebase (ADD YOUR OWN DATA)
 // Initialize Firebase
 const firebaseConfig = {
-     apiKey: "AIzaSyDE-miGu1Q_wQt91TgJojn7rwO6Lb6q8jg",
+      apiKey: "AIzaSyDE-miGu1Q_wQt91TgJojn7rwO6Lb6q8jg",
     authDomain: "shaureducationalcomplex-123.firebaseapp.com",
     databaseURL: "https://shaureducationalcomplex-123.firebaseio.com",
     projectId: "shaureducationalcomplex-123",
