@@ -1,9 +1,9 @@
 #copy{
-  width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
+  width: 100%;text-align: center;  line-height:50px; z-index: -1; position: relative;; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
   z-index: 10000;
 }
 #copy1{
-  width: 100%;text-align: center;  line-height:50px; z-index: -1; position: absolute; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
+  width: 100%;text-align: center;  line-height:50px; z-index: -1; position: relative; height: 50px; background-color: #063146; bottom: 0%; color: aliceblue;
   z-index: 100000;
 }
 body{
@@ -122,12 +122,13 @@ nav ul li a{
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   padding-left: 40px;
   font-weight: 500;
   display: block;
   width: 100%;
   user-select: none;
+  border-bottom: 5px solid rgb(7, 7, 44);
   border-left: 3px solid transparent;
 }
 nav ul li.active a{
@@ -162,6 +163,7 @@ nav ul ul li{
 nav ul ul li a{
   user-select: none;
   font-size: 17px;
+
   color: #e6e6e6;
   padding-left: 80px;
 }
@@ -359,22 +361,27 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .containeroptions{
   width: fit-content; background-color: rgb(40, 65, 87); min-width: 50px; user-select: none;
+
 }
 .containeroptionsM
 {
   width: 100%; min-width: 50px; user-select: none;
   height: auto;margin-left: 0px; margin-top: 40px;
-
+ /*add flexbox style*/
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-flow: wrap;
 
 }
 
 .boxoptionsM{
- border: 2px solid blue; font-size: 70px; background-color: rgb(8, 15, 77); color: aliceblue; user-select: none;
+ border: 2px solid blue; font-size: 40px; background-color: rgb(8, 15, 77); color: aliceblue; user-select: none;
  text-align: center;
- width: 300px;
+ width: fit-content;
  line-height: 50px;
  border-radius: 20px;
- height: 200px;
+ height: fit-content;
  margin: 10px;
 }
 
@@ -547,6 +554,9 @@ h1{
   #descmain{
     top: 40%;
   }
+  .sidebar{
+    left: -250px;
+  }
 }
 @media screen and (max-width:500px){
   .glow {
@@ -554,6 +564,9 @@ h1{
   }
 .sidebar{
   height: fit-content;
+}
+.sidebar{
+  left: -250px;
 }
   #containerwork{
     /* margin-top: -10000px;
@@ -577,6 +590,13 @@ h1{
     top: 60%;
     left: 10%;
   }
+  .sidebar{
+    left: -250px;
+  }
+  nav ul li a{
+    margin-bottom: 10px;
+    border-bottom: 3px solid white;
+  }
 }
 @media all and (max-width:400px)
 {
@@ -585,7 +605,18 @@ h1{
   }
   .glow {
     left: 5%;
-    font-size: 600px;
+    font-size: 100px;
+  }
+  .nav ul li a{
+    font-size: 25px;
+    border-bottom: 3px solid white;
+  }
+  nav ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+  }
+  .sidebar{
+    left: -250px;
   }
 }
 @media all and (max-width:350px)
@@ -595,10 +626,21 @@ h1{
    }
   .glow {
     left: 2%;
-    font-size: 60px;
+    font-size: 40px;
   }
   #descmain{
     top: 60%;
+  }
+  .sidebar{
+    left: -250px;
+  }
+  nav ul li a{
+    font-size: 25px;
+    border-bottom: 5px solid white;
+  }
+  nav ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
   }
 }
 @media all and (max-width:290px)
@@ -608,11 +650,32 @@ h1{
    }
   .glow {
     left: 2%;
-    font-size: 60px;
+    font-size: 30px;
   }
   #descmain{
     top: 70%;
     left: 5%;
+  }
+  
+  nav ul li a{
+    font-size: 25px;
+    border-bottom: 5px solid white;
+  }
+  .sidebar{
+    left: -250px;
+  }
+  .nav ul li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+  }
+}
+@media all and (max-width:250)
+{
+  .glow{
+    font-size: 20px;
+  }
+  nav ul li a {
+    border-bottom: 5px solid white;
   }
 }
 /* add responive media queries */
