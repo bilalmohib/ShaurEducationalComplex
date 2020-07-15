@@ -25,7 +25,7 @@ body{
   z-index: 1;
   
   top: 15px;
-  left: 45px;
+  left: 60px;
   height: 45px;
   width: 45px;
   text-align: center;
@@ -35,7 +35,7 @@ body{
   transition: left 0.4s ease;
 }
 .btn.click{
-  left: 260px;
+  left: 91%;
 }
 .btn span{
   position: relative;
@@ -53,10 +53,10 @@ body{
 .sidebar{
   z-index: 1;
   position: relative;
-  width: 250px;
+  width: 90%;
 user-select: none;
   min-height: 100vmin;
-  left: 0px;
+  left: -100%;
   background:#063146;
   transition: left 0.4s ease;
 }
@@ -122,14 +122,15 @@ nav ul li a{
   position: relative;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 40px;
   padding-left: 40px;
   font-weight: 500;
   display: block;
   width: 100%;
   user-select: none;
-  border-bottom: 5px solid rgb(7, 7, 44);
+  border-bottom: 5px solid rgb(241, 241, 253);
   border-left: 3px solid transparent;
+  font-family: 'Lora', serif;
 }
 nav ul li.active a{
   color: cyan;
@@ -162,7 +163,7 @@ nav ul ul li{
 }
 nav ul ul li a{
   user-select: none;
-  font-size: 17px;
+  font-size: 30px;
 
   color: #e6e6e6;
   padding-left: 80px;
@@ -284,7 +285,7 @@ text-align: center;
 }
 
 
-#containerwork
+.containerwork
 {
   user-select: none;
   z-index: -0.5;
@@ -295,9 +296,9 @@ text-align: center;
   font-size: 35px;
   min-width: 50px;
   /* width: 800px; */
-  top: 0%;
+  top: 5%;
   margin-top: 0rem;
-  margin-left: 250px;
+  margin-left: 20%;
   text-align: center;
   min-height: auto;
   border: 1px solid black;
@@ -318,7 +319,7 @@ text-align: center;
   color: rgb(212, 5, 5);
   text-shadow: 2px 3px 3px blue;
 }
-#boxwork
+.boxwork
 {
   user-select: none;
   border: 1 px solid black;
@@ -357,7 +358,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   z-index:0;
   width: fit-content;
   top: 13%; 
-  left: 30%;
+  margin-left:60px;
 }
 .containeroptions{
   width: fit-content; background-color: rgb(40, 65, 87); min-width: 50px; user-select: none;
@@ -563,10 +564,8 @@ h1{
     left: 5%;
   }
 .sidebar{
-  height: fit-content;
-}
-.sidebar{
   left: -250px;
+  height: fit-content;
 }
   #containerwork{
     /* margin-top: -10000px;
@@ -590,9 +589,7 @@ h1{
     top: 60%;
     left: 10%;
   }
-  .sidebar{
-    left: -250px;
-  }
+
   nav ul li a{
     margin-bottom: 10px;
     border-bottom: 3px solid white;
@@ -671,6 +668,9 @@ h1{
 }
 @media all and (max-width:250)
 {
+  .sidebar{
+    left: -250px;
+  }
   .glow{
     font-size: 20px;
   }
