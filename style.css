@@ -143,7 +143,7 @@
 }
 body{
     background: white;
-    background-color: aliceblue;
+
 }
 nav{
     /* background:	#2c1362; */
@@ -1513,3 +1513,21 @@ top: 0px;
     /* This is the icons */
 
 }
+#baradaba{
+    border: 2px 2px solid black; box-shadow: 1px 1px 1px 1px blue; position: fixed; left: 50%; top: 50%; margin: 0 auto; width: 85%;
+    height: 550px;
+    transform: translate(-50%,-50%);
+    background-image: url('Images/image.jpg');
+    background-size: cover;
+    overflow-y: scroll; 
+    z-index: 1000000;
+    border-radius: 5%;
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
