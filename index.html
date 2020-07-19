@@ -294,39 +294,6 @@
 <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1AIsf-4etCQOgWKawr8kp-6CFGp1jsZ-9" width="640" height="480"></iframe>
 </div>
 
-<!-- This is for the picture flex box hover -->
-<!-- <div class="container2">
-  <div class="box2">  
-<img id="img2" src="Images/small1.jfif">
-<div class="overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, 
-  veniam consequatur impedit odit quae vel tempora perferendis expedita ipsam 
-</div>
- </div>
-
- <div class="box2">
-<img id="img2" src="Images/small2.jfif">
-<div class="overlay">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, 
-  veniam consequatur impedit odit quae vel tempora perferendis expedita ipsam 
-</div>
-</div>
-
- <div class="box2">
-<img id="img2" src="Images/small3.jfif">
-<div class="overlay">
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, 
-  veniam consequatur impedit odit quae vel tempora perferendis expedita ipsam d
-</div>
-</div>
-
- <div class="box2">
-  <img id="img2" src="Images/2ndpic.jpg">
-<div class="overlay">
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, 
-  veniam consequatur impedit odit quae vel tempora perferendis expedita ipsam 
-</div>
-</div>
-</div> -->
-<!-- This is for the picture flex box hover --> 
 
 <div class="container6">
   <div class="box6">
@@ -371,19 +338,20 @@
 <a class="btn" data-toggle="modal" href="#myModal" >Launch Modal</a>
 <a href="#"><img style="position: fixed; width: 50px;background-color: #063146; border-radius: 50%; height: 50px; left: 90%; top: 90%;" src="Images/download.png" alt=""></a>
 
-
+<button onclick="closeform()" id="btn1">Close</button>
 <div id="baradaba" class="contact">
   <form id="contactForm">
   <div class="alert">Your message has been sent</div>
+    <span style="color: black; font-size: 25px;">If Already submitted</span>
     <div class="form-group">
       <div style="text-align: center;"> <img width="150px" height="150px" src="Images/logo.ico" alt=""></div>
       <label for="exampleInputEmail1">Email address</label>
-      <input id="email" type="email" class="form-control" required aria-describedby="emailHelp">
+      <input id="email" placeholder="This email will be used only for your E-learning Portal" type="email" class="form-control" required aria-describedby="emailHelp">
       <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
     </div>
     <div class="form-group">
       <label for="exampleInputPassword1">Password</label>
-      <input id="password" required type="password" class="form-control">
+      <input id="password" required type="password" placeholder="password for your E-learning Portal" class="form-control">
     </div>
 
     <div class="form-group">
@@ -421,6 +389,17 @@
   #btn{
     font-size: 30px;
     color: white;
+  }
+  #btn1
+  {
+    transform: translate(-50%,-50%);
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    z-index: 100000000;
+    font-size: 30px;
+    color: white;
+    background-color: red;
   }
   #email,#password,#Sname,#Gname,#classS,#mobile
   {
@@ -461,3 +440,4 @@
 <script src="app3.js"></script>
 </body>
 </html>
+
