@@ -20,19 +20,15 @@
   text-align: center;
 }
 body{
-  background: url(Images/studentsworking.png) no-repeat center center fixed; 
+  background: url('Images/studentsworking.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  user-select: text;
 }
 .btn{
   
@@ -258,39 +254,6 @@ nav ul li a span.rotate{
   z-index: 1001;
   font-family: 'Slabo 27px', serif;
 }
-/* #popup{
-width: 500px;
-height: 250px;
-background-image:url("Images/background-green-grass-lawn.jpg");
-background-size: cover;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-box-shadow: 1px 2px 5px 3px white;
-text-align: center;
-} */
-
-/* #newsHeading{
-  transform: translateY(80px);
-  color: white;
-  font-family: 'Slabo 27px', serif;
-}
-#emailId{
-  width: 60%;
-  padding: 5px;
-  margin-top: 80px;
-  margin-bottom: 20px;
-  font-family: 'Slabo 27px', serif;
-}
-.submitId{
-  background-color: #0ba8dd;
-  border: none;
-  font-size: 1rem;
-  padding: 0.6rem;
-  color: white;
-} */
-/* pop up */
 
 
 #mainoptions{
