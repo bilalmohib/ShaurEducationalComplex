@@ -14,20 +14,23 @@
     <style>
       /* Center the loader */
       #loader {
-          position: absolute;
-  left: 50%;
-  top: 50%;
+        border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
         border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid blue;  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
       }
       
       @-webkit-keyframes spin {
@@ -61,39 +64,20 @@
       
       #myDiv{
         display: none;
-        /* background: url("Images/SlideShow/1.jpg"); */
-        background-image: url("Images/studentsworking.png");
-        background-size: cover;
-        height: 100%;
+        background: url(Images/studentsworking.png) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
       }
       </style>
-
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   </head>
   <body onload="myFunction()" style="margin:0;">
     <div id="loader"></div>
 
-
-<!-- login this is -->
-<!-- <div style="background-color:rgb(55, 55, 104); height: auto; width: fit-content; border: 1px solid black; position: absolute; top: 50%;left: 50%;" id="login_div" class="main-div">
-  <img src="Images/logo.ico" style="text-align: center; position: relative; margin-left: 110px;"  width="100px" height="100px" alt=""><br>
-  <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%;">Shaur Educational Complex</h2>
-  <input type="email" placeholder="Email..." id="email_field" />
-  <input type="password" placeholder="Password..." id="password_field" />
-
-  <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
-</div> -->
-<!-- login this is -->
-
-
-    <div style="display:none; position: inherit;" id="myDiv" class="animate-bottom">
-    <div id="popUpMain" style="display: none;">
-      <div id="popup">
-      <h1 id="newsHeading" style="font-size: 30px;">Subscribe to our Newsletter </h1>
-      <input type="email" name="" id="emailId" placeholder="user@email.com"><br>
-      <button class="submitId"> Subscribe </button>
-      <button class="submitId">No Thanks</button>
-    </div>
-  </div>
+<div id="myDiv">
     <div class="btn">
       <span class="fas fa-bars"></span>
     </div>
@@ -141,14 +125,15 @@
 </ul>
 </nav>
 
-<!-- <div class="content"> -->
-        <!-- the default -->
-        <div class="glow">&nbsp;&nbsp;&nbsp;&nbsp;Shaur Educational Complex&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <img id="imgschool" src="Images/Shaur Educational ComplexEdit.png" alt="School Image" />
+<!-- content -->
+        <div style="text-align: center;"><div class="glow">&nbsp;&nbsp;&nbsp;&nbsp;Shaur Educational Complex&nbsp;&nbsp;&nbsp;&nbsp;</div></div>
         <div id="copy">Copyright © 2020 Shaur Educational Complex</div>
         <div id="descmain">Welcome to the Shaur E-learning Portal</div>
         <!-- </div>  -->
       </div>
+
+
+  
 <!-- <i id="switch2"></i>
 <p></p>
 <i id="switch1"></i>
@@ -231,5 +216,7 @@ const firebaseConfig = {
 };
   firebase.initializeApp(firebaseConfig);
 </script> 
+</div>
 </body>
 </html>
+
