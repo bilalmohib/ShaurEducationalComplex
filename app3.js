@@ -1,3 +1,9 @@
+function closeform()
+{
+  document.getElementById("baradaba").style.display = "none";
+  document.getElementById("btn1").style.display = "none";
+}
+
 function required()
 {
 var email = document.getElementById("email").value;
@@ -13,7 +19,7 @@ alert("Please input a Value");
 else 
 {
     document.getElementById("baradaba").style.display = "none";   
-    alert('Code has accepted : you can try another');
+    alert('Thanks for giving your information.We will contact to you as soon as possible');
      
 }
 }
@@ -115,3 +121,4 @@ function saveMessage(email, password, Sname, Gname, classS,mobile){
     MobileNo:mobile
   });
 }
+
