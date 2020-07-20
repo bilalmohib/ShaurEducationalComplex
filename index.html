@@ -414,6 +414,35 @@
   </form>
 </div>
 
+    <div class="alert">Your message has been sent</div>
+    <h1>Remarks(Please note that your email will be displayed)</h1>
+<form id="contactForm" action="index.html"> 
+    <fieldset> 
+        <legend>Message</legend> 
+    <span>Name : </span><input placeholder="Enter your name..." id="name" required type="text"><br>
+    <span>Email : </span><input placeholder="Enter your email..." id="email" required type="text"><br>
+    <span>Your Message : <br></span><textarea id="message" name="comments" >Enter your comments...</textarea>
+    <br>
+    <button id="btn" type="submit" onclick="sendMesssage()">Submit</button>
+</fieldset>
+</form>
+
+<!-- second part -->
+<p>
+  <ol style="width: 100%; border: 1px solid black; color: blue; " id="scoreList">
+   <span>Comments
+   </span>
+  </ol>
+</p>  
+
+
+  
+    
+    
+    
+    
+    
+    
 <style>
   label{
     font-size: 30px;
