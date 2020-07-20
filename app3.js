@@ -37,43 +37,6 @@ const firebaseConfig = {
 };
     firebase.initializeApp(firebaseConfig);
     database=firebase.database();
-// Reference messages collection
-var messagesRef = firebase.database().ref('messages');
-
-// This is the retrieve data
-var ref=database.ref('messages');
-ref.on('value',gotData,errData);
-
-function gotData(data){
-console.log(data.val());
-var messages=data.val();
-var keys =Object.keys(messages);
-console.log(keys);
-for (var i=0;i<keys.length;i++)
-{
-  var k=keys[i];
-  var initials = messages[k].initials;
-  var message = messages[k].message;
-  //console.log(initials,message);
- // var li = document.createElement(initials,message);
-  //li.parentElement('scoreList');
-
-  var list = document.getElementById('scoreList');
-
-  var scoreList = document.getElementById('scoreList').value;
-  var entry = document.createElement('li',initials+": "+message+" ");
-  entry.appendChild(document.createTextNode(scoreList));
-  list.appendChild(entry);
-}
-}
-
-function errData(err)
-{
-console.log('Error!');
-console.log(err);
-}
-
-//This is to retrieve the data
 
 
 // Listen for form submit
@@ -134,7 +97,7 @@ function saveMessage(email, password, Sname, Gname, classS,mobile){
     dateTime=dateTime.toString();
 
 
-      var email=document.getElementById("email").value;
+      var email=document.getElementById("email1").value;
       var name=document.getElementById("name").value;
       var comment=document.getElementById("message").value;
 console.log(email+name+comment+dateTime)
