@@ -123,25 +123,7 @@ function saveMessage(email, password, Sname, Gname, classS,mobile){
 }
 
 
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyDYUyz4xKFnmzFZL53k9_s2652AWh8AxFw",
-    authDomain: "chat-application-27ab4.firebaseapp.com",
-    databaseURL: "https://chat-application-27ab4.firebaseio.com",
-    projectId: "chat-application-27ab4",
-    storageBucket: "chat-application-27ab4.appspot.com",
-    messagingSenderId: "433296968616",
-    appId: "1:433296968616:web:020defb862c1bd5af02b9d",
-    measurementId: "G-19ZPF0TWCM"
-  }; 
-
-    // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-
-
-   var database = firebase.database();
+//this is new
 
   function sendMesssage()
   {
