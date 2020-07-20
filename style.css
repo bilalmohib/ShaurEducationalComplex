@@ -1541,7 +1541,7 @@ h1
     text-align: center;
     font-size: 40px;
 }
-#contactForm{
+#contactForm1{
     min-width: 100%;
 }
 legend
@@ -1555,7 +1555,7 @@ span
     color: black;
     font-size: 45px;
 }
-#email,#name{
+#email1,#name{
     font-size: 30px;  
     max-width: 80%;
 }
