@@ -109,7 +109,7 @@ console.log(email+name+comment+dateTime)
   }
 
 // Listen for form submit
-document.getElementById('contactForm').addEventListener('submit', submitForm);
+document.getElementById('contactForm1').addEventListener('submit', submitForm);
   
 // Submit form
 function submitForm(e){
