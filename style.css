@@ -1623,6 +1623,10 @@ span
 }
 @media all and (max-width: 400px)
 {
+    h1
+    {
+        font-size:25px;
+    }
     .uls
     {
         font-size: 20px;
@@ -1631,8 +1635,10 @@ span
     #scoreList{
         width: 100%;
     }
-    #email1,name,#message{
+    #email1,#name,#message
+    {
         font-size:20px;
+        width:90%;
     }
 }
 /*The form of HTML*/
