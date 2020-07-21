@@ -1619,6 +1619,7 @@ span
 }
 #scoreList
 {
+    background-color: aliceblue;
     max-width: 90%; 
 }
 @media all and (max-width: 400px)
