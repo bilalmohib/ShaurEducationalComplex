@@ -1543,6 +1543,7 @@ h1
 }
 #contactForm1{
     min-width: 100%;
+     background-color: white;
 }
 legend
 {
@@ -1558,6 +1559,7 @@ span
 #email1,#name{
     font-size: 30px;  
     max-width: 80%;
+    color:black;
 }
 #message{
     font-size: 25px;
