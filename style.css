@@ -1557,7 +1557,7 @@ span
     font-size: 45px;
 }
 #email1,#name{
-    font-size: 30px;  
+    font-size: 27px;  
     max-width: 80%;
     color:black;
 }
@@ -1630,6 +1630,9 @@ span
     }
     #scoreList{
         width: 100%;
+    }
+    #email1,name,#message{
+        font-size:20px;
     }
 }
 /*The form of HTML*/
