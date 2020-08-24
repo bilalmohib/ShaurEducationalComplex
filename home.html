@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEC Quiz Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 60px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        }
+        #logosec
+        {
+            width: 150px;
+            height: 150px;
+        }
+        @media screen and (max-width:820px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 50px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:680px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 40px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:560px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 30px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        }
+        #logosec
+        {
+            width: 100px;
+            height: 100px;
+        } 
+        }
+        @media screen and (max-width:435px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 25px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:365px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 20px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:320px)
+        {
+        #logosec
+        {
+            width: 80px;
+            height: 80px;
+        } 
+        }
+
+         
+        @media screen and (max-width:300px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 15px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:277px)
+        {
+        #logosec
+        {
+            width: 70px;
+            height: 70px;
+            margin-top: 30px;
+        } 
+        }
+
+
+    </style>
+     <link rel = "icon" href =  
+     "Images/logo.ico" 
+             type = "image/x-icon"> 
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- This is for login -->
+        <div id="login_div" style="text-align: center;" class="main-div">
+            <img src="Images/logo.ico" style="position: relative; text-align: center; margin-top: 20px;" width="100px"
+                height="100px" alt="">
+            <h2
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%; font-size: 30px;">
+                Shaur Educational Complex</h2>
+            <input type="email" placeholder="Email..." id="email_field" />
+            <input type="password" placeholder="Password..." id="password_field" />
+
+            <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
+        </div>
+        <!-- This is for login -->
+
+
+        <div id="user_div" style="width:fit-content;" class="loggedin-div">
+            <div style="width: 100%; text-align: center;"><img src="Images/logo.ico" id="logosec" alt=""></div>
+            <h1 id="maintitle">Shaur Educational Complex</h1>
+            <h1 style="color: bisque; font-size: 30px;">Welcome to Shaur Educational Complex</h1>
+            <p style="max-width:200px; color: #09222e; font-size: 20px;" id="user_para">Welcome to Firebase web login
+                Example. You're currently logged in.</p>
+            <button style="max-width: 450px; font-size: 25px;" onclick="submitForm(this)">Start Quiz</button><br><br>
+            <a href="selectSendCategory.html"><button style="max-width: 450px;" id="insert">Insert the
+                    data</button></a><br>
+            <button style="text-align: center; width: 200px; font-size: 20px;" onclick="logout()">Logout</button>
+
+
+        </div>
+    </div>
+    <!-- This is for showing after the login is held -->
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyB9-f-9U1fEVOyx4qip2gAOQSCMSF_M-Ac",
+            authDomain: "studentsauthentication.firebaseapp.com",
+            databaseURL: "https://studentsauthentication.firebaseio.com",
+            projectId: "studentsauthentication",
+            storageBucket: "studentsauthentication.appspot.com",
+            messagingSenderId: "52305948125",
+            appId: "1:52305948125:web:4c201537a566361b851a34",
+            measurementId: "G-60XDX0FZ3B"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+
+
+
+
+
+
+    <!-- site.js -->
+    <script src="start.js"></script>
+</body>
+
+</html>

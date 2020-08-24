@@ -179,14 +179,14 @@ nav ul li{
 }
 nav ul li a{
    margin-left: 0px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
     transition: .5s linear;    
     color:purple;
     background-color:aliceblue;
     text-decoration: none;
     line-height: 100px;
-    font-size: 18px;
-    padding: 8px 15px;
+    font-size: 15px;
+    padding: 8px 10px;
 }
 nav ul li a:hover{
     margin-left: 20px;
@@ -1045,6 +1045,11 @@ top: 0px;
     #logo3
     {
         font-size: 18px;   
+    }
+    nav ul li
+    {
+        margin-bottom: 0px;
+        color: black;
     }
 
 }

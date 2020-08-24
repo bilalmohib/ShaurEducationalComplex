@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="selectSendCategory.css">
+    <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>Send Menu</title>
+    <link rel = "icon" href =  
+    "Images/logo.ico" 
+            type = "image/x-icon"> 
+    <style>
+        #title
+        {
+            font-family: 'Noto Sans JP', sans-serif;
+            text-align: center;
+            text-shadow: 2px 2px 2px aliceblue;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Select the Class and Subject to Start the Quiz</h1>
+    <!-- ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+    <nav class="sidebar">
+        <!-- <div class="text">
+            <img src="Images/Shaur Logo.png" style="background: transparent; color: aliceblue; width: 120px;margin-top: 20px; margin-bottom: 20px; height: 120px;" alt="">
+        </div> -->
+        <ul>
+            <li class="active"><a href="home.html">Home</a></li>
+            <li>
+                <a class="feat-btn">Primary Section
+                    <span class="fas fa-caret-down first"></span>
+                </a>
+                <ul class="feat-show">
+                    <li><a id="class3" href="#Prim3" onclick="getClass(this)">Class III</a></li>
+                    <li><a id="class4" href="#Prim4" onclick="getClass(this)">Class IV</a></li>
+                    <li><a id="class5" href="#Prim5" onclick="getClass(this)">Class V</a></li>
+                </ul>
+            </li>
+
+
+            <li>
+                <a class="serv-btn">Higher Section
+                    <span class="fas fa-caret-down second"></span>
+                </a>
+                <ul class="serv-show">
+                    <li><a id="class6" href="#Prim6" onclick="getClass(this)">Class VI</a></li>
+                    <li><a id="class7" href="#Prim7" onclick="getClass(this)">Class VII</a></li>
+                    <li><a id="class8" href="#Prim8" onclick="getClass(this)">Class Pre-Nine</a></li>
+                    <li><a id="class9" href="#Prim9" onclick="getClass(this)">Class IX</a></li>
+                    <li><a id="class10" href="#Prim10" onclick="getClass(this)">Class X</a></li>
+
+
+                </ul>
+            </li>
+            <!-- ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+            <i id="Prim3"></i>
+            <div id="class">
+                <h1>Class 3</h1>
+                <div id="english3" class="box" onclick="getData(this)">English</div>
+                <div id="math3" class="box" onclick="getData(this)">Math</div>
+                <div id="science3" class="box" onclick="getData(this)">Science</div>
+                <div id="ss3" class="box" onclick="getData(this)">Social Studies</div>
+                <div id="urdu3" class="box" onclick="getData(this)">Urdu</div>
+                <div id="islamiyat3" class="box" onclick="getData(this)">Islamiyat</div>
+                <div id="ict3" class="box" onclick="getData(this)">ICT</div>
+            </div>
+
+
+            <i id="Prim4"></i>
+            <div id="class">
+                <h1>Class 4</h1>
+                <div id="english4" class="box" onclick="getData(this)">English</div>
+                <div id="math4" class="box" onclick="getData(this)">Math</div>
+                <div id="science4" onclick="getData(this)" class="box">Science</div>
+                <div id="ss4" onclick="getData(this)" class="box">Social Studies</div>
+                <div id="urdu4" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat4" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="ict4" onclick="getData(this)" class="box">ICT</div>
+            </div>
+
+            <i id="Prim5"></i>
+            <div id="class">
+                <h1>Class 5</h1>
+                <div id="english5" onclick="getData(this)" class="box">English</div>
+                <div id="math5" onclick="getData(this)" class="box">Math</div>
+                <div id="science5" onclick="getData(this)" class="box">Science</div>
+                <div id="ss5" onclick="getData(this)" class="box">Social Studies</div>
+                <div id="urdu5" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat5" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="ict5" onclick="getData(this)" class="box">ICT</div>
+            </div>
+
+            <i id="Prim6"></i>
+            <div id="class">
+                <h1>Class 6</h1>
+                <div id="english6" onclick="getData(this)" class="box">English</div>
+                <div id="math6" onclick="getData(this)" class="box">Math</div>
+                <div id="science6" onclick="getData(this)" class="box">Science</div>
+                <div id="history6" onclick="getData(this)" class="box">History</div>
+                <div id="urdu6" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat6" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="geography6" onclick="getData(this)" class="box">Geography</div>
+                <div id="ict6" onclick="getData(this)" class="box">ICT</div>
+            </div>
+
+            <i id="Prim7"></i>
+            <div id="class">
+                <h1>Class 7</h1>
+                <div id="english7" onclick="getData(this)" class="box">English</div>
+                <div id="math7" onclick="getData(this)" class="box">Math</div>
+                <div id="science7" onclick="getData(this)" class="box">Science</div>
+                <div id="history7" onclick="getData(this)" class="box">History</div>
+                <div id="urdu7" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat7" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="geography7" onclick="getData(this)" class="box">Geography</div>
+                <div id="ict7" onclick="getData(this)" class="box">ICT</div>
+            </div>
+
+            <i id="Prim8"></i>
+            <div id="class">
+                <h1>Class 8</h1>
+                <div id="english8" onclick="getData(this)" class="box">English</div>
+                <div id="math8" onclick="getData(this)" class="box">Math</div>
+                <div id="ps8" onclick="getData(this)" class="box">Pak Studies</div>
+                <div id="chemistry8" onclick="getData(this)" class="box">Chemistry</div>
+                <div id="urdu8" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat8" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="physics8" onclick="getData(this)" class="box">Physics</div>
+                <div id="computer8" onclick="getData(this)" class="box">Computer</div>
+                <div id="biology8" onclick="getData(this)" class="box">Biology</div>
+            </div>
+
+            <i id="Prim9"></i>
+            <div id="class">
+                <h1>Class 9</h1>
+                <div id="english9" onclick="getData(this)" class="box">English</div>
+                <div id="math9" onclick="getData(this)" class="box">Math</div>
+                <div id="ps9" onclick="getData(this)" class="box">Pak Studies</div>
+                <div id="chemistry9" onclick="getData(this)" class="box">Chemistry</div>
+                <div id="urdu9" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat9" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="physics9" onclick="getData(this)" class="box">Physics</div>
+                <div id="computer9" onclick="getData(this)" class="box">Computer</div>
+                <div id="biology9" onclick="getData(this)" class="box">Biology</div>
+            </div>
+
+
+            <i id="Prim10"></i>
+            <div id="class">
+                <h1>Class 10</h1>
+                <div id="english10" onclick="getData(this)" class="box">English</div>
+                <div id="math10" onclick="getData(this)" class="box">Math</div>
+                <div id="ps10" onclick="getData(this)" class="box">Pak Studies</div>
+                <div id="chemistry10" onclick="getData(this)" class="box">Chemistry</div>
+                <div id="urdu10" onclick="getData(this)" class="box">Urdu</div>
+                <div id="islamiyat10" onclick="getData(this)" class="box">Islamiyat</div>
+                <div id="physics10" onclick="getData(this)" class="box">Physics</div>
+                <div id="computer10" onclick="getData(this)" class="box">Computer</div>
+                <div id="biology10" onclick="getData(this)" class="box">Biology</div>
+            </div>
+            <button onclick="go()">Start</button>
+            <!-- The core Firebase JS SDK is always required and must be listed first -->
+            <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+            <script>
+                // Your web app's Firebase configuration
+                var firebaseConfig = {
+                    apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+                    authDomain: "quizappfirebases.firebaseapp.com",
+                    databaseURL: "https://quizappfirebases.firebaseio.com",
+                    projectId: "quizappfirebases",
+                    storageBucket: "quizappfirebases.appspot.com",
+                    messagingSenderId: "985601574561",
+                    appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+                    measurementId: "G-FPVCTWWN6M"
+                };
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+            </script>
+
+</body>
+<script src="localStorageStart.js"></script>
+
+</html>

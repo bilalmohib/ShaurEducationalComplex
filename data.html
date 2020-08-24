@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- add icon link -->
+        <link rel = "icon" href =  
+"Images/logo.ico" 
+        type = "image/x-icon"> 
+  <link rel="stylesheet" href="data.css">
+  <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <title>Admin</title>
+</head>
+
+<body>
+
+  <div style="width: fit-content;" id="user_div" class="loggedin-div">
+    <h1 style="color: bisque; font-size: 30px;">Welcome to Shaur Educational Complex</h1>
+    <p style="color: #238028; font-size: 25px;" id="user_para">Welcome to Firebase web login Example. You're currently
+      logged in.</p>
+
+    <div class="alert">Your message has been sent</div>
+    <div>Data for Quiz App</div>
+    <h1 id="clas" style="color: rgb(10, 32, 90); font-size: 30px;"></h1>
+    <h2 id="sub" style="color: rgb(182, 238, 199);font-size: 30px;"></h2>
+    <h1 style="font-size:35px; color: rgb(255, 255, 255);">Question</h1>
+    <!-- <form id="Quiz" action="data.html"> -->
+    <input id="question" required placeholder="Enter the question to insert in the quiz" type="text">
+
+    <!-- answers -->
+
+    <label for="option1">Option 1: </label>
+    <input id="option1" required type="text">
+    <br>
+    <label for="option2">Option 2: </label>
+    <input id="option2" required type="text">
+    <br>
+    <label for="option3">Option 3: </label>
+    <input id="option3" required type="text">
+    <br>
+    <label for="option4">Option 4: </label>
+    <input id="option4" required type="text">
+    <br>
+    <label for="answer" style="color: rgb(224, 38, 38);">Answer: </label>
+    <input id="answer" required placeholder="Enter the right answer" type="text">
+    <br>
+    <!-- answers -->
+    <input type="submit" onclick="sendMesssage()" id="submit">
+
+    <input type="button" onclick="disableQuiz()" style="color: red;" value="Disable" id="disable">
+    <input type="button" style="color: green;" onclick="enableQuiz()" value="Enable" id="enable">
+    <!-- </form> -->
+    <button style="text-align: center; width: 200px; font-size: 20px;" onclick="logout()">Logout</button>
+  </div>
+
+
+
+
+  <div id="login_div" class="main-div">
+    <img src="Images/logo.ico" style="text-align: center; position: relative; text-align: center; margin-top: 20px;"
+      width="100px" height="100px" alt="">
+    <h2
+      style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%; font-size: 30px;">
+      Shaur Educational Complex</h2>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
+  </div>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+      authDomain: "quizappfirebases.firebaseapp.com",
+      databaseURL: "https://quizappfirebases.firebaseio.com",
+      projectId: "quizappfirebases",
+      storageBucket: "quizappfirebases.appspot.com",
+      messagingSenderId: "985601574561",
+      appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+      measurementId: "G-FPVCTWWN6M"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+
+</body>
+<script src="data.js"></script>
+
+</html>

@@ -1,0 +1,44 @@
+body
+{
+  background: url(Images/backse.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* togle hide show button effects */
+[id^=Prim] + *{
+    display:none;
+  }
+  [id^=Prim]:target + *{
+    display:block;
+  }
+  /* togle hide show button effects */
+  #class
+  {
+      font-size: 30px;
+      color: purple;
+      margin: 20px;
+  }
+  .box
+  {
+    color: rgb(4, 93, 93);
+    display: inline;
+    margin: 20px;
+    border: 1px solid blue;
+    border-radius: 10%;
+  }
+  button
+  {
+    font-size: 35px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 3px blue;
+    background-color: cadetblue;
+  }
+ul li{
+  font-size:30px;
+  color: green;
+}
+a{
+  text-decoration: none;
+}

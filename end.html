@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+    <link rel = "icon" href =  
+    "Images/logo.ico" 
+            type = "image/x-icon"> 
+    <!-- style.css -->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            
+           <i class="fas fa-award award_icon"></i>
+
+
+           <h1 id="clas" style="color: rgb(10, 32, 90);"></h2>
+             <h2 id="sub" style="color: rgb(5, 53, 19);"></h3>
+            
+           <h3 class="username"> <span class="name"></span></h3>
+
+           <p class="userpoints">Your Points <span class="points"></span></p>
+         <p class="usertime"> Time taken <span class="time_taken"></span></p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+<script>
+     // Your web app's Firebase configuration
+ var firebaseConfig = {
+    apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+    authDomain: "quizappfirebases.firebaseapp.com",
+    databaseURL: "https://quizappfirebases.firebaseio.com",
+    projectId: "quizappfirebases",
+    storageBucket: "quizappfirebases.appspot.com",
+    messagingSenderId: "985601574561",
+    appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+    measurementId: "G-FPVCTWWN6M"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+        <!-- user info -->
+        <script src="userInfo.js"></script>
+</body>
+</html>

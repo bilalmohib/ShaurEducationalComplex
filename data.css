@@ -1,0 +1,124 @@
+body
+{
+    background: url(Images/back.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#question
+{
+    min-width: 90%;
+    font-size: 30px;
+    
+}
+input
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+label
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+div
+{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#submit
+{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10%;
+    font-size: 29px;
+    font-family: monospace;
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+    transition: 1s ease-in-out;
+  }
+
+ /*sdaaaaadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+ input, button {
+    font-family: 'Nunito', sans-serif;
+    
+  }
+  
+  .main-div, .loggedin-div {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 20px;
+    display: none;
+background: transparent;
+  }
+ #login_div{
+     background-image: url('Images/backlogin.jfif');
+     background-repeat: no-repeat;
+     background-size: cover;
+ height: auto; width: fit-content; border: 1px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }
+  .main-div input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    font-size: 20px;
+  }
+  
+  .main-div input:focus {
+    border: 1px solid #777;
+  }
+  
+  .main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+  }
+
+  #email_field
+  {
+      width: 80%;
+  }
+  #password_field
+  {
+   width: 80%;   
+  }
+   /*sdaaaaadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/

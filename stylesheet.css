@@ -1,0 +1,345 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body 
+{
+    /* background-image: url('download.jfif') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+label
+{
+    font-size: 30px;
+    color: rgb(10, 2, 77);
+}
+option,select
+{
+  background-color:white;
+  color: black;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  
+}
+option:hover
+{
+  background-color: #2d971f;
+  color: aliceblue;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  
+}
+  .wrapper  {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100vh;
+    background-image:  url('download.jfif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  
+  .welcome_text {
+    max-width: 400px;
+    
+  }
+  
+  .welcome_form {
+  }
+  
+  .welcome_form input,
+  .welcome_form button {
+    display: block;
+    width: 100%;
+   
+  }
+  
+  .welcome_form input {
+    background-color: transparent;
+    color: #341f97;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+  }
+  
+  .welcome_form input:focus {
+    outline: none;
+  }
+  
+  .welcome_form button {
+    padding: 20px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #341f97;
+    font-size: 22px;
+    transition: 0.4s all;
+  }
+  
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+  .welcome_form button:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+ #insert{
+    padding: 20px 0;
+    border: none;
+    border-radius: 100px;
+    background-color: #0020C2;
+    color: aliceblue;
+    font-size: 22px;
+    transition: 0.4s all;
+     width: 100%;
+  }
+  
+
+#insert:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  .quiz {
+    display: grid;
+    grid-template-rows: 60px auto;
+    max-width: 800px;
+  
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+  }
+  
+  .quiz_header {
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    /* headery over floaw ka seen hora tha is lye z-index */
+  }
+  .quiz_body {
+    padding: 30px 30px;
+  }
+  .quiz_user {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+  }
+  
+  .quiz_timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+    background-color: #341f97;
+    color: #fff;
+  }
+  .quiz_body {
+    background-color: #ecf0f1;
+  }
+  
+  .option_group {
+    list-style-type: none;
+    margin: 30px 0;
+  }
+  
+  .option {
+    display: block;
+    width: 300px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+  }
+  
+  .option:hover {
+    cursor: pointer;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border: 2px solid #341f97;
+    color: #341f97;
+  }
+  .option.active {
+    background-color: #341f97;
+    color: #fff;
+  }
+  .btn-next {
+    border: none;
+    padding: 15px 35px;
+    background-color: #341f97;
+    color: #fff;
+    border-radius: 27px;
+    transition: 0.4s all;
+  }
+  
+  .btn-next:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #341f97;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .award_icon {
+    display: block;
+    font-size: 300px;
+    color: #fff;
+  }
+  
+  .username,
+  .userpoints,
+  .usertime {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px;
+  }
+  
+  input, button {
+    font-family: 'Nunito', sans-serif;
+    
+  }
+  
+  .main-div, .loggedin-div {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 20px;
+    display: none;
+background: transparent;
+  }
+ #login_div{
+     background-image: url('Images/backlogin.jfif');
+     background-repeat: no-repeat;
+     background-size: cover;
+ height: auto; width: fit-content; border: 1px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+ }
+
+  .main-div input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    min-width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    font-size: 20px;
+  }
+  
+  .main-div input:focus {
+    border: 1px solid #777;
+  }
+  
+  .main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+  }
+
+  #email_field
+  {
+      width: 80%;
+  }
+  #password_field
+  {
+   width: 80%;   
+  }
+  
+  #user_div
+  {
+  width: 100%;
+  background: transparent;
+  margin: 0 auto;
+  }
+
+  #clas
+  {
+    font-size: 30px;
+    color: #341f97;
+    text-shadow: 2px 2px 3px 3px green;
+  }
+  #sub
+  {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+ 
+  @media screen and (max-width:310px)
+  {
+    .quiz
+    {
+      margin-left: 15%;
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width:295px)
+  {
+    .quiz
+    {
+      margin-left: 15%;
+      font-size: 16.5px;
+    }
+  }
+  
+  @media screen and (max-width:275px)
+  {
+    .quiz
+    {
+      margin-left: 15%;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width:265px)
+  {
+    .quiz
+    {
+      margin-left: 50%;
+      font-size: 18px;
+    }
+  }
+  
+  
