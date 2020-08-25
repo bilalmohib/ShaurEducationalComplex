@@ -90,7 +90,7 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).set(Condition);
 /////////////////////////////////////////
 function sendMesssage()
 {
-  alert("DATA IS SUBMITTED SUCCESSFULLY.");
+ 
 //   var text1=document.getElementById("prima");
 //   var text2;
 // console.log(text1.childNodes)
