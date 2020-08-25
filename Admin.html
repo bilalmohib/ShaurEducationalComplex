@@ -8,7 +8,7 @@
     <title>SEC Quiz Portal</title>
     <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet">
     <!-- style.css -->
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="Admin.css">
     <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <style>
         #maintitle
@@ -16,9 +16,9 @@
             font-family: 'Srisakdi', cursive;
             font-size: 60px;
             font-weight: bolder;
-            color: rgb(18, 25, 124);
+            color: rgb(255, 255, 255);
             margin-bottom: 30px;
-            text-shadow: 2px 2px 2px white;
+            text-shadow: 3px 3px 3px rgb(55, 19, 139);
         }
         #logosec
         {
@@ -147,8 +147,7 @@
         <div id="login_div" style="text-align: center;" class="main-div">
             <img src="Images/logo.ico" style="position: relative; text-align: center; margin-top: 20px;" width="100px"
                 height="100px" alt="">
-            <h2
-                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%; font-size: 30px;">
+            <h2  style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%; font-size: 30px;">
                 Shaur Educational Complex</h2>
             <input type="email" placeholder="Email..." id="email_field" />
             <input type="password" placeholder="Password..." id="password_field" />
@@ -172,10 +171,11 @@
 </script>
             <div style="width: 100%; text-align: center;"><img src="Images/logo.ico" id="logosec" alt=""></div>
             <h1 id="maintitle">Shaur Educational Complex</h1>
-            <h1 style="color: bisque; font-size: 30px;">Welcome to Shaur Educational Complex</h1>
-            <p style="max-width:200px; color: #09222e; font-size: 20px;" id="user_para">Welcome to Firebase web login
+            <h1 style="color: rgb(221, 61, 46); font-size: 30px;">Welcome to Quiz Admin Portal</h1>
+            <p style="max-width:200px; color: #f3f3f3; font-size: 20px;" id="user_para">Welcome to Firebase web login
                 Example. You're currently logged in.</p>
-            <button style="max-width: 450px; font-size: 25px;" onclick="submitForm(this)">Start Quiz</button><br><br>
+            <button style="background-color: rgb(152, 14, 165); max-width: 450px; font-size: 25px;" onclick="submitForm(this)">Insert Data</button><br><br>
+            <button style="background-color: blue; max-width: 450px; font-size: 25px;" onclick="submitForm1(this)">See All the data</button><br><br>
             <button style="text-align: center; width: 200px; font-size: 20px;" onclick="logout()">Logout</button>
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -203,14 +203,14 @@
     <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {
-            apiKey: "AIzaSyB9-f-9U1fEVOyx4qip2gAOQSCMSF_M-Ac",
-            authDomain: "studentsauthentication.firebaseapp.com",
-            databaseURL: "https://studentsauthentication.firebaseio.com",
-            projectId: "studentsauthentication",
-            storageBucket: "studentsauthentication.appspot.com",
-            messagingSenderId: "52305948125",
-            appId: "1:52305948125:web:4c201537a566361b851a34",
-            measurementId: "G-60XDX0FZ3B"
+            apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+      authDomain: "quizappfirebases.firebaseapp.com",
+      databaseURL: "https://quizappfirebases.firebaseio.com",
+      projectId: "quizappfirebases",
+      storageBucket: "quizappfirebases.appspot.com",
+      messagingSenderId: "985601574561",
+      appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+      measurementId: "G-FPVCTWWN6M"
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
@@ -224,7 +224,7 @@
 
 
     <!-- site.js -->
-    <script src="start.js"></script>
+    <script src="Admin.js"></script>
 </body>
 
 </html>

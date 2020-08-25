@@ -1,0 +1,254 @@
+body
+{
+    background: url(https://images.alphacoders.com/545/545897.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#question
+{
+    width: 95%;
+    font-size: 30px;
+    
+}
+input
+{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+label
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+div
+{
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    background-color: #5d8ffc;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#submit
+{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10%;
+    font-size: 29px;
+    font-family: monospace;
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+    transition: 1s ease-in-out;
+  }
+
+ /*sdaaaaadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+ input, button {
+    font-family: 'Nunito', sans-serif;
+    
+  }
+  
+  .main-div, .loggedin-div {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 20px;
+    display: none;
+background: transparent;
+  }
+ #login_div{
+     background-image: url('Images/backlogin.jfif');
+     background-repeat: no-repeat;
+     background-size: cover;
+ height: auto; width: fit-content; border: 1px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }
+  .main-div input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    font-size: 20px;
+  }
+  
+  .main-div input:focus {
+    border: 1px solid #777;
+  }
+  
+  .main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s linear;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+  }
+
+  #email_field
+  {
+      width: 80%;
+  }
+  #password_field
+  {
+   width: 80%;   
+  }
+   /*sdaaaaadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+#deleteButton
+{
+   width: 150px;
+   height:70px;
+   color:transparent;
+   background-image: url('Images/delete.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#editButton
+{
+  width: 150px;
+  height:70px;
+  display: inline;
+  color:transparent;
+  background-image: url('Images/edit.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#deleteAll
+{
+  max-width: 300px;
+  color:aliceblue;
+  font-size: 25px;
+  background-color: red;
+}
+#deleteAll:hover
+{
+  max-width: 300px;
+  color:red;
+  font-size: 25px;
+  background-color:white;
+  transition: 1s linear;
+}
+#buttonDiv
+{
+  display: flex;
+  flex-flow: row;
+  margin: 20px;
+  background: transparent;
+}
+.doneButton
+{
+  display: inline;
+    background: transparent;      
+    width: 80px;
+    height: 60px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+#list
+{
+  background-image: url('https://lh3.googleusercontent.com/proxy/YxfIVeABAamgygqohy4f3qSQa1Kt155OBr5PZ12jPPyCFxhJsNj1sKDYp445U1fTxTAzn7pgoUxHD4S379u6f_qhYy6ZX-JLIiQxWjoKpozsjsOlOWV4o81HYWgsjQP1Nuql4A');
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px rgb(41, 133, 13);
+    left:0%;
+    text-align:left;
+    width: 100%;
+    margin-bottom: 100px;
+    color: white;
+}
+#para
+{
+  background-color: #5d8ffc;
+    font-size: 25px;
+    font-family: 'Alata', sans-serif;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-style: normal;
+    border-radius: 3%;
+    color: black;
+    box-shadow: 2px 2px 2px 2px purple;
+}
+#para:hover
+{
+  color: white;
+  background-color: green;
+  transition: 0.4s linear;
+}
+#para1
+{
+   display: none;
+}
+.alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+    transition: 1s ease-in-out;
+  }
+#modal
+{
+    position: fixed;
+    max-width: 100vh;
+    height: 500px;
+    
+    left: 50%;
+    top: 50%;
+    border: 1px solid black;
+    background-color: #79c879;
+      /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+
+  transform: translate(-50%, -50%);
+display: none;
+  overflow: auto;
+}
+#cancel
+{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10%;
+    width: 100px;
+    height: fit-content;
+    font-size: 29px;
+    margin-left:20px;
+    font-family: 'Times New Roman', Times, serif;
+}

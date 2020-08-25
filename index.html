@@ -71,14 +71,28 @@
  <!-- This is the navigation bar -->
  <nav>
    <img id="logo2" src="Images/logo.ico" alt="School Logo">
-   <span id="logo3" style="color:white;">Shaur Educational Complex</span>
+   <span id="logo3" style="color:rgb(255, 255, 255);">Shaur Educational Complex</span>
    <label for="btn" class="icon">
-     <span style="font-size-25px;" id="_bar_Id_" class="fa fa-bars"></span>
+     <span style="font-size:25px;" id="_bar_Id_" class="fa fa-bars"></span>
    </label>
    <input type="checkbox" id="btn">
    <ul>
     
-    <li><a href="home.html">Quiz Portal</a></li>
+  
+    <li>
+      <label for="btn-4" class="show">Quiz-Portal<span class="fas fa-caret-down"></span> 
+      </label>
+      <a href="#">Quiz-Portal<span class="fas fa-caret-down"></span></a>
+      <input type="checkbox" id="btn-4">
+      
+      <ul>
+        <li><a href="home.html">Quiz</a></li>
+        <li><a href="Admin.html">Admin-Portal</a></li>   
+       </ul>
+    </li>
+
+
+
      <li>
        <label for="btn-1" class="show">About Us <span class="fas fa-caret-down"></span> 
        </label>
@@ -111,7 +125,7 @@
       
       <ul style="width: 240px;">
         <li style="width: 240px;"><a href="PictureGallery/ArtGallery.html">Art Gallery</a></li>
-        <li style="width: 240px;"><a href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a></li>
+        <li style="width: 240px;"><a id="aac" href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a></li>
         <li style="width: 240px;"><a href="PictureGallery/Cultural Day.html">Cultural Day</a></li>
         <li style="width: 240px;"><a href="PictureGallery/FunGallery.html">Fun Gallery</a></li>
        </ul>

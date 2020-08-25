@@ -1646,5 +1646,16 @@ span
         font-size:20px;
         width:90%;
     }
+    ul li ul li a
+    {
+        margin-left: -30px;
+        font-size: 17px;
+        text-shadow: 1px 1px 1px grey;
+
+    }
+    #aac
+    {
+        font-size: initial;
+    }
 }
 /*The form of HTML*/
