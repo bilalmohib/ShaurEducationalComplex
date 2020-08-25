@@ -9,8 +9,9 @@ console.log(user_name);
 if(user_name=="mohib2156@gmail.com")
 {
   alert("Welcome Sir");
+  user_name="";
 }
-else if(user_name!="mohib2156@gmail.com")
+else
 {
   alert("You are not allowed sorry")
   logout();
