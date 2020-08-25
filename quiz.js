@@ -1,3 +1,4 @@
+alert("Note:1 minute is given for each mcqs");
 var database =firebase.database();
 
 /////////////////////////////////////////
