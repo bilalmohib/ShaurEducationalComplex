@@ -90,6 +90,7 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).set(Condition);
 /////////////////////////////////////////
 function sendMesssage()
 {
+  alert("Data is submitted Sir Dont Worry");
 //   var text1=document.getElementById("prima");
 //   var text2;
 // console.log(text1.childNodes)
@@ -138,7 +139,9 @@ var Quiz={
 
 firebase.database().ref(`Quiz/${className}/${subjectName}/`).push(Quiz);
 
-
+var x = window.location.href;
+x = x.split( '#' );
+window.location.href = x[0];
 
 
 }
