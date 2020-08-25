@@ -90,6 +90,10 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).set(Condition);
 /////////////////////////////////////////
 function sendMesssage()
 {
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> a0c4c3c848a8cfea458ce6d5d94057d4f00709ac
 //   var text1=document.getElementById("prima");
 //   var text2;
 // console.log(text1.childNodes)
@@ -138,7 +142,11 @@ var Quiz={
 }
 
 firebase.database().ref(`Quiz/${className}/${subjectName}/`).push(Quiz);
+<<<<<<< HEAD
 alert("Data Submitted Successfully");
+=======
+ alert("DATA IS SUBMITTED SUCCESSFULLY.");
+>>>>>>> a0c4c3c848a8cfea458ce6d5d94057d4f00709ac
 var x = window.location.href;
 x = x.split( '#' );
 window.location.href = x[0];
