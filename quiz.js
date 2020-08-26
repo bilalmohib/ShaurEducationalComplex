@@ -23,8 +23,9 @@ window.onload = function() {
   firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value',(data)=>{
     var quiz=data.val();
     var keys=Object.keys(quiz);
-console.log(keys.length)
+//console.log(keys.length)
     var key=keys[question_count];
+    sessionStorage.setItem("QuestionLength", keys.length);
     var Question=quiz[key].Question;
     var Answer=quiz[key].Answer;
 
@@ -33,7 +34,7 @@ console.log(keys.length)
       clearInterval(mytime);
       location.href = "end.html";
     }
-    console.log(question_count);
+  //  console.log(question_count);
   
     let user_answer = document.querySelector("li.option.active").innerHTML;//yahan answer chek hora ha k sahe ha ya galt point increase k lye
     // check if the answer is right or wrong
@@ -51,7 +52,6 @@ console.log(keys.length)
     
   });
   }
-  
   setInterval(next,60000);
 
   function show(count) {

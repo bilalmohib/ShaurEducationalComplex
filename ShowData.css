@@ -6,6 +6,21 @@ body
   -o-background-size: cover;
   background-size: cover;
 }
+#ED
+{
+  font-size: 40px;
+  box-shadow: 2px 2px 2px greenyellow;
+  background-color: #fff;
+  border-radius: 5%;
+}
+#ED:hover
+{
+  transition: 0.5s linear;
+  font-size: 40px;
+  background-color: blanchedalmond;
+  border-radius: 10%;
+  
+}
 #question
 {
     width: 95%;
@@ -48,7 +63,29 @@ div
     display:none;
     transition: 1s ease-in-out;
   }
+  #buttonSignUp
+  {
+    width:fit-content; font-size:30px;height: fit-content; margin: 0 auto; background-color: #238028; color: aliceblue;
+    box-shadow: 3px 3px 3px blue;
+    text-shadow: 2px 2px 2px 2px rgb(180, 36, 216);
+  }
+  #buttonSignUp:hover
+  {
+    width:fit-content; font-size:30px;height: fit-content; margin: 0 auto; color: #238028; background-color: aliceblue;
+    transition: 0.4s linear;
+  }
+  #formContainer
+  {
+    text-align: left;
+  }
+  #signUp
+  {
+      font-size: 40px;
+      margin-left: 10px;
+      color:rgb(255, 255, 255);
+      text-shadow: 5px 5px 5px green;
 
+  }
  /*sdaaaaadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
  input, button {
     font-family: 'Nunito', sans-serif;

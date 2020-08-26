@@ -8,9 +8,20 @@
         <link rel = "icon" href =  
 "Images/logo.ico" 
         type = "image/x-icon"> 
-  <link rel="stylesheet" href="data.css">
+  <link rel="stylesheet" href="ShowData.css">
   <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <title>Admin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+  <style>
+    #deleteButton
+    {
+      display: none;
+    }
+    #deleteAll
+    {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -54,36 +65,22 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-  
+  <!-- sdafasdfsdfklsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
     <div>Data for Quiz App</div>
     <h1 id="clas" style="color: rgb(10, 32, 90); font-size: 30px;"></h1>
     <h2 id="sub" style="color: rgb(182, 238, 199);font-size: 30px;"></h2>
-    <h1 style="font-size:35px; color: rgb(255, 255, 255);">Question</h1>
-    <!-- <form id="Quiz" action="data.html"> -->
-    <textarea name="Questions" placeholder="Enter the question for quiz" id="question" cols="30" rows="5"></textarea>
 
-    <!-- answers -->
+    <div style="background:transparent;">
+        <ol id="list">
+    
+        </ol>
+        
+    </div>
+<br>
 
-    <label for="option1">Option 1: </label>
-    <input id="option1" required type="text">
-    <br>
-    <label for="option2">Option 2: </label>
-    <input id="option2" required type="text">
-    <br>
-    <label for="option3">Option 3: </label>
-    <input id="option3" required type="text">
-    <br>
-    <label for="option4">Option 4: </label>
-    <input id="option4" required type="text">
-    <br>
-    <label for="answer" style="color: rgb(224, 38, 38);">Answer: </label>
-    <input id="answer" required placeholder="Enter the right answer" type="text">
-    <br>
-    <!-- answers -->
-    <input type="submit" onclick="sendMesssage()" id="submit">
-
-    <br>
-    <h1 id="ED"></h1>
+  <!-- dddddsfasdddddfsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
+  <button id="deleteAll" onclick="deleteAll()">DELETE ALL</button>   
+  <h1 id="ED"></h1>   
     <input type="button" onclick="disableQuiz()" style="color: red;" value="Disable" id="disable">
     <input type="button" style="color: green;" onclick="enableQuiz()" value="Enable" id="enable">
     <!-- </form> -->
@@ -117,9 +114,9 @@
   </div>
 
 
-
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
 
   <script>
     // Your web app's Firebase configuration
@@ -136,9 +133,12 @@
     // Initialize Firebas
     firebase.initializeApp(firebaseConfig);
   </script>
+    
+     <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
 
 
 </body>
-<script src="data.js"></script>
+<script src="ShowScore.js"></script>
 
 </html>

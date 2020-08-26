@@ -6,6 +6,21 @@ body
   -o-background-size: cover;
   background-size: cover;
 }
+#ED
+{
+  font-size: 40px;
+  box-shadow: 2px 2px 2px greenyellow;
+  background-color: #fff;
+  border-radius: 5%;
+}
+#ED:hover
+{
+  transition: 0.5s linear;
+  font-size: 40px;
+  background-color: blanchedalmond;
+  border-radius: 10%;
+  
+}
 #question
 {
     min-width: 90%;

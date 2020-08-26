@@ -13,7 +13,7 @@ if(user_name=="mohib2156@gmail.com")
 }
 else
 {
-  alert("You are not allowed sorry")
+  alert("Access Denied Only Administrator can access");
   logout();
 }
 
@@ -103,12 +103,12 @@ function enableQuiz()
   var Condition={
     Value:true
 }
-
 firebase.database().ref(`Condition/${className}/${subjectName}`).set(Condition);
 }
 
+          
 
-var ref = database.ref(`Quiz/${className}/${subjectName}`);
+var ref = database.ref(`Score/${className}/${subjectName}`);
 ref.once('value',gotData,errData);
 
 
@@ -126,16 +126,46 @@ function gotData(data)
 
         var k=keys[i];
         var ins=k.toString()
-        var Question=tod[k].Question;
-        var Author=tod[k].author;
-        var Option1=tod[k].Option1;
-        var Option2=tod[k].Option2;
-        var Option3=tod[k].Option3;
-        var Option4=tod[k].Option4;
-        var Answer=tod[k].Answer;
-        var Time=tod[k].Date;
+        var Name=tod[k].Name;
+        var Class=tod[k].Class;
+        var Subject=tod[k].Subject;
+        var Score=tod[k].Score;
+        var Date=tod[k].Time;
+        var totalQuestions=tod[k].totalQuestions;
+        var TimeSpent=tod[k].TimeSpent;
+        TimeSpent=parseFloat(TimeSpent);
+        var TimeSpentInMinutes=(TimeSpent/60);
+
+        
+totalQuestions=parseInt(totalQuestions);      
+
+        var score=parseFloat(Score); 
 
 
+        var percentage=(score/totalQuestions)*100;
+
+     
+        console.log(percentage);
+
+
+
+
+        
+
+        let status=false;
+var result;
+
+      
+      if(percentage>=50)
+      {
+        status=true;
+        result="PASSED";
+      }
+      else
+      {
+        result="FAIL";
+        status=false;
+      }
 
 
         //create li text node
@@ -146,14 +176,14 @@ function gotData(data)
 
     var para=document.createElement("div");
     para.setAttribute("id","para");
-   para.innerHTML=`<b>Question:-</b>${Question} </br>
-   <b>Option1:</b> ${Option1}</br>
-   <b>Option2:</b> ${Option2}</br>
-   <b>Option3:</b> ${Option3}</br>
-   <b>Option4:</b> ${Option4}</br>
-   <b>Answer:</b> ${Answer}</br>
-    <b>Author:</b> ${Author}</br>
-    <b>Time Submitted:</b> ${Time}</br>
+   para.innerHTML=`<b>Name</b>${Name} </br>
+   <b>Class</b> ${Class}</br>
+   <b>Subject:</b> ${Subject}</br>
+   <b>Obtained Score:</b> ${score}</br>
+   <b>Total Questions:</b> ${totalQuestions}</br>
+   <b>Percentage:</b> ${percentage}%</br>
+   <b>Status:</b> ${result}</br>
+    <b>Time taken:</b> ${TimeSpentInMinutes} Minutes</br>
    `;
 
     li.appendChild(para);
@@ -174,13 +204,7 @@ function gotData(data)
 var buttons=document.createElement("div");
 buttons.setAttribute("id","buttonDiv")
 
-    //create edit Button
-    var editBtn=document.createElement("button");
-  editBtn.innerHTML="EDIT";
-    editBtn.setAttribute("id","editButton");
-    editBtn.setAttribute("onclick","editItem(this)");
 
-buttons.appendChild(editBtn);
 buttons.appendChild(delBtn);
 buttons.appendChild(para1);
 
@@ -200,32 +224,15 @@ function errData(err){
 
 
 
-// Listen for form submit
-document.getElementById('todoItem').addEventListener('click', submitForm);
-
-// Submit form
-function submitForm(e){
-e.preventDefault();
-
-
-// Show alert
-document.querySelector('.alert').style.display = 'block';
-
-// Hide alert after 3 seconds
-setTimeout(function(){
-  document.querySelector('.alert').style.display = 'none';
-},3000);
-
-}
 
 
 
 
 function deleteItem(e)
 {
-  console.log(e.parentNode.childNodes[2].innerHTML);
+  console.log(e.parentNode.childNodes[1].innerHTML);
 
-    var val=e.parentNode.childNodes[2].innerHTML;
+    var val=e.parentNode.childNodes[1].innerHTML;
     console.log(val);
     let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
     userRef.remove()
@@ -238,7 +245,7 @@ function deleteItem(e)
 
 function deleteAll()
 {
-    let userRef = this.database.ref(`Quiz/${className}/${subjectName}`);
+    let userRef = this.database.ref(`Score/${className}/${subjectName}`);
     userRef.remove()
     //refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
     var x = window.location.href;
@@ -246,114 +253,7 @@ function deleteAll()
     window.location.href = x[0];
 }
 
-var val;
 
-var question;
-//getting the options
-var option1;
-var option2;
-var option3;
-var option4;
-var dateTime;
-//getting the right answer
-var answer;
-function modal()
-{
-   document.getElementById("modal").style="display:none;";
-     
-    var today = new Date();
-    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    dateTime = date+' '+time;
-    dateTime=dateTime.toString();
-
-   
-    console.log(val);
-    let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
-    
-
-
-
-    //getting the question
-    question=document.getElementById("question").value;
-    //getting the options
-    option1=document.getElementById("option1").value;
-    option2=document.getElementById("option2").value;
-    option3=document.getElementById("option3").value;
-    option4=document.getElementById("option4").value;
-    //getting the right answer
-    answer=document.getElementById("answer").value;
-
-    if(question==""||option1==""||option2==""||option3==""||option4==""||answer=="")
-    {
-      alert("Please fill all the fields to submit for the quiz");
-      return;
-    }
-    else if(option1!=answer&&option2!=answer&&option3!=answer&&option4!=answer)
-    {
-      alert("Please check One of the options of four must be an answer");
-      return;      
-    }
-
-console.log(question+"\n"+option1+option2+option3+option4+answer+dateTime);
-
-userRef.update({
-  Question:question,
-  Option1:option1,
-  Option2:option2,
-  Option3:option3,
-  Option4:option4,
-  author:email_id,
-  Answer:answer,
-  Date:dateTime,
-});
-
-
-// refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
-    var x = window.location.href;
-    x = x.split( '#' );
-    window.location.href = x[0];
-}
-
-
-function editItem(e)
-{
-    document.getElementById("modal").style="display:block;";
-     
-    var today = new Date();
-    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-    var dateTime = date+' '+time;
-    dateTime=dateTime.toString();
-
-    val=e.parentNode.childNodes[2].innerHTML;
-    console.log(val);
-    let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
-    
-console.log(input);
-userRef.update({
-  Question:question,
-  Option1:option1,
-  Option2:option2,
-  Option3:option3,
-  Option4:option4,
-  author:email_id,
-  Answer:answer,
-  Date:dateTime,
-});
-
-
-  //refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
-//     var x = window.location.href;
-// x = x.split( '#' );
-// window.location.href = x[0];
-}
-
-//canel function implementation
-function cancel()
-{
-    document.getElementById('modal').style="display:none;";
-}
 firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (data) => {
   var condition = data.val().Value;
   console.log(condition);

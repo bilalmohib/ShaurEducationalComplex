@@ -80,11 +80,20 @@ function submitForm(e)//e event ka prameter ha jo index se lia ha event b lkh sa
 window.location.href="selectSendCategory.html";
   }
 
-  function submitForm1(e)//e event ka prameter ha jo index se lia ha event b lkh sakte ha kam wo he krega
- {
+function submitForm1(e)//e event ka prameter ha jo index se lia ha event b lkh sakte ha kam wo he krega
+{
  
                                                       //name ko lia jo b is me hogi value me save hoga
       //player name save in seassion storage
     sessionStorage.setItem("Name", email_id);//take jab b name chye ho to get name ker k lele hum "name"
  window.location.href="SeeData.html"
-  }
+}
+
+function submitForm2(e)//e event ka prameter ha jo index se lia ha event b lkh sakte ha kam wo he krega
+{
+  
+                                                       //name ko lia jo b is me hogi value me save hoga
+       //player name save in seassion storage
+     sessionStorage.setItem("Name", email_id);//take jab b name chye ho to get name ker k lele hum "name"
+  window.location.href="SeeScore.html"
+}

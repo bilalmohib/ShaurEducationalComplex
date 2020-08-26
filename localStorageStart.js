@@ -528,16 +528,6 @@ function getClass(e) {
 
 
 function go() {
-  //   var cond=false;
-  //     while(className=="Class VI"&&subjectName=="English"&&cond==false)
-  //     {
-  //           var code=prompt("Enter the key: ");
-  //           if(code=="123")
-  //           {
-  //             cond=true;
-  //             break;
-  //           }
-  //     }
   while (check1 == false || check2 == false) {
     alert("Please select the appropriate Class and the Subject to proceed further");
     return;
@@ -573,7 +563,7 @@ function go() {
     }
   });
 
-
+  
 }
 
 
