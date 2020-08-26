@@ -52,10 +52,10 @@ window.onload = function() {
     
   });
   }
-if(subjectName=="Math")
-{
-  setInterval(next,120000); 
-}
+//if(subjectName=="Math")
+//{
+ // setInterval(next,120000); 
+//}
 setInterval(next,60000);
 
   function show(count) {
