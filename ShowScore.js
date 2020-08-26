@@ -5,7 +5,7 @@ var email_id;
 
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
-
+alert("Welcome "+user_name);
 //if(user_name=="mohib2156@gmail.com")
 //{
 //  alert("Welcome Sir");
