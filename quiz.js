@@ -1,4 +1,4 @@
-alert("Note:1 minute is given for each mcqs \n2 minutes for maths");
+alert("One Minute for each MCQS of ALL THE Subjects\nTwo Minutes for each MCQS of For MATH Subject");
 var database =firebase.database();
 
 /////////////////////////////////////////
@@ -18,14 +18,35 @@ window.onload = function() {
    show(question_count);
 }
 
+
+var timerCount;
+
+if(subjectName=="Math")
+{
+  timerCount=setInterval(next,120000); 
+}
+else
+{
+  timerCount=setInterval(next,60000);
+}
+
+
   
   function next() {
+    clearInterval(timerCount);   
+if(subjectName=="Math")
+{
+  timerCount=setInterval(next,120000); 
+}
+else
+{
+  timerCount=setInterval(next,60000);
+}
   firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value',(data)=>{
     var quiz=data.val();
     var keys=Object.keys(quiz);
-//console.log(keys.length)
+console.log(keys.length)
     var key=keys[question_count];
-    sessionStorage.setItem("QuestionLength", keys.length);
     var Question=quiz[key].Question;
     var Answer=quiz[key].Answer;
 
@@ -34,9 +55,36 @@ window.onload = function() {
       clearInterval(mytime);
       location.href = "end.html";
     }
-  //  console.log(question_count);
+    console.log(question_count);
   
-    let user_answer = document.querySelector("li.option.active").innerHTML;//yahan answer chek hora ha k sahe ha ya galt point increase k lye
+
+    var optionObtained;
+
+    var user_answer;
+
+    console.log(optionObtained);
+
+    var promise=new Promise(function(resolve,reject){
+      optionObtained=document.querySelector("li.option.active");
+  
+      if(optionObtained!=null){
+          resolve("The user selected the answer");
+          user_answer = optionObtained.innerHTML;
+      }
+      else{
+          reject("The answer was not selected");
+          user_answer="";
+      }
+  })
+  
+  promise.then(function(data){
+  console.log(data)
+  })
+  .catch(function(err){
+     console.log(err)
+  })
+
+    
     // check if the answer is right or wrong
     if (user_answer == Answer) {
       points += 10;
@@ -52,14 +100,7 @@ window.onload = function() {
     
   });
   }
-if(subjectName=="Math")
-{
-  setInterval(next,120000); 
-}
-else
-{
-   setInterval(next,60000);
-}
+  
 
 
   function show(count) {
@@ -80,7 +121,7 @@ else
       var Author=quiz[key].author;
 
       question.innerHTML = `
-      <h2>Q${count + 1}. ${Question}</h2>
+      <h2>Q${count + 1}. ${Question}(${Author})</h2>
        <ul class="option_group">
       <li class="option">${Option1}</li>
       <li class="option">${Option2}</li>
