@@ -1,4 +1,4 @@
-alert("Note:1 minute is given for each mcqs");
+alert("Note:1 minute is given for each mcqs \n2 minutes for maths");
 var database =firebase.database();
 
 /////////////////////////////////////////
@@ -52,11 +52,15 @@ window.onload = function() {
     
   });
   }
-//if(subjectName=="Math")
-//{
- // setInterval(next,120000); 
-//}
-setInterval(next,60000);
+if(subjectName=="Math")
+{
+  setInterval(next,120000); 
+}
+else
+{
+   setInterval(next,60000);
+}
+
 
   function show(count) {
   //  let question=document.getElementById("question");
