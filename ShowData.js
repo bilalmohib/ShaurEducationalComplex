@@ -200,23 +200,7 @@ function errData(err){
 
 
 
-// Listen for form submit
-document.getElementById('todoItem').addEventListener('click', submitForm);
 
-// Submit form
-function submitForm(e){
-e.preventDefault();
-
-
-// Show alert
-document.querySelector('.alert').style.display = 'block';
-
-// Hide alert after 3 seconds
-setTimeout(function(){
-  document.querySelector('.alert').style.display = 'none';
-},3000);
-
-}
 
 
 
@@ -362,7 +346,7 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
       ED.style = "color:red";
       ED.innerHTML=`The subject ${subjectName} of ${className} is currently <b>DISABLED<b>`;
   }
-  else if(condition == true) {
+  if (condition == true) {
     var ED=document.getElementById("ED");
     ED.style = "color:green";
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
