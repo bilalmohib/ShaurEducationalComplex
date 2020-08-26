@@ -52,7 +52,14 @@ window.onload = function() {
     
   });
   }
+if(subjectName=="Math")
+{
+  setInterval(next,120000); 
+}
+else
+{
   setInterval(next,60000);
+}
 
   function show(count) {
   //  let question=document.getElementById("question");
