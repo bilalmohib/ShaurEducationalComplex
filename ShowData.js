@@ -362,7 +362,7 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
       ED.style = "color:red";
       ED.innerHTML=`The subject ${subjectName} of ${className} is currently <b>DISABLED<b>`;
   }
-  if (condition == true) {
+  else if(condition == true) {
     var ED=document.getElementById("ED");
     ED.style = "color:green";
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
