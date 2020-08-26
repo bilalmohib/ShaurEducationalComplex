@@ -5,13 +5,12 @@ var email_id;
 
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
-alert("Welcome "+user_name);
 if(user_name=="mohib2156@gmail.com")
 {
   alert("Welcome Sir");
   user_name="";
 }
-else
+else if(user_name!="mohib2156@gmail.com")
 {
  alert("Access Denied Only Administrator can access");
   logout();
