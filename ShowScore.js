@@ -175,14 +175,14 @@ var result;
 
     var para=document.createElement("div");
     para.setAttribute("id","para");
-   para.innerHTML=`<b>Name</b>${Name} </br>
-   <b>Class</b> ${Class}</br>
-   <b>Subject:</b> ${Subject}</br>
-   <b>Obtained Score:</b> ${score}</br>
-   <b>Total Questions:</b> ${totalQuestions}</br>
-   <b>Percentage:</b> ${percentage}%</br>
-   <b>Status:</b> ${result}</br>
-    <b>Time taken:</b> ${TimeSpentInMinutes} Minutes</br>
+   para.innerHTML=`<b>Name: </b>${Name} </br>
+   <b>Class: </b> ${Class}</br>
+   <b>Subject: </b> ${Subject}</br>
+   <b>Obtained Score: </b> ${score}</br>
+   <b>Total Questions: </b> ${totalQuestions}</br>
+   <b>Percentage: </b> ${percentage}%</br>
+   <b>Status: </b> ${result}</br>
+    <b>Time taken: </b> ${TimeSpentInMinutes} Minutes</br>
    `;
 
     li.appendChild(para);
