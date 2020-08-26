@@ -532,11 +532,27 @@ function go() {
     alert("Please select the appropriate Class and the Subject to proceed further");
     return;
   }
-  firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', (data) => {
-    var quiz = data.val();
-    var keys = Object.keys(quiz);
 
 
+let promise =new Promise(function(resolve,reject){
+
+///////////////////////////////////////////
+firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', (data) => {
+  
+  if(data.val()){
+    resolve(data.val());
+  }
+  else{
+    reject(`The firebase dosent have any MCQS available in the subject ${subjectName} of ${className}`);
+  }
+ 
+  });
+
+})
+
+promise.then(function(data){
+  var quiz = data.val();
+  var keys = Object.keys(quiz);
     for (let i = 0; i < keys.length; i++) {
 
       var key = keys[i];
@@ -561,11 +577,12 @@ function go() {
       alert("Welcome");
       location.href = "quiz.html";
     }
-  });
+})
+.catch(function(err){
+  alert(err);
+})
 
-  
 }
-
 
 
 var database = firebase.database();
