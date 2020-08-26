@@ -537,21 +537,20 @@ function go() {
 let promise =new Promise(function(resolve,reject){
 
 ///////////////////////////////////////////
-firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', (data) => {
-  
+firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', function(data){
   if(data.val()){
     resolve(data.val());
   }
   else{
-    reject(`The firebase dosent have any MCQS available in the subject ${subjectName} of ${className}`);
+    reject(`The USER ${user_name} IS GIVING THIS TEST FOR FIRST TIME`);
   }
  
-  });
+  })
 
 })
 
 promise.then(function(data){
-  var quiz = data.val();
+  var quiz = data;
   var keys = Object.keys(quiz);
     for (let i = 0; i < keys.length; i++) {
 
@@ -567,22 +566,27 @@ promise.then(function(data){
 
 
     }
-    console.log(check3);
+    
+console.log(check3);
 
-
-    if (check3 == true) {
-      alert("The user has given the test ");
-    }
-    else if (check3 == false && check1 == true && check2 == true) {
+if(check3 == true) {
+    alert("The user has given the test ");
+}
+else if (check3 == false && check1 == true && check2 == true) {
       alert("Welcome");
       location.href = "quiz.html";
-    }
+}
 })
 .catch(function(err){
   alert(err);
+  alert("Welcome");
+  location.href = "quiz.html";
 })
 
+
+
 }
+
 
 
 var database = firebase.database();
