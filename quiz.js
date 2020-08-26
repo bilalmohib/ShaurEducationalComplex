@@ -1,11 +1,69 @@
 alert("One Minute for each MCQS of ALL THE Subjects\nTwo Minutes for each MCQS of For MATH Subject");
 var database =firebase.database();
 
+
+let dt = new Date(new Date().setTime(0));
+let ctime = dt.getTime();
+let seconds = Math.floor((ctime % (1000 * 60))/ 1000);
+let minutes = Math.floor((ctime % (1000 * 60 * 60))/( 1000 * 60));
+console.log(seconds, minutes);
+let time = 0;
+let mytime = setInterval(function(){
+        time++;
+        
+        if(seconds < 59) {
+            seconds++;
+        } else {
+            seconds = 0;
+            minutes++;
+        }
+        let formatted_sec = seconds < 10 ? `0${seconds}`: `${seconds}`;
+        let formatted_min = minutes < 10 ? `0${minutes}`: `${minutes}`
+        document.querySelector("span.time").innerHTML = `${formatted_min} : ${formatted_sec}`;
+    }, 1000);
+
+
+
+
+
+
+let user_points = sessionStorage.getItem("points");
+let user_time = sessionStorage.getItem("time");
+var user_name = sessionStorage.getItem("name");
+    document.querySelector("span.name").innerHTML = user_name;
+
+
 /////////////////////////////////////////
-let className = sessionStorage.getItem("className");
-let subjectName = sessionStorage.getItem("subjectName");
+var className = sessionStorage.getItem("className");
+var subjectName = sessionStorage.getItem("subjectName");
 console.log(className+"\n"+subjectName);
 ///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  var times = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var dateTime = date+' '+times;
+  dateTime=dateTime.toString();
+var User={
+    Name:user_name,
+    Class:className,
+    Subject:subjectName,
+    Time:dateTime
+}
+
+firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).push(User);
+
+
+
+
+
+
+
+
+
+
+
+
 document.getElementById("clas").innerHTML=subjectName;
 document.getElementById("sub").innerHTML=className;
 ///////////////////////////////////////////////////////////
