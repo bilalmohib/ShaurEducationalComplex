@@ -103,6 +103,12 @@ else
   firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value',(data)=>{
     var quiz=data.val();
     var keys=Object.keys(quiz);
+          /////////////////////////////////////////////////////////////
+    var totalQuestions=keys.length;//Total Questions sending
+    ////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////
+  sessionStorage.setItem("QuestionLength",totalQuestions);
+  ////////////////////////////////////////////////////
 console.log(keys.length)
     var key=keys[question_count];
     var Question=quiz[key].Question;
