@@ -59,11 +59,14 @@ let subjectName = sessionStorage.getItem("subjectName");
 var clas=document.getElementById("clas").innerHTML=className;
 var sub=document.getElementById("sub").innerHTML="Subject: "+subjectName;
 ////////////////////////////////////////////////////////
-while(className==""||subjectName=="")
+if(className==null||subjectName==null)
 {
   alert("Please go back and choose the class and the subject to proceed");
+  location.href="selectSendCategory.html";
+  
 }
 console.log(className+"\n"+subjectName);
+
 
 
 function disableQuiz()
