@@ -1,0 +1,3978 @@
+{
+  "AnonymousUser" : {
+    "Class III" : {
+      "English" : {
+        "-MFh_MKI8ijywh5xEDjD" : {
+          "Class" : "Class III",
+          "Name" : "bilalmohib7896@gmail.com",
+          "Subject" : "English",
+          "Time" : "2020-8-27 6:43:23"
+        }
+      }
+    }
+  },
+  "Condition" : {
+    "Class III" : {
+      "English" : {
+        "Value" : true
+      },
+      "ICT" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Science" : {
+        "Value" : true
+      },
+      "Social Studies" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class IV" : {
+      "English" : {
+        "Value" : true
+      },
+      "ICT" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Science" : {
+        "Value" : true
+      },
+      "Social Studies" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class IX" : {
+      "Biology" : {
+        "Value" : true
+      },
+      "Chemistry" : {
+        "Value" : true
+      },
+      "Computer" : {
+        "Value" : true
+      },
+      "English" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Pak Studies" : {
+        "Value" : true
+      },
+      "Physics" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class Pre-Nine" : {
+      "Biology" : {
+        "Value" : true
+      },
+      "Chemistry" : {
+        "Value" : true
+      },
+      "Computer" : {
+        "Value" : true
+      },
+      "English" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Pak Studies" : {
+        "Value" : true
+      },
+      "Physics" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class V" : {
+      "English" : {
+        "Value" : true
+      },
+      "ICT" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Science" : {
+        "Value" : true
+      },
+      "Social Studies" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class VI" : {
+      "English" : {
+        "Value" : true
+      },
+      "Geography" : {
+        "Value" : true
+      },
+      "History" : {
+        "Value" : true
+      },
+      "ICT" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Science" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class VII" : {
+      "English" : {
+        "Value" : true
+      },
+      "Geography" : {
+        "Value" : true
+      },
+      "History" : {
+        "Value" : true
+      },
+      "ICT" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Science" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    },
+    "Class X" : {
+      "Biology" : {
+        "Value" : true
+      },
+      "Chemistry" : {
+        "Value" : true
+      },
+      "Computer" : {
+        "Value" : true
+      },
+      "English" : {
+        "Value" : true
+      },
+      "Islamiyat" : {
+        "Value" : true
+      },
+      "Math" : {
+        "Value" : true
+      },
+      "Pak Studies" : {
+        "Value" : true
+      },
+      "Physics" : {
+        "Value" : true
+      },
+      "Urdu" : {
+        "Value" : true
+      }
+    }
+  },
+  "Quiz" : {
+    "Class III" : {
+      "English" : {
+        "-MFnmrYuLPkwasSYbEpn" : {
+          "Answer" : "Eat with small bites ",
+          "Date" : "2020-8-28 11:40:6",
+          "Option1" : "Eat with large bites ",
+          "Option2" : "Eat with small bites ",
+          "Option3" : "Eat with tiny bites ",
+          "Option4" : "None of these ",
+          "Question" : "1-The meaning of \"Nibble\" is _____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnnTTIDyOYLyWJigvV" : {
+          "Answer" : "Unwanted small plants ",
+          "Date" : "2020-8-28 11:42:46",
+          "Option1" : "Unwanted small plants ",
+          "Option2" : "Unwanted big plants ",
+          "Option3" : "Unwanted plants ",
+          "Option4" : "A,B both ",
+          "Question" : "2-The meaning of \"Weeds\" is ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnnxjXWkxJKlbWRvqh" : {
+          "Answer" : "To jump",
+          "Date" : "2020-8-28 11:44:54",
+          "Option1" : "To fly",
+          "Option2" : "To jump",
+          "Option3" : "To move",
+          "Option4" : "None of these ",
+          "Question" : "3-\"Climb\" meaning is____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnoVIEiklE3NXxSuh6" : {
+          "Answer" : "Personal",
+          "Date" : "2020-8-28 11:47:15",
+          "Option1" : "Personal",
+          "Option2" : "Private ",
+          "Option3" : "Particular",
+          "Option4" : "Individual ",
+          "Question" : "4-\"Own\" means.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnplUSYRkWiOOZdX4Q" : {
+          "Answer" : "Life cycle of Frog ",
+          "Date" : "2020-8-28 11:52:48",
+          "Option1" : "Life cycle of Frog ",
+          "Option2" : "Life cycle of Lizard ",
+          "Option3" : "Life cycle of Honey Bee",
+          "Option4" : "None of these ",
+          "Question" : "5-The story \"Growing\" is about____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnqCLBfHdebOqSICx-" : {
+          "Answer" : "A large hole in the side of a hill ",
+          "Date" : "2020-8-28 11:54:42",
+          "Option1" : "A small hole in the side of a hill ",
+          "Option2" : "A large hole in the side of a hill ",
+          "Option3" : "A damaged hole in the side of a hill ",
+          "Option4" : "A,C both",
+          "Question" : "6-\"Cave\" means",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnqc_aQTcaSd_m3jnx" : {
+          "Answer" : "Gold",
+          "Date" : "2020-8-28 11:56:34",
+          "Option1" : "Silver",
+          "Option2" : "Gold",
+          "Option3" : "Mud",
+          "Option4" : "None of these ",
+          "Question" : "7-The story \"Three Girls\" is about to get the ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnqxtOehc7i3AOtmyu" : {
+          "Answer" : "The spirit of a dead",
+          "Date" : "2020-8-28 11:58:1",
+          "Option1" : "The spirit of evil",
+          "Option2" : "The spirit of  dead animal ",
+          "Option3" : "The spirit of a dead",
+          "Option4" : "A,C both",
+          "Question" : "8-\"Ghost\" means",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnrRR3AeYcVgLiNnPa" : {
+          "Answer" : "Strong ",
+          "Date" : "2020-8-28 12:0:6",
+          "Option1" : "Strong ",
+          "Option2" : "Weak",
+          "Option3" : "Confident ",
+          "Option4" : "Innocent ",
+          "Question" : "9- In the story \"Three Girls\" the third girl is ____. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFns3IKGtfzJwgkZRbv" : {
+          "Answer" : "Tadpole",
+          "Date" : "2020-8-28 12:2:49",
+          "Option1" : "Larva",
+          "Option2" : "Tadpole",
+          "Option3" : "Pupa",
+          "Option4" : "None of these ",
+          "Question" : "10-The second stage of growing of \"Frog\" is ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnsQmfY__IBtCKXWRg" : {
+          "Answer" : "Cave",
+          "Date" : "2020-8-28 12:4:25",
+          "Option1" : "Room",
+          "Option2" : "Class",
+          "Option3" : "Cave",
+          "Option4" : "A,C both",
+          "Question" : "11-In the story \"Three Girls\" the third girl goes into the ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnsuX1dKhz4iWjb1NS" : {
+          "Answer" : "An area of sand near a sea",
+          "Date" : "2020-8-28 12:6:31",
+          "Option1" : "An area of sand near a sea",
+          "Option2" : "An area of mud near a lake",
+          "Option3" : "An area of sand near a river ",
+          "Option4" : "None of these ",
+          "Question" : "12-The meaning of \"Beach\" is ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFntZq0rA2biY65wmVg" : {
+          "Answer" : "Sun, Kitten, Park",
+          "Date" : "2020-8-28 12:9:25",
+          "Option1" : "Sun, Kitten, Park",
+          "Option2" : "Sour, Green, Tall",
+          "Option3" : "Wasp, Scooter, Rude",
+          "Option4" : "None of these ",
+          "Question" : "13- Identify the set of \"Noun\".",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnu7zpYKKRIzqmDg9w" : {
+          "Answer" : "Quaid e Azam",
+          "Date" : "2020-8-28 12:11:53",
+          "Option1" : "Allama Iqbal ",
+          "Option2" : "Quaid e Azam",
+          "Option3" : "Liaqat Ali khan ",
+          "Option4" : "Nawaz Sharif ",
+          "Question" : "14- Select the name of person as the founder of Pakistan from the given \"Proper Noun\".",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnuRbHRhn6joaZrYlb" : {
+          "Answer" : "Adnan",
+          "Date" : "2020-8-28 12:13:13",
+          "Option1" : "Lady",
+          "Option2" : "Boy",
+          "Option3" : "Man",
+          "Option4" : "Adnan",
+          "Question" : "15-Identify \"Proper Noun\" ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnus20IT4n9ytFBnYE" : {
+          "Answer" : "Animal",
+          "Date" : "2020-8-28 12:15:5",
+          "Option1" : "Peacock",
+          "Option2" : "Aunt",
+          "Option3" : "Animal",
+          "Option4" : "A,B both",
+          "Question" : "16-Which one is the \"Common Noun\" in given words.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnvWVS0_-_C9rC3qUS" : {
+          "Answer" : "Doctor",
+          "Date" : "2020-8-28 12:17:55",
+          "Option1" : "Engineer",
+          "Option2" : "Doctor",
+          "Option3" : "Farmer",
+          "Option4" : "None of these ",
+          "Question" : "17- Complete the sentence with \"Noun\".\nI work in a hospital. I look after those who are sick.\nI am a _____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnw-aGyQ0OclODfjjR" : {
+          "Answer" : "Celebrating ",
+          "Date" : "2020-8-28 12:20:3",
+          "Option1" : "Playing ",
+          "Option2" : "Celebrating ",
+          "Option3" : "Washing",
+          "Option4" : "Listening ",
+          "Question" : "18- Choose the correct \"Verb\". \nWe are ____ Grandma's eightieth birthday today.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnwF4K8NqGtUQFV3O0" : {
+          "Answer" : "Caught ",
+          "Date" : "2020-8-28 12:21:6",
+          "Option1" : "Cards",
+          "Option2" : "Caught ",
+          "Option3" : "Trees",
+          "Option4" : "Blue",
+          "Question" : "19- Pick the \"Verb\" in given words.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnwTyVusiAtgYUSDNO" : {
+          "Answer" : "Great",
+          "Date" : "2020-8-28 12:22:7",
+          "Option1" : "Whisper ",
+          "Option2" : "Kitten ",
+          "Option3" : "Great",
+          "Option4" : "Window",
+          "Question" : "20- Choose the \"Adjective\" in given words.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnwoa0pwkQ9qcr55-G" : {
+          "Answer" : "Great",
+          "Date" : "2020-8-28 12:23:36",
+          "Option1" : "Great",
+          "Option2" : "Red",
+          "Option3" : "Whisper",
+          "Option4" : "Caught ",
+          "Question" : "21- Give the \"Adjective\" to given sentence.\nKing Aurangzeb was a ____ ruler.",
+          "author" : "sadiamurtaza007@gmail.com"
+        }
+      },
+      "ICT" : {
+        "-MFlUrbduUMFn2EhhPwh" : {
+          "Answer" : "instructions ",
+          "Date" : "2020-8-28 0:57:51",
+          "Option1" : "instructions ",
+          "Option2" : "results ",
+          "Option3" : "pictures ",
+          "Option4" : "files ",
+          "Question" : "Hardware needs______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlWg9amx3vSL2_gTn4" : {
+          "Answer" : "tasks ",
+          "Date" : "2020-8-28 1:5:49",
+          "Option1" : "tasks ",
+          "Option2" : "programs ",
+          "Option3" : "drive ",
+          "Option4" : "title case",
+          "Question" : "Computer performs many______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlXd1WZERunllvMaZh" : {
+          "Answer" : "Hard disk",
+          "Date" : "2020-8-28 1:9:58",
+          "Option1" : "Hard disk",
+          "Option2" : "Floppy  disk",
+          "Option3" : "Ram",
+          "Option4" : "CD",
+          "Question" : "_____ drives are used rarely now a days.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlY9C695fGk6ALXUkz" : {
+          "Answer" : "Motherboard ",
+          "Date" : "2020-8-28 1:12:14",
+          "Option1" : "Modem",
+          "Option2" : "Ram ",
+          "Option3" : "Motherboard ",
+          "Option4" : "Power supply",
+          "Question" : "______ is the main circuit board of a computer.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlYj3sAa4l-GBC5J-X" : {
+          "Answer" : "Data",
+          "Date" : "2020-8-28 1:14:45",
+          "Option1" : "Data",
+          "Option2" : "Input",
+          "Option3" : "Output",
+          "Option4" : "Storage device",
+          "Question" : "It is collection of facts and figures. ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlZt9IxmMr8n2odwEl" : {
+          "Answer" : "CD/DVDs",
+          "Date" : "2020-8-28 1:19:48",
+          "Option1" : "CD/DVDs",
+          "Option2" : "Monitor ",
+          "Option3" : "Mouse",
+          "Option4" : "Web cam",
+          "Question" : "Games, movies and songs are stored in the______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl_e6IYlWXpkEMnKy9" : {
+          "Answer" : "Usb",
+          "Date" : "2020-8-28 1:23:9",
+          "Option1" : "Usb",
+          "Option2" : "system unit",
+          "Option3" : "Software",
+          "Option4" : "Hardware",
+          "Question" : "We can use______ to transfer data from one computer to another computer.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlc9-RcizrlebXDtuC" : {
+          "Answer" : "Flash drive",
+          "Date" : "2020-8-28 1:34:3",
+          "Option1" : "Hard disk",
+          "Option2" : "Cd",
+          "Option3" : "Flash drive",
+          "Option4" : "Google drive",
+          "Question" : "______ is used to store very small amount of information. ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlcdGCP3YKyvUB1O5s" : {
+          "Answer" : "Hard disk",
+          "Date" : "2020-8-28 1:36:12",
+          "Option1" : "Hard disk",
+          "Option2" : "Scanner",
+          "Option3" : "Files",
+          "Option4" : "Pages",
+          "Question" : "_______ is the main storage device of computer.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlekswcEJJCFYYGK9Q" : {
+          "Answer" : "System unit",
+          "Date" : "2020-8-28 1:45:27",
+          "Option1" : "System unit",
+          "Option2" : "Flash drive ",
+          "Option3" : "Input",
+          "Option4" : "Soft copy",
+          "Question" : "It protects the parts of a computer from dust and damage.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlfFwsYrWxXgJLZxyC" : {
+          "Answer" : "Storage device",
+          "Date" : "2020-8-28 1:47:39",
+          "Option1" : "Power supply",
+          "Option2" : "Input ",
+          "Option3" : "Out put",
+          "Option4" : "Storage device",
+          "Question" : "The device which are used to store data and information are known as: ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnlyZNoRmIYKsRCmjT" : {
+          "Answer" : "Physical",
+          "Date" : "2020-8-28 11:36:12",
+          "Option1" : "Storage",
+          "Option2" : "Physical",
+          "Option3" : "Digital",
+          "Option4" : "Input",
+          "Question" : "Hardware refers to the ______ parts of a compute.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnmTplnCeov_0cGUpN" : {
+          "Answer" : "Input device",
+          "Date" : "2020-8-28 11:38:25",
+          "Option1" : "Input device",
+          "Option2" : "Out put device",
+          "Option3" : "System unit",
+          "Option4" : "Hardware",
+          "Question" : "The devices which are used to put data into the computer are called______ devices.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnmnloljsmpm5gEQF2" : {
+          "Answer" : "Keyboard",
+          "Date" : "2020-8-28 11:39:50",
+          "Option1" : "Cpu",
+          "Option2" : "Keyboard",
+          "Option3" : "Microphone",
+          "Option4" : "CD",
+          "Question" : "It is used to input letters, numbers and other symbols in a computer.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnnA-QTbG4G_dYoy0P" : {
+          "Answer" : "Mouse",
+          "Date" : "2020-8-28 11:41:26",
+          "Option1" : "Printer",
+          "Option2" : "Scanner",
+          "Option3" : "Mouse",
+          "Option4" : "Software",
+          "Question" : "It is used to open programs and applications.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnnVzStYrAaEyVjkve" : {
+          "Answer" : "Speakers",
+          "Date" : "2020-8-28 11:42:56",
+          "Option1" : "Speakers",
+          "Option2" : "Mike",
+          "Option3" : "Monitor",
+          "Option4" : "Webcam",
+          "Question" : "We can listen music and other sounds with the help of______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnnzC0RULOCD8K_Esn" : {
+          "Answer" : "Digital camera",
+          "Date" : "2020-8-28 11:44:59",
+          "Option1" : "Mouse",
+          "Option2" : "Digital camera",
+          "Option3" : "Keyboard",
+          "Option4" : "Microphone",
+          "Question" : "A _____ is also used to input pictures and videos in a computer.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnoUTm51FPQ0_mv6hK" : {
+          "Answer" : "Audio",
+          "Date" : "2020-8-28 11:47:12",
+          "Option1" : "Audio",
+          "Option2" : "Video",
+          "Option3" : "Radio",
+          "Option4" : "Tv",
+          "Question" : "Speakers are used to produce _______ output.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnq_40kTxyIAQIdPas" : {
+          "Answer" : "Small",
+          "Date" : "2020-8-28 11:56:19",
+          "Option1" : "Large",
+          "Option2" : "Small",
+          "Option3" : "Ram",
+          "Option4" : "Millions",
+          "Question" : "A floppy disk is used to store very _______ amount of information.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnqmIm9GWddIUv3Vwg" : {
+          "Answer" : "Scanner",
+          "Date" : "2020-8-28 11:57:13",
+          "Option1" : "Scanner",
+          "Option2" : "Input",
+          "Option3" : "Webcam",
+          "Option4" : "Output",
+          "Question" : "A ______ is used to scan images and documents in a computer.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnrAKs-0HIcFF02056" : {
+          "Answer" : "Storage",
+          "Date" : "2020-8-28 11:58:55",
+          "Option1" : "Output",
+          "Option2" : "Storage",
+          "Option3" : "Process",
+          "Option4" : "Informative",
+          "Question" : "A flash drive is _______ device.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnrSl-x690z2uFBG8G" : {
+          "Answer" : "System unit",
+          "Date" : "2020-8-28 12:0:11",
+          "Option1" : "Mother board",
+          "Option2" : "RAM",
+          "Option3" : "System unit",
+          "Option4" : "Floppy disk",
+          "Question" : "A _______ contains different parts of a compute.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnsEFiteTYKhBVIH-O" : {
+          "Answer" : "Scanner",
+          "Date" : "2020-8-28 12:3:34",
+          "Option1" : "Digital camera",
+          "Option2" : "Scanner",
+          "Option3" : "Speakers",
+          "Option4" : "Headphones",
+          "Question" : "It works like a photocopy.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnthLuAViikBOF44UY" : {
+          "Answer" : "Headphones",
+          "Date" : "2020-8-28 12:9:59",
+          "Option1" : "Headphones",
+          "Option2" : "Printer",
+          "Option3" : "Scanner ",
+          "Option4" : "Mike",
+          "Question" : "______ are used to hear sounds from a computers.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnuM6S3V7PV0cvtdb4" : {
+          "Answer" : "Electronic",
+          "Date" : "2020-8-28 12:12:50",
+          "Option1" : "Electronic",
+          "Option2" : "Manual ",
+          "Option3" : "Baking",
+          "Option4" : "Shaking",
+          "Question" : "A computer is an ________ machine.",
+          "author" : "tehzeebaslam866@gmail.com"
+        }
+      },
+      "Islamiyat" : {
+        "-MFnRAg-sbpN-l5CRnfk" : {
+          "Answer" : "Oneness of Allah",
+          "Date" : "2020-8-28 10:0:59",
+          "Option1" : "Oneness of Allah",
+          "Option2" : "Belief in prophets",
+          "Option3" : "Belief in Holy books",
+          "Option4" : "Belief in judgement",
+          "Question" : "The first principal of Islam is belief in the______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnRh_FzUT_2uMNr8Ve" : {
+          "Answer" : "One supreme being",
+          "Date" : "2020-8-28 10:3:18",
+          "Option1" : "Many gods",
+          "Option2" : "One supreme being",
+          "Option3" : "A robot",
+          "Option4" : "Machine",
+          "Question" : "The balance and arrangements of the universe proves that there is _______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnSQzp0wh0TiWXlBRc" : {
+          "Answer" : "Kalima Tayyab",
+          "Date" : "2020-8-28 10:6:28",
+          "Option1" : "Kalima Shahadat",
+          "Option2" : "Kalima Tayyab",
+          "Option3" : "Kalima Tamjeed",
+          "Option4" : "Kalima Touheed",
+          "Question" : "The first kalima is________.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnTWFcyXN9vb3TXb55" : {
+          "Answer" : "For Muslims",
+          "Date" : "2020-8-28 10:11:12",
+          "Option1" : "For Muslims",
+          "Option2" : "For Christians ",
+          "Option3" : "For hindus",
+          "Option4" : "For Chinese",
+          "Question" : "Touhid is the most important belief________.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnU3Nj7eE2SbQxgPL3" : {
+          "Answer" : "Pak and pure",
+          "Date" : "2020-8-28 10:13:36",
+          "Option1" : "First",
+          "Option2" : "Pak and pure",
+          "Option3" : "Only one",
+          "Option4" : "Supreme being",
+          "Question" : "Tayyab means ______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnV5S0s9MZsAuyDunW" : {
+          "Answer" : "First kalima",
+          "Date" : "2020-8-28 10:18:7",
+          "Option1" : "First kalima",
+          "Option2" : "Third kalima",
+          "Option3" : "Fourth kalima",
+          "Option4" : "Second kalima",
+          "Question" : "Muslims declare Touheed by reciting ______.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnVQGQPfWFMCobzVb2" : {
+          "Answer" : "Touheed",
+          "Date" : "2020-8-28 10:19:32",
+          "Option1" : "Prayer",
+          "Option2" : "Quran",
+          "Option3" : "Touheed",
+          "Option4" : "Truth",
+          "Question" : "To believe in one Allah is called________.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnVoA5fC_whm-I9aJj" : {
+          "Answer" : "Unity of Allah",
+          "Date" : "2020-8-28 10:21:14",
+          "Option1" : "Universe",
+          "Option2" : "World",
+          "Option3" : "Unity of Allah",
+          "Option4" : "Truth",
+          "Question" : "All the prophets and messengers preached about the ________.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnWIRfpJo3DwbNyoQ2" : {
+          "Answer" : "Single and unique",
+          "Date" : "2020-8-28 10:23:22",
+          "Option1" : "Partner",
+          "Option2" : "Supportive",
+          "Option3" : "Single and unique",
+          "Option4" : "Master",
+          "Question" : "Touheed means that Allah is _________. ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnWdyAtttO3DgdaQPj" : {
+          "Answer" : "Faith",
+          "Date" : "2020-8-28 10:24:54",
+          "Option1" : "Trust ",
+          "Option2" : "Friendship",
+          "Option3" : "Faith",
+          "Option4" : "Loard",
+          "Question" : "We should have firm ______ in Allah.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnX4uMZEHDtf5kpKQE" : {
+          "Answer" : "Shark and dolphin",
+          "Date" : "2020-8-28 10:26:48",
+          "Option1" : "Shark and dolphin",
+          "Option2" : "Rabbit and hen",
+          "Option3" : "Birds",
+          "Option4" : "Camel",
+          "Question" : "What creation of Allah will you find under the oceans?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnXjA0BDwAbxuy8tCN" : {
+          "Answer" : "Lion and tiger",
+          "Date" : "2020-8-28 10:29:37",
+          "Option1" : "Lion and tiger",
+          "Option2" : "Star fish and octopus",
+          "Option3" : "Humans",
+          "Option4" : "Sea horse",
+          "Question" : "What creation of Allah will you find in the jungle?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnYUpbbh3kOdSOjRoT" : {
+          "Answer" : "Human and animals ",
+          "Date" : "2020-8-28 10:32:57",
+          "Option1" : "Human and animals ",
+          "Option2" : "Rainbow",
+          "Option3" : "Star and moon",
+          "Option4" : "Clouds",
+          "Question" : "What creation of Allah will you find in the earth?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnYq4ORVHNyfd0r364" : {
+          "Answer" : "Camel and sand",
+          "Date" : "2020-8-28 10:34:28",
+          "Option1" : "Sea",
+          "Option2" : "River ",
+          "Option3" : "Camel and sand",
+          "Option4" : "Flowers",
+          "Question" : "What creation will you find in the desert?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnZIlNKFIzSlMXMXJZ" : {
+          "Answer" : "Allah's creation",
+          "Date" : "2020-8-28 10:36:29",
+          "Option1" : "Made by man",
+          "Option2" : "Allah's creation",
+          "Option3" : "Made by angels",
+          "Option4" : "Created by itself",
+          "Question" : "Muslims must believe that the world we live in__________.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnZnZuwRsdgv8sSIfw" : {
+          "Answer" : "Messenger",
+          "Date" : "2020-8-28 10:38:40",
+          "Option1" : "Commander",
+          "Option2" : "Unique",
+          "Option3" : "Messenger",
+          "Option4" : "Subordinate",
+          "Question" : "Hazrat Muhammad (S.A.W) is his ________.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnaEs7pIT5FnHRwi8n" : {
+          "Answer" : "Surah Al- Ikhlas",
+          "Date" : "2020-8-28 10:44:58",
+          "Option1" : "Surah Al- Nas",
+          "Option2" : "Surah Al- Alaq",
+          "Option3" : "Surah Al- Ikhlas",
+          "Option4" : "Surah Al- Fatihah",
+          "Question" : "In which verse the Quran highlight concept of Touheed?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnaZ4QN83eZbLb7ZfV" : {
+          "Answer" : "Touheed",
+          "Date" : "2020-8-28 10:46:21",
+          "Option1" : "Touheed",
+          "Option2" : "Worship",
+          "Option3" : "Leader",
+          "Option4" : "Messenger",
+          "Question" : "The main emphasis of the Quran is upon the principal of _____.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnb2Zp5ndIMT7RUqxY" : {
+          "Answer" : "Creator ",
+          "Date" : "2020-8-28 10:48:30",
+          "Option1" : "Messenger",
+          "Option2" : "Greatest",
+          "Option3" : "Creator ",
+          "Option4" : "Kind",
+          "Question" : "If you believe in the oneness of Allah then you believe that he is _______ of all things.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnbNeunsCi34r8QU33" : {
+          "Answer" : "Prophets",
+          "Date" : "2020-8-28 10:49:56",
+          "Option1" : "Books",
+          "Option2" : "Prophets",
+          "Option3" : "Angels",
+          "Option4" : "Light",
+          "Question" : "He sent ______ to show them right path.",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnc7kRD8R5t6V96dvS" : {
+          "Answer" : "There is none like unto him",
+          "Date" : "2020-8-28 10:53:13",
+          "Option1" : "There is none like unto him",
+          "Option2" : "Holy Prophets ",
+          "Option3" : "Belief in holy books",
+          "Option4" : "Day of judgment",
+          "Question" : "What is the meaning of \" There is no god but Allah \"",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFncNNqCcV9SyKjvcDx" : {
+          "Answer" : "Five ",
+          "Date" : "2020-8-28 10:54:17",
+          "Option1" : "Two",
+          "Option2" : "Three",
+          "Option3" : "Five ",
+          "Option4" : "Six",
+          "Question" : "How many pillars of Islam?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnlQAExH7qYBKvPOeU" : {
+          "Answer" : "Allah is everywhere",
+          "Date" : "2020-8-28 11:33:47",
+          "Option1" : "In mosque",
+          "Option2" : "On the sky",
+          "Option3" : "Allah is everywhere",
+          "Option4" : "In Holy Kabaah",
+          "Question" : "Where is Allah?",
+          "author" : "tehzeebaslam866@gmail.com"
+        }
+      },
+      "Math" : {
+        "-MFnbWyoCrgcXGkOq9bx" : {
+          "Answer" : "139",
+          "Date" : "2020-8-28 10:50:34",
+          "Option1" : "193",
+          "Option2" : "138",
+          "Option3" : "139",
+          "Option4" : "319",
+          "Question" : "Write the number having 1 hundred 3 tens 9 ones",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnbf6FR2lVFs4B9BQ8" : {
+          "Answer" : "tens",
+          "Date" : "2020-8-28 10:51:12",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "hundreds",
+          "Option4" : "thousands",
+          "Question" : "What is place of 8 in 987?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnbmJowa1vvDBCRv0D" : {
+          "Answer" : "612",
+          "Date" : "2020-8-28 10:51:41",
+          "Option1" : "621",
+          "Option2" : "216",
+          "Option3" : "612",
+          "Option4" : "162",
+          "Question" : "Write in number, six hundred and twelve.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnbwWBMzjo5Fv-IGul" : {
+          "Answer" : "1 000",
+          "Date" : "2020-8-28 10:52:23",
+          "Option1" : "1 000",
+          "Option2" : "10",
+          "Option3" : "100",
+          "Option4" : "101",
+          "Question" : "What comes, 900 + 100 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnc3sVcM2uadgxOMLV" : {
+          "Answer" : "909",
+          "Date" : "2020-8-28 10:52:57",
+          "Option1" : "990",
+          "Option2" : "090",
+          "Option3" : "900",
+          "Option4" : "909",
+          "Question" : "Nine hundred and nine. Write in number.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFncKF1Qx_n6KXgHim0" : {
+          "Answer" : "731",
+          "Date" : "2020-8-28 10:54:4",
+          "Option1" : "731",
+          "Option2" : "711",
+          "Option3" : "730",
+          "Option4" : "7 301",
+          "Question" : "Seven hundred and thirty-one in number. ",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFncTbAisaMOG2PGIm5" : {
+          "Answer" : "ones",
+          "Date" : "2020-8-28 10:54:43",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "thousands",
+          "Option4" : "hundreds",
+          "Question" : "Place of 2 in 682.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFncc37aIcSYDL5km6e" : {
+          "Answer" : "hundreds",
+          "Date" : "2020-8-28 10:55:22",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "hundreds",
+          "Option4" : "thousands",
+          "Question" : "In 450, the place of 4 is:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnct4lRg6xYSmESLaG" : {
+          "Answer" : "2 tens",
+          "Date" : "2020-8-28 10:56:31",
+          "Option1" : "1 tens",
+          "Option2" : "2 tens",
+          "Option3" : "3 tens",
+          "Option4" : "20 tens",
+          "Question" : "20 ones make:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnd-WO5tAO_eNkNHx9" : {
+          "Answer" : "300",
+          "Date" : "2020-8-28 10:57:2",
+          "Option1" : "30",
+          "Option2" : "3",
+          "Option3" : "3 000",
+          "Option4" : "300",
+          "Question" : "If one large block = 100, then three large blocks make:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFndNTMAphFClip4IMa" : {
+          "Answer" : "19 ones",
+          "Date" : "2020-8-28 10:58:40",
+          "Option1" : "9 ones",
+          "Option2" : "19 ones",
+          "Option3" : "91 ones",
+          "Option4" : "90 ones",
+          "Question" : "10 ones + 9 ones are equal to:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFndaosRYoiDzLgSHtg" : {
+          "Answer" : "hundreds",
+          "Date" : "2020-8-28 10:59:39",
+          "Option1" : "ones",
+          "Option2" : "thosands",
+          "Option3" : "hundreds",
+          "Option4" : "tens",
+          "Question" : "Place of 6 in 688:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFndlMu1RDo__OYCHaA" : {
+          "Answer" : "7",
+          "Date" : "2020-8-28 11:0:22",
+          "Option1" : "70",
+          "Option2" : "700",
+          "Option3" : "7",
+          "Option4" : "7 000",
+          "Question" : "If one tiny block = 1 , then 7 tiny blocks are equal to:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFndtyU68ExjiLWnZz5" : {
+          "Answer" : "111",
+          "Date" : "2020-8-28 11:0:57",
+          "Option1" : "10011",
+          "Option2" : "111",
+          "Option3" : "11",
+          "Option4" : "101",
+          "Question" : "One hundred and eleven in number:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFne9ORhhsLgan81v2O" : {
+          "Answer" : "one thousand",
+          "Date" : "2020-8-28 11:2:4",
+          "Option1" : "one hundred",
+          "Option2" : "ten thousand",
+          "Option3" : "one thousand",
+          "Option4" : "ten ones",
+          "Question" : "Write 1000 in words.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFneQJi-wy222sPlIqC" : {
+          "Answer" : "tens",
+          "Date" : "2020-8-28 11:3:14",
+          "Option1" : "tens",
+          "Option2" : "housands",
+          "Option3" : "hundreds",
+          "Option4" : "ones",
+          "Question" : "Place of 4 in 142:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFneZt3e071TwTQlhri" : {
+          "Answer" : "685",
+          "Date" : "2020-8-28 11:3:53",
+          "Option1" : "658",
+          "Option2" : "586",
+          "Option3" : "685",
+          "Option4" : "568",
+          "Question" : "Write 6 hundreds 8 tens 5 ones in number.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnemGGGtBv4PR6K8Uw" : {
+          "Answer" : "twenty ones",
+          "Date" : "2020-8-28 11:4:48",
+          "Option1" : "twelve ones",
+          "Option2" : "twenty ones",
+          "Option3" : "thirteen ones",
+          "Option4" : "ten ones",
+          "Question" : "Nine ones + eleven ones are equal to:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnetGPCP4kE6T2hub-" : {
+          "Answer" : "505",
+          "Date" : "2020-8-28 11:5:16",
+          "Option1" : "550",
+          "Option2" : "50",
+          "Option3" : "050",
+          "Option4" : "505",
+          "Question" : "Write five hundred and five in numbers",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnf-2RaTkbulIm0YgZ" : {
+          "Answer" : "1 000",
+          "Date" : "2020-8-28 11:5:44",
+          "Option1" : "010",
+          "Option2" : "1 000",
+          "Option3" : "10",
+          "Option4" : "100",
+          "Question" : "100 + 200 + 300 + 400 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnfAyJH4Aoo65P5c1J" : {
+          "Answer" : "520",
+          "Date" : "2020-8-28 11:6:33",
+          "Option1" : "520",
+          "Option2" : "250",
+          "Option3" : "502",
+          "Option4" : "205",
+          "Question" : "Write the number having 5 hundreds 2 tens 0 ones",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnfLLgmmvZS67l8lhI" : {
+          "Answer" : "hundreds",
+          "Date" : "2020-8-28 11:7:15",
+          "Option1" : "tens",
+          "Option2" : "hundreds",
+          "Option3" : "ones",
+          "Option4" : "none of tese",
+          "Question" : "What is place of 5 in 587?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnfVnuQX0_3PbbYiuo" : {
+          "Answer" : "423",
+          "Date" : "2020-8-28 11:7:58",
+          "Option1" : "423",
+          "Option2" : "432",
+          "Option3" : "342",
+          "Option4" : "324",
+          "Question" : "Write in number, four hundred and twenty-three.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnfdOEzJlHxGVyneV0" : {
+          "Answer" : "700",
+          "Date" : "2020-8-28 11:8:33",
+          "Option1" : "600",
+          "Option2" : "700",
+          "Option3" : "300",
+          "Option4" : "100",
+          "Question" : "What comes, 200 + 500 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnflzow7Onc_CFCWWz" : {
+          "Answer" : "106",
+          "Date" : "2020-8-28 11:9:9",
+          "Option1" : "160",
+          "Option2" : "106",
+          "Option3" : "601",
+          "Option4" : "610",
+          "Question" : "One hundred and six. Write in number.",
+          "author" : "sirfaisalky786@gmail.com"
+        }
+      },
+      "Social Studies" : {
+        "-MFjWJZMGqQvzaig-y_6" : {
+          "Answer" : "Healthy way, Love",
+          "Date" : "2020-8-27 15:44:58",
+          "Option1" : "Healthy way, Love",
+          "Option2" : "Poor way, Hate",
+          "Option3" : "Healthy way, Poor",
+          "Option4" : "None of these ",
+          "Question" : "1-Every child has the right to grow in a ____ with dignity and ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjX3IpqftJ05Z_T_kO" : {
+          "Answer" : "Country ",
+          "Date" : "2020-8-27 15:48:13",
+          "Option1" : "City",
+          "Option2" : "Country ",
+          "Option3" : "Nation",
+          "Option4" : "A, B both",
+          "Question" : "2-Every child has the right to be a member of a ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjXfW1K3JPCQhGPrxj" : {
+          "Answer" : "Help",
+          "Date" : "2020-8-27 15:50:54",
+          "Option1" : "Security ",
+          "Option2" : "Shelter",
+          "Option3" : "Help",
+          "Option4" : "Power",
+          "Question" : "3-Every child has the right to get ___ if needed.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjY4DEkuUPQ_ROvAnE" : {
+          "Answer" : "Parents",
+          "Date" : "2020-8-27 15:52:39",
+          "Option1" : "Siblings ",
+          "Option2" : "Relatives ",
+          "Option3" : "Parents",
+          "Option4" : "Neighbour",
+          "Question" : "4-Every child has the right to live with ____. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjYylOjOyEOLfeT343" : {
+          "Answer" : "Education ",
+          "Date" : "2020-8-27 15:56:35",
+          "Option1" : "Education ",
+          "Option2" : "Things",
+          "Option3" : "Facilities ",
+          "Option4" : "Rest",
+          "Question" : "5- Every child has the right to ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjZdxAw3jb8riyxGbR" : {
+          "Answer" : "Justly",
+          "Date" : "2020-8-27 15:59:32",
+          "Option1" : "Unjustly ",
+          "Option2" : "Badly",
+          "Option3" : "Justly",
+          "Option4" : "None of these ",
+          "Question" : "6- Every child has the right to be treated ____ in a court of law.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFj_CZFNcCr78H7Phj_" : {
+          "Answer" : "Food, Clothes, Shelter ",
+          "Date" : "2020-8-27 16:1:58",
+          "Option1" : "Food, Clothes, Shelter ",
+          "Option2" : "Bag, Perfume, Jackets",
+          "Option3" : "Games, Cartoons, Movies",
+          "Option4" : "A, B both",
+          "Question" : "7- Basic human rights are ____. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFj_dG56NsIynC-SN9j" : {
+          "Answer" : "Education ",
+          "Date" : "2020-8-27 16:3:51",
+          "Option1" : "Degree",
+          "Option2" : "Result",
+          "Option3" : "Education ",
+          "Option4" : "Class",
+          "Question" : "8- ___ is also the basic human right.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFja5ZjF_om6dRW79Iu" : {
+          "Answer" : "Get treated by a doctor ",
+          "Date" : "2020-8-27 16:5:51",
+          "Option1" : "Get treated by a doctor ",
+          "Option2" : "Get treated by a farmer",
+          "Option3" : "Get treated by a engineer",
+          "Option4" : "Get treated by a plumber",
+          "Question" : "9- During illness ____",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjadADsjeDsC484Sd2" : {
+          "Answer" : "A pollution free environment ",
+          "Date" : "2020-8-27 16:8:13",
+          "Option1" : "A polluted environment ",
+          "Option2" : "A pollution free environment ",
+          "Option3" : "A bad environment ",
+          "Option4" : "A unclean environment ",
+          "Question" : "10- Breath in_____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjbHVpkO9igLLNz6qc" : {
+          "Answer" : "Clean water and fresh food",
+          "Date" : "2020-8-27 16:11:2",
+          "Option1" : "Dirty water and stale food",
+          "Option2" : "Clean water and fresh food",
+          "Option3" : "Clean water and rotten food",
+          "Option4" : "A, B both",
+          "Question" : "11- Have access to____ .",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjbd7U26GyGHX32DNk" : {
+          "Answer" : "Have special health care ",
+          "Date" : "2020-8-27 16:12:35",
+          "Option1" : "Have less health care",
+          "Option2" : "Have much health care ",
+          "Option3" : "Have special health care ",
+          "Option4" : "None of these ",
+          "Question" : "12-In old age____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjcSoBeAgAWjC--eUf" : {
+          "Answer" : "Branded clothes ",
+          "Date" : "2020-8-27 16:16:11",
+          "Option1" : "Branded clothes ",
+          "Option2" : "Cheap clothes ",
+          "Option3" : "Good clothes ",
+          "Option4" : "Neat clothes ",
+          "Question" : "13- Don't waste money on___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjcs92fW4CjxeUiE2e" : {
+          "Answer" : "Who can't afford to learn ",
+          "Date" : "2020-8-27 16:17:59",
+          "Option1" : "Who can afford to learn ",
+          "Option2" : "Who can't afford to learn ",
+          "Option3" : "A, B both",
+          "Option4" : "None of these ",
+          "Question" : "14- Spend your knowledge to___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjdeOYQMY7SMxom_3P" : {
+          "Answer" : "In need of help",
+          "Date" : "2020-8-27 16:21:24",
+          "Option1" : "In need of branded clothes ",
+          "Option2" : "In need of help",
+          "Option3" : "In need of luxury cars",
+          "Option4" : "In need of money ",
+          "Question" : "15- Reach out to those___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjeYlfLbnzIJ1O_Sqz" : {
+          "Answer" : "Stay updated about poverty ",
+          "Date" : "2020-8-27 16:25:19",
+          "Option1" : "Stay updated about crime",
+          "Option2" : "Stay updated about poverty ",
+          "Option3" : "Stay updated about science ",
+          "Option4" : "None of these ",
+          "Question" : "16- Through newspaper and T.V___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjf9D74DBD0mwc3k6B" : {
+          "Answer" : "3rd",
+          "Date" : "2020-8-27 16:27:57",
+          "Option1" : "3rd",
+          "Option2" : "4th",
+          "Option3" : "5th",
+          "Option4" : "2nd",
+          "Question" : "17- From the Sun,Earth is the ____ most distant planet.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjfawNaoWekaca7-s4" : {
+          "Answer" : "365",
+          "Date" : "2020-8-27 16:29:54",
+          "Option1" : "363",
+          "Option2" : "364",
+          "Option3" : "365",
+          "Option4" : "360",
+          "Question" : "18- The Earth complete a cycle around the Sun in ____ days.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjfsPrPogFD8EzNR7B" : {
+          "Answer" : "Land ",
+          "Date" : "2020-8-27 16:31:6",
+          "Option1" : "Land ",
+          "Option2" : "Ocean ",
+          "Option3" : "Earth",
+          "Option4" : "Sun",
+          "Question" : "19- ____ is made of continental crust.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjgEY5oGIWuBEJ6mco" : {
+          "Answer" : "Crust",
+          "Date" : "2020-8-27 16:32:41",
+          "Option1" : "Core",
+          "Option2" : "Mantle",
+          "Option3" : "Crust",
+          "Option4" : "Water",
+          "Question" : "20- ___ is the thinnest layer of Earth.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjgqz8Q-wHEW8sbr85" : {
+          "Answer" : "8km, 70km",
+          "Date" : "2020-8-27 16:35:22",
+          "Option1" : "7km, 70km",
+          "Option2" : "8km, 70km",
+          "Option3" : "6km, 70km",
+          "Option4" : "5km,70km",
+          "Question" : "21- Continental crust is ___ to ___ thick.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjh9sDqT7QLY2z6wo_" : {
+          "Answer" : "Oceanic ",
+          "Date" : "2020-8-27 16:36:44",
+          "Option1" : "Oceanic ",
+          "Option2" : "Earth ",
+          "Option3" : "Sun",
+          "Option4" : "None of these ",
+          "Question" : "22- ___ crust is about 8km thick.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjhYp1jwecsmacc4EW" : {
+          "Answer" : "Magma",
+          "Date" : "2020-8-27 16:38:26",
+          "Option1" : "Molten ",
+          "Option2" : "Lava",
+          "Option3" : "Magma",
+          "Option4" : "A, B both",
+          "Question" : "23- Mantle is made up of hot molten rock called____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFjhwfL7J6wGoLc3NmF" : {
+          "Answer" : "Core",
+          "Date" : "2020-8-27 16:40:8",
+          "Option1" : "Core",
+          "Option2" : "Crust",
+          "Option3" : "Mantle ",
+          "Option4" : "None of these ",
+          "Question" : "24- ___ is the inner most layer of Earth.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFji9ry252bAO9MD2vJ" : {
+          "Answer" : "3",
+          "Date" : "2020-8-27 16:41:6",
+          "Option1" : "4",
+          "Option2" : "3",
+          "Option3" : "5",
+          "Option4" : "2",
+          "Question" : "25- Our Earth has ___ layers.",
+          "author" : "sadiamurtaza007@gmail.com"
+        }
+      }
+    },
+    "Class IV" : {
+      "English" : {
+        "-MFi5jOgqCYEksYpXDqd" : {
+          "Answer" : "Pip",
+          "Date" : "2020-8-27 9:9:13",
+          "Option1" : "Joe",
+          "Option2" : "Miss Havisham ",
+          "Option3" : "Pip",
+          "Option4" : "Mrs. Joe",
+          "Question" : "1-The central character of the novel \n(Great Expectations )is____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFi6mJRoYYgcwI7iK39" : {
+          "Answer" : "Husband ",
+          "Date" : "2020-8-27 9:13:47",
+          "Option1" : "Uncle ",
+          "Option2" : "Brother ",
+          "Option3" : "Husband ",
+          "Option4" : "Nephew ",
+          "Question" : "2-In novel \"Great Expectations\",Mr.Joe was the ____ of Pip's sister. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFi8Wz6_Nhz1OgXr5rE" : {
+          "Answer" : "Twenty ",
+          "Date" : "2020-8-27 9:21:24",
+          "Option1" : "Twenty ",
+          "Option2" : "Thirty",
+          "Option3" : "Ten",
+          "Option4" : "Fifteen ",
+          "Question" : "3-Pip's sister was ____ years senior to Pip.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFi9AelnUb-KLLSd_iB" : {
+          "Answer" : "Uncle Pumblechook ",
+          "Date" : "2020-8-27 9:24:15",
+          "Option1" : "Mr. Joe",
+          "Option2" : "Pip",
+          "Option3" : "Mr. Hubble",
+          "Option4" : "Uncle Pumblechook ",
+          "Question" : "4-____ brought two bottles of wine and a pie for the Pip's family. (Great Expectations )",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiA8Y8N4iIWzNX5KbS" : {
+          "Answer" : "Prisoner",
+          "Date" : "2020-8-27 9:28:28",
+          "Option1" : "Mrs. Hubble ",
+          "Option2" : "Prisoner",
+          "Option3" : "Mr. Joe",
+          "Option4" : "Uncle Pumblechook  ",
+          "Question" : "5-Pip gave the wine to the ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiAgMKGDSNpWajFaK5" : {
+          "Answer" : "Coughing ",
+          "Date" : "2020-8-27 9:30:51",
+          "Option1" : "Laughing ",
+          "Option2" : "Coughing ",
+          "Option3" : "Sneezing ",
+          "Option4" : "Smiling ",
+          "Question" : "6-Uncle Pumblechook was ____ while taking brandy. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiBGtEAnq3bgV9GTZr" : {
+          "Answer" : "Two hours",
+          "Date" : "2020-8-27 9:33:24",
+          "Option1" : "A minute ",
+          "Option2" : "Two hours",
+          "Option3" : "10 minutes ",
+          "Option4" : "Three hours",
+          "Question" : "7-Mr. Joe completed his job in ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiCBiPacWsThbIVcTO" : {
+          "Answer" : "Noisily ",
+          "Date" : "2020-8-27 9:37:25",
+          "Option1" : "Gently ",
+          "Option2" : "Noisily ",
+          "Option3" : "Calmly ",
+          "Option4" : "Slowly ",
+          "Question" : "8-Pip,prisoner and the young man were talking____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiCsDE5jpba-m3XKJ3" : {
+          "Answer" : "Thankful",
+          "Date" : "2020-8-27 9:40:24",
+          "Option1" : "Helpful",
+          "Option2" : "Thank less ",
+          "Option3" : "Thankful",
+          "Option4" : "Powerful ",
+          "Question" : "9-The meaning of \"Grateful\" is ___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiDEU_Ifzzsr06vXaq" : {
+          "Answer" : "Not good",
+          "Date" : "2020-8-27 9:41:59",
+          "Option1" : "Not good",
+          "Option2" : "Good",
+          "Option3" : "Better",
+          "Option4" : "Excellent ",
+          "Question" : "10-The meaning of \"Unpleasant\" is___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiE8pDofX3DI7H7J0E" : {
+          "Answer" : "Chris",
+          "Date" : "2020-8-27 9:45:58",
+          "Option1" : "Duggan",
+          "Option2" : "Tim",
+          "Option3" : "Chris",
+          "Option4" : "A, C both",
+          "Question" : "11- Who was Danebridg's goal keeper?(Big Match)",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiEWxqK0OLCy9ERdUY" : {
+          "Answer" : "Tim ",
+          "Date" : "2020-8-27 9:47:37",
+          "Option1" : "Tim ",
+          "Option2" : "Chris",
+          "Option3" : "Duggan",
+          "Option4" : "Shenby",
+          "Question" : "12- Who was Danebridg's captain?",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiFMYxpxLu2g5sLfpf" : {
+          "Answer" : "Shenby captain",
+          "Date" : "2020-8-27 9:51:16",
+          "Option1" : "Goal keeper",
+          "Option2" : "Shenby captain",
+          "Option3" : "Danebridg's captain",
+          "Option4" : "None of these ",
+          "Question" : "13- The penalty was taken by the ___.(Big Match)",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiFxd-gSKY99WeQiTq" : {
+          "Answer" : "\"Big Match\"",
+          "Date" : "2020-8-27 9:53:52",
+          "Option1" : "\"Cricket team\"",
+          "Option2" : "\"Big Match\"",
+          "Option3" : "\"Hockey Match\"",
+          "Option4" : "A, C both",
+          "Question" : "14- Choose the name of story in which two teams were playing match. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiH1rvNvYlN3xo25ug" : {
+          "Answer" : "To happen suddenly",
+          "Date" : "2020-8-27 9:58:36",
+          "Option1" : "To happen slowly ",
+          "Option2" : "To happen rapidly ",
+          "Option3" : "To happen suddenly",
+          "Option4" : "To happen quickly ",
+          "Question" : "15- The meaning of \"Strikes\" is ___.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiKi2VT0a_YYcQ3hVE" : {
+          "Answer" : "Politely, Immediately, Carefully",
+          "Date" : "2020-8-27 10:14:39",
+          "Option1" : "Politely, Immediately, Carefully",
+          "Option2" : "Nephew, Sister, Brother",
+          "Option3" : "Play, Catch, Jump",
+          "Option4" : "Tall, Thick, Blunt",
+          "Question" : "16- Choose the set of \"Adverb\".",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiLG9eyexHrRwI2toR" : {
+          "Answer" : "Kitten",
+          "Date" : "2020-8-27 10:17:3",
+          "Option1" : "Kitten",
+          "Option2" : "Catch",
+          "Option3" : "Slowly ",
+          "Option4" : "Red",
+          "Question" : "17- Identify \"Noun\" in given words. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiLe_aFTb278-Wss8a" : {
+          "Answer" : "Polite",
+          "Date" : "2020-8-27 10:18:47",
+          "Option1" : "Mare",
+          "Option2" : "Polite",
+          "Option3" : "Stitch ",
+          "Option4" : "None of these ",
+          "Question" : "18- Identify \"Adjective\" in given words.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiM97RuhWQa18lE2LD" : {
+          "Answer" : "Little",
+          "Date" : "2020-8-27 10:20:56",
+          "Option1" : "Little",
+          "Option2" : "Jump",
+          "Option3" : "Laugh",
+          "Option4" : "None of these ",
+          "Question" : "19- Choose the \"Adjective\" and fill the gape.\nThe ____ puppy.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiMeEkyFJieFq2o_0b" : {
+          "Answer" : "Noun",
+          "Date" : "2020-8-27 10:23:8",
+          "Option1" : "Adverb",
+          "Option2" : "Verb",
+          "Option3" : "Noun",
+          "Option4" : "Adjective",
+          "Question" : "20- ____ is a naming word.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiNUbJN0jaQNgGpfaH" : {
+          "Answer" : "Declarative sentence",
+          "Date" : "2020-8-27 10:26:46",
+          "Option1" : "Declarative sentence",
+          "Option2" : "Interrogative sentence",
+          "Option3" : "Imperative sentence ",
+          "Option4" : "Exclamatory sentence",
+          "Question" : "21- Identify given sentence.\nOceans are very deep.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiOB75xC8hVLhSnkWi" : {
+          "Answer" : "Interrogative sentence",
+          "Date" : "2020-8-27 10:29:49",
+          "Option1" : "Declarative sentence",
+          "Option2" : "Interrogative sentence",
+          "Option3" : "Imperative sentence",
+          "Option4" : "Exclamatory sentence",
+          "Question" : "22- Do you like this poem?",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiOrjmwyWdkHbgORjc" : {
+          "Answer" : "Imperative sentence",
+          "Date" : "2020-8-27 10:32:47",
+          "Option1" : "Declarative sentence",
+          "Option2" : "Interrogative sentence",
+          "Option3" : "Imperative sentence",
+          "Option4" : "Exclamatory sentence",
+          "Question" : "23- Identify given sentence \nI wish tomorrow is a holiday.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiPYnFmsx0TLA-QjNC" : {
+          "Answer" : "Exclamatory sentence",
+          "Date" : "2020-8-27 10:35:48",
+          "Option1" : "Declarative sentence ",
+          "Option2" : "Interrogative sentence",
+          "Option3" : "Imperative sentence",
+          "Option4" : "Exclamatory sentence",
+          "Question" : "24-Oh no!We have boarded the wrong train.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFiQpgg64nAQDZxkpLL" : {
+          "Answer" : "Interrogative sentence",
+          "Date" : "2020-8-27 10:41:23",
+          "Option1" : "Declarative sentence ",
+          "Option2" : "Interrogative sentence",
+          "Option3" : "Imperative sentence ",
+          "Option4" : "Exclamatory sentence",
+          "Question" : "25- Are you fond of animals?",
+          "author" : "sadiamurtaza007@gmail.com"
+        }
+      },
+      "Islamiyat" : {
+        "-MFnp2-CDb2SlwIriMRM" : {
+          "Answer" : "All these",
+          "Date" : "2020-8-28 11:49:37",
+          "Option1" : "Parentsl",
+          "Option2" : "Children",
+          "Option3" : "Non muslim",
+          "Option4" : "All these",
+          "Question" : "Zakat cannot be given to one,s",
+          "author" : "ambertahir303@gmail.com"
+        }
+      },
+      "Math" : {
+        "-MFnVTs5ZDric04rKusq" : {
+          "Answer" : "thousands",
+          "Date" : "2020-8-28 10:19:47",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "hundreds",
+          "Option4" : "thousands",
+          "Question" : "The digit 5 is in the________ place in 15 218.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnVl9MmfHcLmXU2-ZU" : {
+          "Answer" : "35 432",
+          "Date" : "2020-8-28 10:21:2",
+          "Option1" : "35 423",
+          "Option2" : "34 532",
+          "Option3" : "35 432",
+          "Option4" : "35 431",
+          "Question" : "30 000 + 5 000 + 400 + 30 + 2 = ? ",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnW2UyIrO-ClDpsF_b" : {
+          "Answer" : "2 473",
+          "Date" : "2020-8-28 10:22:17",
+          "Option1" : "2 473",
+          "Option2" : "2 347",
+          "Option3" : "2 734",
+          "Option4" : "7 342",
+          "Question" : "The digit 7 is in tens place in____.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnX_ONSOW2ww-0QnNL" : {
+          "Answer" : "4 795",
+          "Date" : "2020-8-28 10:28:58",
+          "Option1" : "5 974",
+          "Option2" : "9 745",
+          "Option3" : "7 495",
+          "Option4" : "4 795",
+          "Question" : "4 thousands + 7 hundreds + 9 tens + 5 ones = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnXiLiKm8cUJdpNNSX" : {
+          "Answer" : "565",
+          "Date" : "2020-8-28 10:29:34",
+          "Option1" : "565",
+          "Option2" : "566",
+          "Option3" : "655",
+          "Option4" : "757",
+          "Question" : "Complete the sequence, 555, ____,575.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnXui7MHGaDePCTDFg" : {
+          "Answer" : "4 000",
+          "Date" : "2020-8-28 10:30:25",
+          "Option1" : "40",
+          "Option2" : "400",
+          "Option3" : "4 000",
+          "Option4" : "4",
+          "Question" : "10 000 + _____ + 300 + 90 + 7 = 14 397",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnY48yamru7HdPXFOE" : {
+          "Answer" : "3",
+          "Date" : "2020-8-28 10:31:8",
+          "Option1" : "4",
+          "Option2" : "3",
+          "Option3" : "6",
+          "Option4" : "9",
+          "Question" : "What is the digit in the place of ten thousands in 938 674?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnYM2o22FOTJ24ru3Z" : {
+          "Answer" : "hundred thousands",
+          "Date" : "2020-8-28 10:32:21",
+          "Option1" : "thousands",
+          "Option2" : "hundreds",
+          "Option3" : "hundred thousands",
+          "Option4" : "tens",
+          "Question" : "The digit 5 is in ______ place in 578 693.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnYgt6Akv4APZ7dvGq" : {
+          "Answer" : "3 723",
+          "Date" : "2020-8-28 10:33:51",
+          "Option1" : "3 726",
+          "Option2" : "3 720",
+          "Option3" : "3 725",
+          "Option4" : "3 723",
+          "Question" : "Complete the sequence, 3 721, 3 722,_____,3 724.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnYwrP0bl0k1QgZLhK" : {
+          "Answer" : "8 102",
+          "Date" : "2020-8-28 10:34:56",
+          "Option1" : "11 402",
+          "Option2" : "8 102",
+          "Option3" : "14 402",
+          "Option4" : "none of these",
+          "Question" : "What is 700 more than 7 402?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnZ5GcRHZEbFHD1SZS" : {
+          "Answer" : "ones",
+          "Date" : "2020-8-28 10:35:35",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "thousands",
+          "Option4" : "hundreds",
+          "Question" : "In 86 513, the digit 3 is in the _________ place.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnZHvwsulvkbKqDhZO" : {
+          "Answer" : "greater than",
+          "Date" : "2020-8-28 10:36:27",
+          "Option1" : "less than",
+          "Option2" : "equal to",
+          "Option3" : "greater than",
+          "Option4" : "none of these",
+          "Question" : "362 407 is _________ 325 704.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnZZmK_yR1itpqCAnB" : {
+          "Answer" : "800",
+          "Date" : "2020-8-28 10:37:40",
+          "Option1" : "80",
+          "Option2" : "8",
+          "Option3" : "8 000",
+          "Option4" : "800",
+          "Question" : "24 800 = 20 000 + 4 000 + ______ + 00 + 0",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnZjJrYK09kmQSDoq9" : {
+          "Answer" : "hundreds",
+          "Date" : "2020-8-28 10:38:23",
+          "Option1" : "hundreds",
+          "Option2" : "tens",
+          "Option3" : "ones",
+          "Option4" : "thousands",
+          "Question" : "The value of 2 in 364 275 is_________.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnZuSlBqJokKN3cW8c" : {
+          "Answer" : "10 111",
+          "Date" : "2020-8-28 10:39:8",
+          "Option1" : "10 011",
+          "Option2" : "1 101",
+          "Option3" : "11 111",
+          "Option4" : "10 111",
+          "Question" : "10 000  + 100 + 10 + 1 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFn_3qPNr6Ja_SZ_c54" : {
+          "Answer" : "9 999",
+          "Date" : "2020-8-28 10:39:51",
+          "Option1" : "9 090",
+          "Option2" : "9 099",
+          "Option3" : "9 999",
+          "Option4" : "9 000",
+          "Question" : "9 000 + 900 + 90 + 9 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFn_FiXLd-zP0aEjRMa" : {
+          "Answer" : "4 821",
+          "Date" : "2020-8-28 10:40:40",
+          "Option1" : "4 821",
+          "Option2" : "4 021",
+          "Option3" : "4 820",
+          "Option4" : "4 281",
+          "Question" : "Four thousand, eight hundred and twenty-one.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFn_S72q0BE1Def1WpU" : {
+          "Answer" : "7 234",
+          "Date" : "2020-8-28 10:41:30",
+          "Option1" : "5 234",
+          "Option2" : "7 234",
+          "Option3" : "8 234",
+          "Option4" : "7 324",
+          "Question" : "1 000 more then 6 234.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFn_fBbYbWCbSBJMeCa" : {
+          "Answer" : "60",
+          "Date" : "2020-8-28 10:42:28",
+          "Option1" : "6",
+          "Option2" : "06",
+          "Option3" : "60",
+          "Option4" : "600",
+          "Question" : "4 000 + 300 + _________ + 9 = 4 369",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFn_qwOGX019cwWeczu" : {
+          "Answer" : "5 763",
+          "Date" : "2020-8-28 10:43:16",
+          "Option1" : "6 573",
+          "Option2" : "7 563",
+          "Option3" : "5 763",
+          "Option4" : "5 636",
+          "Question" : "100 less than 5 863.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFna0Z_0jasxvr-2MjS" : {
+          "Answer" : "3 720",
+          "Date" : "2020-8-28 10:44:0",
+          "Option1" : "3 702",
+          "Option2" : "7 230",
+          "Option3" : "3 720",
+          "Option4" : "3 270",
+          "Question" : "3 000 + 700 + 20 + 0 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnaKYfDZLsrG3ncBiU" : {
+          "Answer" : "8 649",
+          "Date" : "2020-8-28 10:45:21",
+          "Option1" : "8 694",
+          "Option2" : "8 684",
+          "Option3" : "8 649",
+          "Option4" : "8 764",
+          "Question" : "Eight thousand, six hundred and forty-nine.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnab7sozG-3gIfWkT3" : {
+          "Answer" : "8 634",
+          "Date" : "2020-8-28 10:46:34",
+          "Option1" : "7 534",
+          "Option2" : "9 534",
+          "Option3" : "8 634",
+          "Option4" : "8 934",
+          "Question" : "100 more then 8 534.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnauZ3jX0iDJ27VmTH" : {
+          "Answer" : "90",
+          "Date" : "2020-8-28 10:47:53",
+          "Option1" : "9",
+          "Option2" : "99",
+          "Option3" : "90",
+          "Option4" : "09",
+          "Question" : "7 000 + 200 + _________  + 3 = 7 293",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnb7wL7HBubJWxaBsp" : {
+          "Answer" : "5 363",
+          "Date" : "2020-8-28 10:48:52",
+          "Option1" : "5 363",
+          "Option2" : "5 963",
+          "Option3" : "5 763",
+          "Option4" : "5 863",
+          "Question" : "500 less than 5 863.",
+          "author" : "sirfaisalky786@gmail.com"
+        }
+      },
+      "Science" : {
+        "-MFnhOh1qrefpVWzhn0F" : {
+          "Answer" : "Frontal lobe",
+          "Date" : "2020-8-28 11:16:14",
+          "Option1" : "Cerebrum",
+          "Option2" : "Frontal lobe",
+          "Option3" : "Temporal lobe",
+          "Option4" : "Occipital lobe",
+          "Question" : "Problem solving controlled by the....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnhpuOHNeoyNwC74mz" : {
+          "Answer" : "The skull",
+          "Date" : "2020-8-28 11:18:9",
+          "Option1" : "The skeleton ",
+          "Option2" : "The ribcage ",
+          "Option3" : "The skull",
+          "Option4" : "The stomach",
+          "Question" : "The lungs are protected by.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnixO2WtgLHSbJu-gJ" : {
+          "Answer" : "Digestive system",
+          "Date" : "2020-8-28 11:23:2",
+          "Option1" : "Digestive system",
+          "Option2" : "Circulatory system",
+          "Option3" : "Respiratory system",
+          "Option4" : "Nervous system",
+          "Question" : "The intestine are the part of the.......",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnl8QGsjtCK9WFDeNX" : {
+          "Answer" : "Shorter",
+          "Date" : "2020-8-28 11:32:35",
+          "Option1" : "Taller",
+          "Option2" : "Longer",
+          "Option3" : "Shorter",
+          "Option4" : "Remain same",
+          "Question" : "When muscles contract they become......",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnn5Q2Bf8XcBzArdqJ" : {
+          "Answer" : "Brain stem",
+          "Date" : "2020-8-28 11:41:8",
+          "Option1" : "Brain stem",
+          "Option2" : "Cerebrum",
+          "Option3" : "Cerebellum",
+          "Option4" : "Kidney",
+          "Question" : "........links the brain to the rest of the body.",
+          "author" : "sehartahir297@gmail.com"
+        }
+      },
+      "Urdu" : {
+        "-MFl-1CkB-BEeJyd-f0D" : {
+          "Answer" : "قوم کا رہنما ",
+          "Date" : "2020-8-27 22:38:46",
+          "Option1" : "قوم کا رہنما ",
+          "Option2" : "وکیل ",
+          "Option3" : "بادشاہ ",
+          "Option4" : "جج ",
+          "Question" : "            قائدِملت کا مطلب کیا ہے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl05OhnyrEGVkrY7fR" : {
+          "Answer" : "کرکٹ",
+          "Date" : "2020-8-27 22:43:26",
+          "Option1" : "ہاکی",
+          "Option2" : "کرکٹ",
+          "Option3" : "فٹبال",
+          "Option4" : "شترنج",
+          "Question" : "  لیاقت علی خان فارغ اوقات میں کھیلتے \n                          تھے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl2NZ2P-2DfYaCIIpK" : {
+          "Answer" : "قائداعظم کے",
+          "Date" : "2020-8-27 22:53:25",
+          "Option1" : "علامہ اقبال کے",
+          "Option2" : "قائداعظم کے",
+          "Option3" : "سرسید احمد خان کے ",
+          "Option4" : "کسی کے بھی نہیں ",
+          "Question" : "لیاقت علی خان کس کے قریبی دوست تھے؟ ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl3K6qg_mnQyiObaNB" : {
+          "Answer" : "آزادی",
+          "Date" : "2020-8-27 22:57:33",
+          "Option1" : "آزادی",
+          "Option2" : "ہریالی ",
+          "Option3" : "طاقت",
+          "Option4" : "قربانی",
+          "Question" : "نظم پیارا وطن میں خوشحالی کی کیا وجہ \n                          تھی؟  ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl4A3AsJvG23mU42Lh" : {
+          "Answer" : "آزاد فضا میں جھومنا",
+          "Date" : "2020-8-27 23:1:14",
+          "Option1" : "صاف اور ستھری حالت",
+          "Option2" : "نہ کوئی کم تر نہ کوئی برتر",
+          "Option3" : "آزاد فضا میں جھومنا",
+          "Option4" : "دل میں سب کی چاہت",
+          "Question" : " جھوم رہی ہے ڈالی ڈالی سے کیا مراد ہے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl5ydakH0QPxvzV8dE" : {
+          "Answer" : "چھوٹا بڑا سب کے حقوق برابر",
+          "Date" : "2020-8-27 23:9:7",
+          "Option1" : "اس سے مراد ہم سب مل کے رہیں گے",
+          "Option2" : "نہ کوئی کمتر نہ کوئی برتر",
+          "Option3" : "چھوٹا بڑا سب کے حقوق برابر",
+          "Option4" : "چاروں صوبے ہیں یک جاں",
+          "Question" : "ہر بچہ \"گلشن کا مالی ہے\" اس سے آپ \n                کیا سمجھتے ہیں؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFl7Zt_rWiyeInDduY8" : {
+          "Answer" : "سخت یاں شدید گرمی کے",
+          "Date" : "2020-8-27 23:16:6",
+          "Option1" : "سخت یاں شدید گرمی کے",
+          "Option2" : "سرد اور شدید سردی کے",
+          "Option3" : "حزاں کے",
+          "Option4" : "بہار کے",
+          "Question" : "             سقر کے کیا معنی ہیں؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlAdxKsFhb2ZVCra6m" : {
+          "Answer" : "عربی کے لفظ سقر سے بگڑ کر پڑا",
+          "Date" : "2020-8-27 23:29:33",
+          "Option1" : "بادشاہ نے رکھا",
+          "Option2" : "عربی کے لفظ سقر سے بگڑ کر پڑا",
+          "Option3" : "ان میں سے کوئی بھی نہیں",
+          "Option4" : "عربوں نے رکھا",
+          "Question" : "          سکھر شہر کا نام کیسے پڑا؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlBQ9I6VpT_FDXkUYw" : {
+          "Answer" : "بسکٹ اور اچار",
+          "Date" : "2020-8-27 23:32:54",
+          "Option1" : "چائے اور مٹھائی",
+          "Option2" : "بسکٹ اور اچار",
+          "Option3" : "چائے اور جلیبیاں",
+          "Option4" : "چائے اور حلوہ",
+          "Question" : "  سکھر شہر کھانے کی کن چیزوں کی وجہ \n                    سے مشہور ہے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlCqFy8hc9Ta3sy0mW" : {
+          "Answer" : "لب مہران باغ",
+          "Date" : "2020-8-27 23:39:7",
+          "Option1" : "دریا باغ",
+          "Option2" : "ریلوے باغ",
+          "Option3" : "لب مہران باغ",
+          "Option4" : "لیک ویو پارک",
+          "Question" : "  سکھر شہر کے مشہور باغ کا نام کیا ہے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlDGsmCUJS-LDeflqM" : {
+          "Answer" : "عربی زبان سے",
+          "Date" : "2020-8-27 23:41:1",
+          "Option1" : "فارسی زبان سے",
+          "Option2" : "عربی زبان سے",
+          "Option3" : "اردو زبان سے",
+          "Option4" : "پنجابی زبان سے",
+          "Question" : "          سکھر کس زبان سے نکلا ہے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlE2upuUVFFzmNEj_r" : {
+          "Answer" : "نماز اور روزے کا",
+          "Date" : "2020-8-27 23:44:25",
+          "Option1" : "گھڑ سواری کرنے کا",
+          "Option2" : "کھیلنے کا",
+          "Option3" : "دوسروں کی مدد کرنے کا",
+          "Option4" : "نماز اور روزے کا",
+          "Question" : " لیاقت علی خان کو بچپن سے کس چیز کا \n                       شوق تھا؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlEexOhf8GjAXsgjGf" : {
+          "Answer" : "مضمون",
+          "Date" : "2020-8-27 23:47:5",
+          "Option1" : "کہانی",
+          "Option2" : "مضمون",
+          "Option3" : "خط",
+          "Option4" : "قصہ",
+          "Question" : "  کسی بھی موضوع یا عنوان پر خیالات کا \n             اظہار کرنا کیا کہلاتا ہے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlH2fgd7nKOLGCMDV9" : {
+          "Answer" : "سادہ الفاظ میں",
+          "Date" : "2020-8-27 23:57:31",
+          "Option1" : "اچھے الفاظ میں",
+          "Option2" : "سادہ الفاظ میں",
+          "Option3" : "لمبے الفاظ میں",
+          "Option4" : "چھوٹے الفاظ میں",
+          "Question" : "مضمون میں اپنے خیالات کا اظہار کن الفاظ \n                   میں کرنا چاہیے؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlHqCuAA3sRKI1jJVK" : {
+          "Answer" : "املا کی غلطیاں",
+          "Date" : "2020-8-28 0:0:58",
+          "Option1" : "املا کی غلطیاں",
+          "Option2" : "عبارات",
+          "Option3" : "عنوان",
+          "Option4" : "ان میں سے کوئی بھی نہیں",
+          "Question" : "مضمون لکھنے کے بعد ایک دفعہ ضرور پڑھنا \n        چاہیے تاکہ درست کی جا سکیں",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlK--G-fSiYUKG7RRA" : {
+          "Answer" : "سوالیہ جملہ",
+          "Date" : "2020-8-28 0:10:23",
+          "Option1" : "منفی جملہ",
+          "Option2" : "مثبت جملہ",
+          "Option3" : "سوالیہ جملہ",
+          "Option4" : "فعل جملہ",
+          "Question" : "  کیا تمہں کہانیاں پڑھنا پسند ہے؟ یہ جملہ  \n                        کہلاتا ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlLHol8xah21x0UwRf" : {
+          "Answer" : "منفی جملے",
+          "Date" : "2020-8-28 0:16:2",
+          "Option1" : "منفی جملے",
+          "Option2" : "سکتہ جملے",
+          "Option3" : "مثبت جملے",
+          "Option4" : "سوالیہ جملے",
+          "Question" : " ایسے جملے جن میں کسی کام کا نہ کرنا \n          یا نہ ہونا ظاہر ہو کہلاتے ہیں",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlLiqD6SFXqX_f7BXs" : {
+          "Answer" : "تین ",
+          "Date" : "2020-8-28 0:17:58",
+          "Option1" : "تین ",
+          "Option2" : "چار",
+          "Option3" : "دو",
+          "Option4" : "چھ",
+          "Question" : "            جملے کی کتنی اقسام ہیں؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlMWjvtwFbeTiDgSKx" : {
+          "Answer" : "جمع",
+          "Date" : "2020-8-28 0:21:25",
+          "Option1" : "مترادف",
+          "Option2" : "متضاد ",
+          "Option3" : "جمع",
+          "Option4" : "واحد",
+          "Question" : " ایک سے زیادہ اشخاص یا چیزوں کو کہتے \n                           ہیں",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlO21Q_ktj6fkXsXpP" : {
+          "Answer" : "مثبت",
+          "Date" : "2020-8-28 0:28:3",
+          "Option1" : "مترادف",
+          "Option2" : "مزکر",
+          "Option3" : "مثبت",
+          "Option4" : "منفی",
+          "Question" : " بچے سکول سے واپس آ گیے ہیں یہ جملہ \n                        کہلاتا ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlPaWReg54oE6BLjAc" : {
+          "Answer" : "منفی",
+          "Date" : "2020-8-28 0:34:50",
+          "Option1" : "سوالیہ ",
+          "Option2" : "منفی",
+          "Option3" : "مثبت",
+          "Option4" : "نا مکلمل",
+          "Question" : "     علی نے سبق یاد نہیں کیا۔ یہ جملہ \n                        کہلاتا ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlRqvEyQT0wV4qQXZa" : {
+          "Answer" : "سوالیہ (?)",
+          "Date" : "2020-8-28 0:44:42",
+          "Option1" : "ختمہ(-)",
+          "Option2" : "سکتہ(.)",
+          "Option3" : "ندائیہ(!)",
+          "Option4" : "سوالیہ (?)",
+          "Question" : "   سوالیہ جملے کے آخر میں علامت لگائی \n                        جاتی ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlSc3iG2Wbkt3vaG_3" : {
+          "Answer" : "امارتیں",
+          "Date" : "2020-8-28 0:48:4",
+          "Option1" : "امرتوں",
+          "Option2" : "امارتیں",
+          "Option3" : "امارتے",
+          "Option4" : "امارتی",
+          "Question" : "                 امارت کے جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlTGByuw_5bxvBVnWC" : {
+          "Answer" : "آباد",
+          "Date" : "2020-8-28 0:50:52",
+          "Option1" : "آباد",
+          "Option2" : "ابادی",
+          "Option3" : "ابادوں",
+          "Option4" : "ان میں سے کوئی نہیں",
+          "Question" : "                   ابد کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFlTdxuNerO-OjrKpa3" : {
+          "Answer" : "اشجار",
+          "Date" : "2020-8-28 0:52:33",
+          "Option1" : "شجروں",
+          "Option2" : "اشجار",
+          "Option3" : "اشجارات",
+          "Option4" : "اشجارتی",
+          "Question" : "                  شجر کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        }
+      }
+    },
+    "Class V" : {
+      "English" : {
+        "-MFnIDSuthL0sUUf4yw2" : {
+          "Answer" : "Darren",
+          "Date" : "2020-8-28 9:21:52",
+          "Option1" : "Darren",
+          "Option2" : "Barren",
+          "Option3" : "Martin",
+          "Option4" : "Jack",
+          "Question" : "1- What was the name of boy in story \"Crack a Dawn\"?",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnIbTSv5OD6wh4T5ig" : {
+          "Answer" : "Quatermain",
+          "Date" : "2020-8-28 9:23:34",
+          "Option1" : "Sir Henry",
+          "Option2" : "Twala",
+          "Option3" : "Quatermain",
+          "Option4" : "Mr. Neville ",
+          "Question" : "2- Who is describing the story in novel \"King Solomon's Mines\"?",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnJEux8FnbUrbJqDah" : {
+          "Answer" : "He was one of the Zulu people ",
+          "Date" : "2020-8-28 9:26:20",
+          "Option1" : "He was servant ",
+          "Option2" : "He was king",
+          "Option3" : "He was one of the Zulu people ",
+          "Option4" : "None of these ",
+          "Question" : "3-Who was Umbopa?(King Solomon's Mines)",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnJc4cIv5GPL2z43vn" : {
+          "Answer" : "Adventure",
+          "Date" : "2020-8-28 9:27:59",
+          "Option1" : "Adventure",
+          "Option2" : "Enjoy",
+          "Option3" : "Suspense",
+          "Option4" : "A, B both",
+          "Question" : "4-\"Expedition\" means ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnKBTYND73UtMUFGKB" : {
+          "Answer" : "Temporary stop",
+          "Date" : "2020-8-28 9:30:28",
+          "Option1" : "Temporary slow",
+          "Option2" : "Temporary stop",
+          "Option3" : "Temporary stay",
+          "Option4" : "Temporary off",
+          "Question" : "5-\"Pause\" means",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnKaW1Aw6XhCqhrUsq" : {
+          "Answer" : "Rubbish",
+          "Date" : "2020-8-28 9:32:14",
+          "Option1" : "Lavish ",
+          "Option2" : "Rubbish",
+          "Option3" : "Radish",
+          "Option4" : "None of these ",
+          "Question" : "6-\"Useless\" is the meaning of ____. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnKmftaKmFoR5M20YE" : {
+          "Answer" : "Reason",
+          "Date" : "2020-8-28 9:33:4",
+          "Option1" : "Reason",
+          "Option2" : "Reasonable ",
+          "Option3" : "Excuse ",
+          "Option4" : "Call",
+          "Question" : "7-\"Cause\" means",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnLAs6M2MoiuQO5a4q" : {
+          "Answer" : "Wrong idea",
+          "Date" : "2020-8-28 9:34:47",
+          "Option1" : "Good idea",
+          "Option2" : "Bad idea",
+          "Option3" : "Wrong idea",
+          "Option4" : "None of these ",
+          "Question" : "8-\"Illusion\" means ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnLh0gIJndxYLif0_3" : {
+          "Answer" : "He",
+          "Date" : "2020-8-28 9:37:3",
+          "Option1" : "She",
+          "Option2" : "We",
+          "Option3" : "He",
+          "Option4" : "I",
+          "Question" : "9-Choose correct \"Pronoun\" for given sentence.\nJamal is happy.____ is smiling.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnM5bogiuXPs6NxvZo" : {
+          "Answer" : "Quickly",
+          "Date" : "2020-8-28 9:38:48",
+          "Option1" : "Quickly",
+          "Option2" : "Slow",
+          "Option3" : "Kitten",
+          "Option4" : "Brown",
+          "Question" : "10-Choose the \"Adverb\"",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnMWcIsDOgHwKVFKTU" : {
+          "Answer" : "Fairly",
+          "Date" : "2020-8-28 9:40:39",
+          "Option1" : "Quickly ",
+          "Option2" : "Slowly ",
+          "Option3" : "Calmly ",
+          "Option4" : "Fairly",
+          "Question" : "11-Choose correct \"Adverb\" for given sentence.\nThe weather is ____ good.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnMx8d-IgQiTj5a2zu" : {
+          "Answer" : "They",
+          "Date" : "2020-8-28 9:42:31",
+          "Option1" : "Us",
+          "Option2" : "Her",
+          "Option3" : "They",
+          "Option4" : "Him",
+          "Question" : "12- Complete the sentence with \"Pronoun\"\n_____ will learn swimming this year.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnND9xrxHCUBNzjHhG" : {
+          "Answer" : "Their",
+          "Date" : "2020-8-28 9:43:41",
+          "Option1" : "Slow",
+          "Option2" : "Their",
+          "Option3" : "Is",
+          "Option4" : "Was",
+          "Question" : "13- Choose \"Pronoun\"",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnO-KsErPWK4hWxUOX" : {
+          "Answer" : "He, It",
+          "Date" : "2020-8-28 9:47:7",
+          "Option1" : "She, It",
+          "Option2" : "They, It",
+          "Option3" : "He, It",
+          "Option4" : "We, It",
+          "Question" : "14- Choose \"Adverb\" for given sentence.\nThe Dog is guarding the bone.____ will chew ____ later.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnOs1tk7nrQ6E8Lq3i" : {
+          "Answer" : "Quaid e Azam, Murree, Ravi",
+          "Date" : "2020-8-28 9:50:55",
+          "Option1" : "Teacher, House, Bird",
+          "Option2" : "Quaid e Azam, Murree, Ravi",
+          "Option3" : "Pencil, Pen, Book",
+          "Option4" : "None of these ",
+          "Question" : "15- Choose the set of \"Proper Noun\".",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnQOP86fX0iRL4sDlY" : {
+          "Answer" : "Teacher, Truck, Mountain",
+          "Date" : "2020-8-28 9:57:34",
+          "Option1" : "Teacher, Truck, Mountain",
+          "Option2" : "Islamabad, Shan oil, Iqbal",
+          "Option3" : "City, Saira, Ali",
+          "Option4" : "A, C both",
+          "Question" : "16- Choose the set of      \"Common Noun\".",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnQvmqNIvPQ6Yc8Bxi" : {
+          "Answer" : "Caught",
+          "Date" : "2020-8-28 9:59:55",
+          "Option1" : "Caught",
+          "Option2" : "Peeped",
+          "Option3" : "Stitch",
+          "Option4" : "Whisper",
+          "Question" : "17- Complete the sentence with \"Verb\"\nThe wicketkeeper ____ the ball.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnS6VJTRCy0Pqc1Q39" : {
+          "Answer" : "Whisper",
+          "Date" : "2020-8-28 10:5:4",
+          "Option1" : "Stitch",
+          "Option2" : "Whisper",
+          "Option3" : "Peeper",
+          "Option4" : "Celebrate",
+          "Question" : "18- Choose \"Verb\" for given sentence.\nWhat did Sara ____ in your ear?",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnSd3WH1MEmg3DVIJd" : {
+          "Answer" : "Adjectives",
+          "Date" : "2020-8-28 10:7:22",
+          "Option1" : "Nouns",
+          "Option2" : "Pronouns",
+          "Option3" : "Adjectives",
+          "Option4" : "Adverbs",
+          "Question" : "19- ____ are describing words.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnSwmS1DB4AB2yaBVa" : {
+          "Answer" : "Noun",
+          "Date" : "2020-8-28 10:8:43",
+          "Option1" : "Verb",
+          "Option2" : "Noun",
+          "Option3" : "Adverb",
+          "Option4" : "Adjective",
+          "Question" : "20- ____ is a naming word. ",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnTuHOkuzztd0K_VBu" : {
+          "Answer" : "Shady",
+          "Date" : "2020-8-28 10:12:55",
+          "Option1" : "Shady",
+          "Option2" : "Small",
+          "Option3" : "Deep",
+          "Option4" : "Striped ",
+          "Question" : "21- Choose the \"Adjective\" for given sentence.\nThe farmer sat under a ____ tree.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnUvva10AJkXaklFIF" : {
+          "Answer" : "Prepositions",
+          "Date" : "2020-8-28 10:17:24",
+          "Option1" : "Nouns",
+          "Option2" : "Pronouns",
+          "Option3" : "Prepositions",
+          "Option4" : "Adjectives ",
+          "Question" : "22-Words that connect nouns or pronouns to other words in a sentence are called _____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnVX4JQ4Ab1EajOXd2" : {
+          "Answer" : "We",
+          "Date" : "2020-8-28 10:20:0",
+          "Option1" : "Between ",
+          "Option2" : "We",
+          "Option3" : "Are",
+          "Option4" : "None of these ",
+          "Question" : "23-Choose \"Pronoun\"in given words.",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnW8ygPPdhMDogpbYR" : {
+          "Answer" : "Behind, At, On",
+          "Date" : "2020-8-28 10:22:43",
+          "Option1" : "Is, Are, Am",
+          "Option2" : "Was, Were, On",
+          "Option3" : "Behind, At, On",
+          "Option4" : "I, We, You",
+          "Question" : "24- Choose the set of \"Pronoun\"",
+          "author" : "sadiamurtaza007@gmail.com"
+        },
+        "-MFnXEkIOri65ClId_HK" : {
+          "Answer" : "Verb",
+          "Date" : "2020-8-28 10:27:29",
+          "Option1" : "Adjective",
+          "Option2" : "Adverb",
+          "Option3" : "Verb",
+          "Option4" : "Pronoun",
+          "Question" : "25-A sentence is incomplete without ____.",
+          "author" : "sadiamurtaza007@gmail.com"
+        }
+      },
+      "Math" : {
+        "-MFnLZSpXKEXbOekeJLD" : {
+          "Answer" : "tens",
+          "Date" : "2020-8-28 9:36:28",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "hundreds ",
+          "Option4" : "thousands",
+          "Question" : "The digit 1 is in the________ place in 23 016.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnLt20yqEdBAHb2z6N" : {
+          "Answer" : "305 432",
+          "Date" : "2020-8-28 9:37:53",
+          "Option1" : "305 432",
+          "Option2" : "354 320",
+          "Option3" : "300 540",
+          "Option4" : "354 321",
+          "Question" : "300 000 + 5 000 + 400 + 30 + 2 = ? ",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnM5OB11xjf8LP2YEc" : {
+          "Answer" : "23 740",
+          "Date" : "2020-8-28 9:38:47",
+          "Option1" : "75 300",
+          "Option2" : "57 023",
+          "Option3" : "23 740",
+          "Option4" : "47 251",
+          "Question" : "The digit 7 is in hundreds place in____.s",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnMOs2RfJoP1nhG4QZ" : {
+          "Answer" : "4 795",
+          "Date" : "2020-8-28 9:40:7",
+          "Option1" : "4 975",
+          "Option2" : "5 749",
+          "Option3" : "9 745",
+          "Option4" : "4 795",
+          "Question" : "4 thousands + 7 hundreds + 9 tens + 5 ones = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnMdWTwMXdQlx0TLtM" : {
+          "Answer" : "533",
+          "Date" : "2020-8-28 9:41:11",
+          "Option1" : "535",
+          "Option2" : "533",
+          "Option3" : "545",
+          "Option4" : "543",
+          "Question" : "Complete the sequence, 532, ____, 534.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnMwt5JQ2sL34jOLSs" : {
+          "Answer" : "4 000",
+          "Date" : "2020-8-28 9:42:31",
+          "Option1" : "400",
+          "Option2" : "4 000",
+          "Option3" : "4",
+          "Option4" : "40 000",
+          "Question" : "10 000 + _____ + 300 + 90 + 7 = 14 397",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnNCIxfkZuc5K6laoF" : {
+          "Answer" : "8",
+          "Date" : "2020-8-28 9:43:38",
+          "Option1" : "9",
+          "Option2" : "3",
+          "Option3" : "8",
+          "Option4" : "6",
+          "Question" : "What is the digit in the place of thousands in     98 674?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnNhuz3Yt-zNgxtHE1" : {
+          "Answer" : "hundred thousands",
+          "Date" : "2020-8-28 9:45:51",
+          "Option1" : "hundred thousands",
+          "Option2" : "hundreds",
+          "Option3" : "thousands",
+          "Option4" : "tens",
+          "Question" : "The digit 5 is in ______ place in 578 693.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnNyPxm3-xNevAnLWB" : {
+          "Answer" : "2 500",
+          "Date" : "2020-8-28 9:46:59",
+          "Option1" : "2 150",
+          "Option2" : "2 105",
+          "Option3" : "2 050",
+          "Option4" : "2 500",
+          "Question" : "Two thousand and five hundred.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnOV8ceU99IW588SqI" : {
+          "Answer" : "16 409",
+          "Date" : "2020-8-28 9:49:17",
+          "Option1" : "16 490",
+          "Option2" : "16 904",
+          "Option3" : "16 409",
+          "Option4" : "60 409",
+          "Question" : "Sixteen thousand four hundred and nine",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnOivsZAYeRSwyFBXA" : {
+          "Answer" : "thousands",
+          "Date" : "2020-8-28 9:50:18",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "hundreds",
+          "Option4" : "thousands",
+          "Question" : "In 83 510, the digit 3 is in the _________ place.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnP-8E8SyjsqT4HASr" : {
+          "Answer" : "greater than",
+          "Date" : "2020-8-28 9:51:28",
+          "Option1" : "less than ",
+          "Option2" : "greater than",
+          "Option3" : "equal to ",
+          "Option4" : "descendant to",
+          "Question" : "362 407 is _________ 325 704.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnPG52AatmzuttK-8U" : {
+          "Answer" : "700",
+          "Date" : "2020-8-28 9:52:38",
+          "Option1" : "70",
+          "Option2" : "707",
+          "Option3" : "700",
+          "Option4" : "070",
+          "Question" : "24 700 = 20 000 + 4 000 + ______+ 00 + 0",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnPSFuYMc1yB69dhK-" : {
+          "Answer" : "ones",
+          "Date" : "2020-8-28 9:53:27",
+          "Option1" : "ones",
+          "Option2" : "tens",
+          "Option3" : "hundreds",
+          "Option4" : "thousands",
+          "Question" : "The value of 2 in 364 572 is_________.s",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnPgrDQyI8msz0MNdQ" : {
+          "Answer" : "111 111",
+          "Date" : "2020-8-28 9:54:31",
+          "Option1" : "111 111",
+          "Option2" : "11 111",
+          "Option3" : "1 111",
+          "Option4" : "111",
+          "Question" : "100 000 + 10 000 + 1 000 + 100 + 10 + 1 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnQr5D1ciV5wFHNDbw" : {
+          "Answer" : "999 999",
+          "Date" : "2020-8-28 9:59:35",
+          "Option1" : "999 909",
+          "Option2" : "99 999",
+          "Option3" : "999 999",
+          "Option4" : "909 909",
+          "Question" : "900 000 + 90 000 + 9 000 + 900 + 90 + 9 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnREEFJUO5sG6mmPiz" : {
+          "Answer" : "453 821",
+          "Date" : "2020-8-28 10:1:14",
+          "Option1" : "438 201",
+          "Option2" : "453 821",
+          "Option3" : "453 218",
+          "Option4" : "458 312",
+          "Question" : "Four hundred and fifty three thousand, eight hundred and twenty one.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnRX1IdHG5Szu3WJ33" : {
+          "Answer" : "57 234",
+          "Date" : "2020-8-28 10:2:31",
+          "Option1" : "57 234",
+          "Option2" : "66 234",
+          "Option3" : "15 342",
+          "Option4" : "43 265",
+          "Question" : "1 000 more than 56 234.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnRtm-PrTnZUgQyxLB" : {
+          "Answer" : "5 000",
+          "Date" : "2020-8-28 10:4:8",
+          "Option1" : "50",
+          "Option2" : "500",
+          "Option3" : "5",
+          "Option4" : "5 000",
+          "Question" : "200 000 + 30 000 + _________ + 600 + 80 + 9  =  235 689",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnSBdIvYHUOC5Joq9v" : {
+          "Answer" : "52 763",
+          "Date" : "2020-8-28 10:5:26",
+          "Option1" : "50 863",
+          "Option2" : "52 863",
+          "Option3" : "52 763",
+          "Option4" : "52 963",
+          "Question" : "100 less than 52 863.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnSaGsmPPDzNq7VcpL" : {
+          "Answer" : "5 903",
+          "Date" : "2020-8-28 10:7:11",
+          "Option1" : "5 903",
+          "Option2" : "5 390",
+          "Option3" : "9 305",
+          "Option4" : "5 309",
+          "Question" : "The digit 9 is in hundreds place in____.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnSqnby8LB3MLcOxT9" : {
+          "Answer" : "6 138",
+          "Date" : "2020-8-28 10:8:18",
+          "Option1" : "6 138",
+          "Option2" : "5 632",
+          "Option3" : "6 831",
+          "Option4" : "6 132",
+          "Question" : "6 thousands + 1 hundreds + 3 tens + 8 ones = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnTEvz3g-QisKPYstR" : {
+          "Answer" : "330",
+          "Date" : "2020-8-28 10:10:1",
+          "Option1" : "303",
+          "Option2" : "323",
+          "Option3" : "333",
+          "Option4" : "330",
+          "Question" : "Complete the sequence, 329, ____, 331.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnTT15NQuu44wpCKWY" : {
+          "Answer" : "100",
+          "Date" : "2020-8-28 10:10:59",
+          "Option1" : "10",
+          "Option2" : "101",
+          "Option3" : "1 000",
+          "Option4" : "100",
+          "Question" : "9 000 + _____ + 40 + 3 = 9 143",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnTbbzwBGLdKccR0Za" : {
+          "Answer" : "6",
+          "Date" : "2020-8-28 10:11:38",
+          "Option1" : "5",
+          "Option2" : "6",
+          "Option3" : "7",
+          "Option4" : "8",
+          "Question" : "What is the digit in the place of ten thousands in 67 895?",
+          "author" : "sirfaisalky786@gmail.com"
+        }
+      },
+      "Urdu" : {
+        "-MFnjM6pf3rfVANy7jxP" : {
+          "Answer" : "باب الاسلام",
+          "Date" : "2020-8-28 11:24:47",
+          "Option1" : "باب الاسلام",
+          "Option2" : "درہ اسلام",
+          "Option3" : "باب یمن",
+          "Option4" : "باب کبری",
+          "Question" : "س۔1صوبہ سندھ کو کہا جاتا ہے",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnjshcr38wbNDt5yvU" : {
+          "Answer" : "12 ہزار",
+          "Date" : "2020-8-28 11:27:5",
+          "Option1" : "9 ہزار",
+          "Option2" : "10 ہزار",
+          "Option3" : "11 ہزار",
+          "Option4" : "12 ہزار",
+          "Question" : "س2۔محمد بن قاسم کی فوج سپاہیوں پر مشتمل تھی۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnl4frkF52CwZ3pl5k" : {
+          "Answer" : "711ء",
+          "Date" : "2020-8-28 11:32:20",
+          "Option1" : "711ء",
+          "Option2" : "710ء",
+          "Option3" : "713ء",
+          "Option4" : "714ء",
+          "Question" : "س4۔محمد بن قاسم نے سندھ پہنچا۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnmSrIG1gtcZom1--U" : {
+          "Answer" : "منجینیق",
+          "Date" : "2020-8-28 11:38:22",
+          "Option1" : "ٹینک",
+          "Option2" : "منجینیق",
+          "Option3" : "بلڈوزر",
+          "Option4" : "ٹریکٹر",
+          "Question" : "مضبوط فیصلوں کو توڑنے والی مشین یے",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnmvPHRNxGZIoGgPFK" : {
+          "Answer" : "بولنےکی",
+          "Date" : "2020-8-28 11:40:22",
+          "Option1" : "بولنےکی",
+          "Option2" : "سننےکی",
+          "Option3" : "دیکھنےکی",
+          "Option4" : "سونگھنےکی",
+          "Question" : "اللہ ڈ نو کس صلاحیت سے محروم تھا۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnnG3xCUCS4Er4qTtS" : {
+          "Answer" : "نانی",
+          "Date" : "2020-8-28 11:41:51",
+          "Option1" : "نانی",
+          "Option2" : "دادی",
+          "Option3" : "خالہ",
+          "Option4" : "چچا",
+          "Question" : "اللہ ڈ نو کو کس نے پالا۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnnzrb3fECtCczezJR" : {
+          "Answer" : "آگ لگائ",
+          "Date" : "2020-8-28 11:45:3",
+          "Option1" : "مرمت",
+          "Option2" : "سنوارا",
+          "Option3" : "آگ لگائ",
+          "Option4" : "سجایا",
+          "Question" : "اللہ ڈ نو نے اپنی جھونپڑی کےساتھ کیا کیا۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnoaI2ejJqYiCcLo2r" : {
+          "Answer" : "500آدمی",
+          "Date" : "2020-8-28 11:47:40",
+          "Option1" : "600آدمی",
+          "Option2" : "500آدمی",
+          "Option3" : "400آدمی",
+          "Option4" : "700آدمی",
+          "Question" : "العروس نامی منجینیق کو کتنے آدمی چلاتے تھے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnpC9XfAPRHAe1nSMD" : {
+          "Answer" : "60 ہزار",
+          "Date" : "2020-8-28 11:50:19",
+          "Option1" : "40 ہزار",
+          "Option2" : "50 ہزار",
+          "Option3" : "60 ہزار",
+          "Option4" : "70 ہزار",
+          "Question" : "راجا داہر کی فوج کتنے سپاہیوں پر مشتمل تھی۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnpmYJBXGlM9eAtuej" : {
+          "Answer" : "حجاج بن یوسف",
+          "Date" : "2020-8-28 11:52:53",
+          "Option1" : "حجاج بن یوسف",
+          "Option2" : "حجاج بن سیف",
+          "Option3" : "حجاج بن قاسم",
+          "Option4" : "محمد بن قاسم",
+          "Question" : "عراق کا گورنر تھا۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnqD12WJNHaWyRWglC" : {
+          "Answer" : "مچھلی کا جال",
+          "Date" : "2020-8-28 11:54:45",
+          "Option1" : "مچھلی کا جال",
+          "Option2" : "کشتیاں",
+          "Option3" : "دروازے",
+          "Option4" : "گھر",
+          "Question" : "اللہ ڈ نو بناتا تھا۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnr9Chuid_73DJTCqw" : {
+          "Answer" : "ثروت سلطانہ ثروت",
+          "Date" : "2020-8-28 11:58:51",
+          "Option1" : "ثروت اعجاز",
+          "Option2" : "ثروت سلطانہ ثروت",
+          "Option3" : "ثروت صدیقی",
+          "Option4" : " ثروت سلطان",
+          "Question" : "نظم غصہ کی شاعرہ ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFns1vU5h40CotsClj_" : {
+          "Answer" : "دل بہت سخت ہو جانا",
+          "Date" : "2020-8-28 12:2:44",
+          "Option1" : "دل نرم پڑجانا",
+          "Option2" : "دل پریشان ہو جانا",
+          "Option3" : "دل بہت سخت ہو جانا",
+          "Option4" : "دل خوش ہونا",
+          "Question" : "دل پتھر بن جانا کا مطلب ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnw-eC8SX1pjSL-9FC" : {
+          "Answer" : "نزدیکی",
+          "Date" : "2020-8-28 12:20:4",
+          "Option1" : "دوری",
+          "Option2" : "نزدیکی",
+          "Option3" : "فاصلہ",
+          "Option4" : "ہنگامہ",
+          "Question" : "قربت کا مطلب ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnwakJZv_UszPUbaE7" : {
+          "Answer" : "انصاف کرنے والا",
+          "Date" : "2020-8-28 12:22:39",
+          "Option1" : "انصاف کرنے والا",
+          "Option2" : "لڑائی کرنے والا",
+          "Option3" : "مشورہ دینے والا",
+          "Option4" : "صلح کرنے والا",
+          "Question" : "منصف کا مطلب ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        }
+      }
+    },
+    "Class VI" : {
+      "English" : {
+        "-MFnQwz25E4t78OVge6N" : {
+          "Answer" : "Anxiously",
+          "Date" : "2020-8-28 10:0:0",
+          "Option1" : "Anxiously",
+          "Option2" : "Absolutly",
+          "Option3" : "Mouth",
+          "Option4" : "Tongue",
+          "Question" : "\"Impatiently\" means.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnRjIOsZfgbt8gIuGe" : {
+          "Answer" : "Hunt",
+          "Date" : "2020-8-28 10:3:26",
+          "Option1" : "Hunt",
+          "Option2" : "Anger",
+          "Option3" : "Shoot",
+          "Option4" : "None of the above",
+          "Question" : "\"Spear\" means.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnS0nx4e1mwJQmJqj3" : {
+          "Answer" : "Spread something",
+          "Date" : "2020-8-28 10:4:42",
+          "Option1" : "Spread something",
+          "Option2" : "Egg of pig",
+          "Option3" : "Egg of fish",
+          "Option4" : "None of the above",
+          "Question" : "\"Fished out\" means.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnSMCtR1BaIE73PHD_" : {
+          "Answer" : "Cooked at boiling point",
+          "Date" : "2020-8-28 10:6:9",
+          "Option1" : "Aim at",
+          "Option2" : "Don't cook",
+          "Option3" : "Cooked at boiling point",
+          "Option4" : "None of the above",
+          "Question" : "\"Simmer\" means....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnSazko4exHkQPxkTn" : {
+          "Answer" : "Yelling",
+          "Date" : "2020-8-28 10:7:14",
+          "Option1" : "Yelling",
+          "Option2" : "Laughing",
+          "Option3" : "Hesitating",
+          "Option4" : "Asking",
+          "Question" : "\"Hollering\" means....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnSzAljIGs709mfO5n" : {
+          "Answer" : "Pushed roughly",
+          "Date" : "2020-8-28 10:8:53",
+          "Option1" : "Shower",
+          "Option2" : "Bath",
+          "Option3" : "Pushed roughly",
+          "Option4" : "Both 1 and 2",
+          "Question" : "\"Shoved\" means....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnTDOsMKHmfADp7-67" : {
+          "Answer" : "Creep",
+          "Date" : "2020-8-28 10:9:55",
+          "Option1" : "Creep",
+          "Option2" : "Walk",
+          "Option3" : "Walk lamely",
+          "Option4" : "None of the above",
+          "Question" : "\"Crawl\" means......",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnU0HLr2RDL39kn8BU" : {
+          "Answer" : "Robin Klein ",
+          "Date" : "2020-8-28 10:13:24",
+          "Option1" : "Irene Chua",
+          "Option2" : "Robin Klein ",
+          "Option3" : "James Buechler",
+          "Option4" : "None of the above",
+          "Question" : "\"Penny Pollard's Letters\" are written by..... ",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnV1Yq8GaBxhNuss0r" : {
+          "Answer" : "Fictional",
+          "Date" : "2020-8-28 10:17:51",
+          "Option1" : "Fictional",
+          "Option2" : "Non-fictional",
+          "Option3" : "Funny",
+          "Option4" : "None of the above ",
+          "Question" : "\"Penny Pollard's Letters\" is a ........collection of letters.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnVNVDNzQoOdVHy-9W" : {
+          "Answer" : "Beauty of character ",
+          "Date" : "2020-8-28 10:19:21",
+          "Option1" : "Beauty of character ",
+          "Option2" : "Beauty of cloth",
+          "Option3" : "Beauty of face",
+          "Option4" : "Beauty of house",
+          "Question" : "\"Inner beauty\" means...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnW9Yxw8HO9bfBuyZh" : {
+          "Answer" : "It is taken from a writing.",
+          "Date" : "2020-8-28 10:22:46",
+          "Option1" : "It is taken from a writing.",
+          "Option2" : "It is written by a girl.",
+          "Option3" : "It is written by a child.",
+          "Option4" : "It is written in many languages. ",
+          "Question" : "\"Penny Pollard's Letters\" is an extract which means....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnWSonfVuMZ733W9JF" : {
+          "Answer" : "Lisa",
+          "Date" : "2020-8-28 10:24:5",
+          "Option1" : "Mrs Bettany",
+          "Option2" : "Lisa",
+          "Option3" : "Aunt Winifred",
+          "Option4" : "To herself",
+          "Question" : "Penny teach .......how to crawl.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnWoxNANLpZ4tSfPmE" : {
+          "Answer" : "Sentence",
+          "Date" : "2020-8-28 10:25:40",
+          "Option1" : "Noun ",
+          "Option2" : "Sentence",
+          "Option3" : "Subject",
+          "Option4" : "Verb",
+          "Question" : "A group of words which make complete sense is called......",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnXBAntqGzTF6t1wHR" : {
+          "Answer" : "Statement",
+          "Date" : "2020-8-28 10:27:15",
+          "Option1" : "Statement",
+          "Option2" : "Command",
+          "Option3" : "Question",
+          "Option4" : "Exclamation",
+          "Question" : "A sentence that makes a ......... is called a declarative sentence.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnYAkibsg8docJR459" : {
+          "Answer" : "Imperative",
+          "Date" : "2020-8-28 10:31:35",
+          "Option1" : "Declarative",
+          "Option2" : "Exclamatory",
+          "Option3" : "Imperative",
+          "Option4" : "Interrogative",
+          "Question" : "A sentence that expresses a command is called......... sentence.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnYZCEgFbnPuAlUjDJ" : {
+          "Answer" : "Exclamatory",
+          "Date" : "2020-8-28 10:33:14",
+          "Option1" : "Exclamatory",
+          "Option2" : "Declarative",
+          "Option3" : "Interrogative",
+          "Option4" : "Imperative",
+          "Question" : "I am so excited! I passed the test.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnYng9C6zhCEKP5aBQ" : {
+          "Answer" : "Interrogative",
+          "Date" : "2020-8-28 10:34:18",
+          "Option1" : "Declarative",
+          "Option2" : "Interrogative",
+          "Option3" : "Imperative",
+          "Option4" : "Exclamatory",
+          "Question" : "Can you cancel the concert?",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnZ7N726njJNubffC0" : {
+          "Answer" : "Subject",
+          "Date" : "2020-8-28 10:35:42",
+          "Option1" : "Subject",
+          "Option2" : "Predicate",
+          "Option3" : "Sentence",
+          "Option4" : "Imperative",
+          "Question" : "The part which name a person or a thing we are speaking about is called.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnZei_ev-BExMxZM-Z" : {
+          "Answer" : "Borrowed garments is a Subject",
+          "Date" : "2020-8-28 10:38:3",
+          "Option1" : "Borrowed garments is a Subject",
+          "Option2" : "Borrowed garments is a Predicate",
+          "Option3" : "Borrowed garments is question",
+          "Option4" : "Borrowed garments is Excalamation",
+          "Question" : "Borrowed garments never fit well.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFn_Ct5qiiNa3bh2tZG" : {
+          "Answer" : "Catches the worm is predicate",
+          "Date" : "2020-8-28 10:40:27",
+          "Option1" : "Catches the worm is predicate",
+          "Option2" : "Catches the worm is Subject",
+          "Option3" : "Catches the worm is Interrogation",
+          "Option4" : "Catches the worm is command",
+          "Question" : "The early bird catches the worm.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFn__fSUytmbFWM9KSV" : {
+          "Answer" : "Predicate",
+          "Date" : "2020-8-28 10:42:4",
+          "Option1" : "Sign of interrogation",
+          "Option2" : "Exclamation mark",
+          "Option3" : "Predicate",
+          "Option4" : "Verb",
+          "Question" : "The subject of the sentence usually comes first but occasionally put after...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFn_wouqrXvzgwbEJsZ" : {
+          "Answer" : "Predicate",
+          "Date" : "2020-8-28 10:43:39",
+          "Option1" : "Imperative",
+          "Option2" : "Question",
+          "Option3" : "Predicate",
+          "Option4" : "Noun",
+          "Question" : "The part which tells something about the subject is.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnaAYNyK_YAhpGq4Ra" : {
+          "Answer" : "Imperative",
+          "Date" : "2020-8-28 10:44:40",
+          "Option1" : "Declarative",
+          "Option2" : "Imperative",
+          "Option3" : "Question ",
+          "Option4" : "Exclamation ",
+          "Question" : "Have mercy upon us.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnaXhBGEFrlRDhsLIV" : {
+          "Answer" : "Islamabad is Subject",
+          "Date" : "2020-8-28 10:46:14",
+          "Option1" : "Islamabad is Subject",
+          "Option2" : "Islamabad is predicate",
+          "Option3" : "Islamabad is question",
+          "Option4" : "Islamabad is sentence",
+          "Question" : "Islamabad is the capital of Pakistan.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFnakHhZaj8UKul68Yt" : {
+          "Answer" : "Imperative",
+          "Date" : "2020-8-28 10:47:10",
+          "Option1" : "Interogative",
+          "Option2" : "Declarative",
+          "Option3" : "Exclamatory",
+          "Option4" : "Imperative",
+          "Question" : "What a shame!",
+          "author" : "sehartahir297@gmail.com"
+        }
+      },
+      "Math" : {
+        "-MFnjZk_PMrK8LWGRB7p" : {
+          "Answer" : "Prime number",
+          "Date" : "2020-8-28 11:25:43",
+          "Option1" : "Prime number",
+          "Option2" : "Composite number",
+          "Option3" : "Improper number",
+          "Option4" : "Estate number",
+          "Question" : "The numbers that have only two factors, 1 and the number itself.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnjpnAa4kDnDeP4Gg0" : {
+          "Answer" : "Composite number",
+          "Date" : "2020-8-28 11:26:53",
+          "Option1" : "Improper number",
+          "Option2" : "Prime number",
+          "Option3" : "Composite number",
+          "Option4" : "Infinite number",
+          "Question" : "The number 87 is a :",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnjzK6hXjb_Eyu4FWz" : {
+          "Answer" : "72",
+          "Date" : "2020-8-28 11:27:32",
+          "Option1" : "76",
+          "Option2" : "78",
+          "Option3" : "72",
+          "Option4" : "74",
+          "Question" : "2x2x2x3x3  is the prime factorization of:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnk8bkz5etvIWEU-VH" : {
+          "Answer" : "8",
+          "Date" : "2020-8-28 11:28:14",
+          "Option1" : "6",
+          "Option2" : "9",
+          "Option3" : "60",
+          "Option4" : "8",
+          "Question" : "√66 ≈ ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnkGs-DXxNVFgOi5IC" : {
+          "Answer" : "90",
+          "Date" : "2020-8-28 11:28:48",
+          "Option1" : "90",
+          "Option2" : "19",
+          "Option3" : "91",
+          "Option4" : "80",
+          "Question" : "2x3x3x5  is the prime factorization of:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnkQ4wHA-e-imW6pdW" : {
+          "Answer" : "9",
+          "Date" : "2020-8-28 11:29:26",
+          "Option1" : "9",
+          "Option2" : "8",
+          "Option3" : "81",
+          "Option4" : "90",
+          "Question" : "The nearest evaluation of √80 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnl4GMKJnpoEPnUPmH" : {
+          "Answer" : "Prime number",
+          "Date" : "2020-8-28 11:32:18",
+          "Option1" : "Prime number",
+          "Option2" : "Composite number",
+          "Option3" : "Improper number",
+          "Option4" : "Infinite number",
+          "Question" : "Determine 29 is a ________ number.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnlCEkx3KIU7yW6y0Y" : {
+          "Answer" : "1",
+          "Date" : "2020-8-28 11:32:51",
+          "Option1" : "4",
+          "Option2" : "2",
+          "Option3" : "1",
+          "Option4" : "3",
+          "Question" : "If n x (n + 42) is a prime number, then n = ? ",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnlKSHXkR-79pMafCx" : {
+          "Answer" : "6",
+          "Date" : "2020-8-28 11:33:25",
+          "Option1" : "6",
+          "Option2" : "40",
+          "Option3" : "12",
+          "Option4" : "30",
+          "Question" : "The HCF of 12 and 30 is:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnlVYBjwThzTrNZvVk" : {
+          "Answer" : "120",
+          "Date" : "2020-8-28 11:34:10",
+          "Option1" : "120",
+          "Option2" : "240",
+          "Option3" : "300",
+          "Option4" : "24",
+          "Question" : "The Common Multiple (LCM) of the numbers 24 and 30 is:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnm0Lu7s2Du82KafMJ" : {
+          "Answer" : "792",
+          "Date" : "2020-8-28 11:36:24",
+          "Option1" : "927",
+          "Option2" : "792",
+          "Option3" : "729",
+          "Option4" : "297",
+          "Question" : "2x2x2x3x3x11 = ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnmFcLf6TXWYTKcgEE" : {
+          "Answer" : "2x3x5",
+          "Date" : "2020-8-28 11:37:27",
+          "Option1" : "2x3x4",
+          "Option2" : "2x3x6",
+          "Option3" : "2x3x3",
+          "Option4" : "2x3x5",
+          "Question" : "30 in its prime factors:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnmPXUUqxB20WBY9Bf" : {
+          "Answer" : "10",
+          "Date" : "2020-8-28 11:38:8",
+          "Option1" : "10",
+          "Option2" : "20",
+          "Option3" : "12",
+          "Option4" : "2",
+          "Question" : "A car covers 2m in 1 minute. It can cover 20m in ____ minutes.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnmaul3Aq6kjzX7qY_" : {
+          "Answer" : "Negative number",
+          "Date" : "2020-8-28 11:38:58",
+          "Option1" : "Prime number",
+          "Option2" : "Negative number",
+          "Option3" : "Infinite number",
+          "Option4" : "Postive number",
+          "Question" : "-0.3 is a_________.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnmoifslNOCjMvGYZH" : {
+          "Answer" : "<",
+          "Date" : "2020-8-28 11:39:55",
+          "Option1" : "<",
+          "Option2" : ">",
+          "Option3" : "=",
+          "Option4" : "!",
+          "Question" : "16 _____60. Put an appropriate symbol.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnmyxSIVGyOCMiIoG9" : {
+          "Answer" : ">",
+          "Date" : "2020-8-28 11:40:37",
+          "Option1" : "<",
+          "Option2" : "@",
+          "Option3" : ">",
+          "Option4" : "=",
+          "Question" : "-11_____-11.5. Put an appropriate symbol.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnnCgd9pGRU9H8Z0u1" : {
+          "Answer" : "-273.15",
+          "Date" : "2020-8-28 11:41:37",
+          "Option1" : "-273.15",
+          "Option2" : "-273.25",
+          "Option3" : "-273.35",
+          "Option4" : "-273.45",
+          "Question" : "Absolute zero as 0 Kelvin is =  ____°C",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnnKXvLNN6wY5BeEtG" : {
+          "Answer" : "0",
+          "Date" : "2020-8-28 11:42:9",
+          "Option1" : "1",
+          "Option2" : "2",
+          "Option3" : "11",
+          "Option4" : "0",
+          "Question" : "On a number line, the number between -1 and 1 is____.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnnTva1Rw2hef_Etrz" : {
+          "Answer" : "+60",
+          "Date" : "2020-8-28 11:42:48",
+          "Option1" : "-60",
+          "Option2" : "+6",
+          "Option3" : "+60",
+          "Option4" : "-6",
+          "Question" : "If clockwise rotation is -60, then anti-clock wise rotations will be_____.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnngijYdrBox3UO7GN" : {
+          "Answer" : "Positive number",
+          "Date" : "2020-8-28 11:43:44",
+          "Option1" : "Improper number",
+          "Option2" : "Negative number",
+          "Option3" : "Positive number",
+          "Option4" : "Infinite number",
+          "Question" : "The number ‘4’ is a ___________.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnntsr6282HkCqOe7C" : {
+          "Answer" : "Composite number",
+          "Date" : "2020-8-28 11:44:38",
+          "Option1" : "Prime number",
+          "Option2" : "Infinite number",
+          "Option3" : "Improper number",
+          "Option4" : "Composite number",
+          "Question" : "The number 100 is a :",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFno03_Zqe-KDGe546X" : {
+          "Answer" : "36",
+          "Date" : "2020-8-28 11:45:8",
+          "Option1" : "36",
+          "Option2" : "26",
+          "Option3" : "60",
+          "Option4" : "30",
+          "Question" : "2x2x3x3  is the prime factorization of:",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFno779gHr9rZmj3eYM" : {
+          "Answer" : "-4",
+          "Date" : "2020-8-28 11:45:37",
+          "Option1" : "4",
+          "Option2" : "-2",
+          "Option3" : "-8",
+          "Option4" : "-4",
+          "Question" : "On a number line, the number between -5 and -3 is____.",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnoEYxA5GMs3sxmCIY" : {
+          "Answer" : "3",
+          "Date" : "2020-8-28 11:46:7",
+          "Option1" : "4",
+          "Option2" : "3",
+          "Option3" : "8",
+          "Option4" : "10",
+          "Question" : "√9 ≈ ?",
+          "author" : "sirfaisalky786@gmail.com"
+        },
+        "-MFnoK8QZTbp8rPVJSj3" : {
+          "Answer" : "10",
+          "Date" : "2020-8-28 11:46:30",
+          "Option1" : "10",
+          "Option2" : "100",
+          "Option3" : "99",
+          "Option4" : "102",
+          "Question" : "√101 ≈ ?",
+          "author" : "sirfaisalky786@gmail.com"
+        }
+      }
+    },
+    "Class VII" : {
+      "English" : {
+        "-MFi7S85MXC9YDM7o6lF" : {
+          "Answer" : "Starvation",
+          "Date" : "2020-8-27 9:16:42",
+          "Option1" : "Clever",
+          "Option2" : "Starvation",
+          "Option3" : "Complained",
+          "Option4" : "Naughty",
+          "Question" : "The meaning of \"famine\" is.....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFi802dgtiRvcNtQ9Qj" : {
+          "Answer" : "Talkative",
+          "Date" : "2020-8-27 9:19:9",
+          "Option1" : "Talkative",
+          "Option2" : "Collected",
+          "Option3" : "Big",
+          "Option4" : "Bossy",
+          "Question" : "\"Chatty\" means....\n",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFi8J6iBX4lu3i8XlEb" : {
+          "Answer" : "Clever",
+          "Date" : "2020-8-27 9:20:27",
+          "Option1" : "Clever",
+          "Option2" : "Fungus",
+          "Option3" : "Representative",
+          "Option4" : "Boom",
+          "Question" : "\"Cunning\" means",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFi8ejc2dRPvztILswH" : {
+          "Answer" : "Offer as a start",
+          "Date" : "2020-8-27 9:22:0",
+          "Option1" : "Small offer",
+          "Option2" : "Huge offer",
+          "Option3" : "Offer as a start",
+          "Option4" : "Information",
+          "Question" : "\"Introductory offer\" means...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFi8xmGVRzlSVvT5Y2s" : {
+          "Answer" : "Dissatisfied",
+          "Date" : "2020-8-27 9:23:18",
+          "Option1" : "Dissatisfied",
+          "Option2" : "Disagree",
+          "Option3" : "Dismiss",
+          "Option4" : "Discover",
+          "Question" : "\"Disappointed\" means....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFi9B_Sx-CBNAq4Rm6u" : {
+          "Answer" : "React",
+          "Date" : "2020-8-27 9:24:18",
+          "Option1" : "Reach",
+          "Option2" : "Question",
+          "Option3" : "React",
+          "Option4" : "Relaunch",
+          "Question" : "\"Respond\" means...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFi9OetU3HWzo7KwDRT" : {
+          "Answer" : "Effect",
+          "Date" : "2020-8-27 9:25:12",
+          "Option1" : "Effect",
+          "Option2" : "React",
+          "Option3" : "Infact",
+          "Option4" : "Text",
+          "Question" : "\"Impact\" means...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiBvpCdR6HdA78-eig" : {
+          "Answer" : "African folktale",
+          "Date" : "2020-8-27 9:36:17",
+          "Option1" : "Indian folktale",
+          "Option2" : "Russian folktale",
+          "Option3" : "Chinese folktale ",
+          "Option4" : "African folktale",
+          "Question" : "\"Why the tortoise's shell is not smooth\" is adapted from....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiC_EwYDpwP_RRtW_G" : {
+          "Answer" : "He didn't eat anything because of famine",
+          "Date" : "2020-8-27 9:39:6",
+          "Option1" : "He didn't eat anything because of famine",
+          "Option2" : "He was ill",
+          "Option3" : "He has no house ",
+          "Option4" : "He has no friends",
+          "Question" : "Tortoise's throat began to itch at the thought of feast because...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiCljfue1Tnlf1u3V3" : {
+          "Answer" : "Parrot",
+          "Date" : "2020-8-27 9:39:58",
+          "Option1" : "Parrot",
+          "Option2" : "Pigeon ",
+          "Option3" : "Crow",
+          "Option4" : "Owl",
+          "Question" : "Tortoise gave his message to...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiCzNcYKLVfBAYo0IC" : {
+          "Answer" : "All of you",
+          "Date" : "2020-8-27 9:40:53",
+          "Option1" : "All of you",
+          "Option2" : "All of me",
+          "Option3" : "All for you",
+          "Option4" : "For me only",
+          "Question" : "What was tortoise adopted name",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiDg-IQ4An0MGnDIYS" : {
+          "Answer" : "Interrogative ",
+          "Date" : "2020-8-27 9:43:56",
+          "Option1" : "Declarative",
+          "Option2" : "Interrogative ",
+          "Option3" : "Imperative ",
+          "Option4" : "Exclamtory ",
+          "Question" : "Is purple the best choice of colour for your hair? ",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiDyI5YKRcAFSm2nPO" : {
+          "Answer" : "Imperative",
+          "Date" : "2020-8-27 9:45:11",
+          "Option1" : "Imperative",
+          "Option2" : "Interrogative",
+          "Option3" : "Exclamatory",
+          "Option4" : "Declarative ",
+          "Question" : "Take the trash out.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiELmdw8dvCL-ahryI" : {
+          "Answer" : "Declarative ",
+          "Date" : "2020-8-27 9:46:52",
+          "Option1" : "Declarative ",
+          "Option2" : "Interrogative",
+          "Option3" : "Exclamatory",
+          "Option4" : "Imperative ",
+          "Question" : "I just finished reading that book.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiEma-hwVnzf8DudWD" : {
+          "Answer" : "John is subject ",
+          "Date" : "2020-8-27 9:48:46",
+          "Option1" : "John is predicate",
+          "Option2" : "John is subject ",
+          "Option3" : "John is both subject and predicate",
+          "Option4" : "None of these ",
+          "Question" : "John went to the movie with his friend.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiFMZWpjWrChtGWyDk" : {
+          "Answer" : "Predicate ",
+          "Date" : "2020-8-27 9:51:17",
+          "Option1" : "Subject",
+          "Option2" : "Predicate ",
+          "Option3" : "Both",
+          "Option4" : "Non of these ",
+          "Question" : "...... part of sentence tells what action the subject does.",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiFdRMwcXFWhG8oaay" : {
+          "Answer" : "Statement ",
+          "Date" : "2020-8-27 9:52:30",
+          "Option1" : "Statement ",
+          "Option2" : "Command",
+          "Option3" : "Exclamation ",
+          "Option4" : "Question ",
+          "Question" : "Declarative makes...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiFu9u7AhD8dd-h0BL" : {
+          "Answer" : "Phrase ",
+          "Date" : "2020-8-27 9:53:39",
+          "Option1" : "Phrase ",
+          "Option2" : "Clause ",
+          "Option3" : "Subject ",
+          "Option4" : "None of these ",
+          "Question" : "A group of words which make sense but not complete sense is called...",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiGKdcoeangOYjqpAW" : {
+          "Answer" : "Clause",
+          "Date" : "2020-8-27 9:55:31",
+          "Option1" : "Phrase",
+          "Option2" : "Clause",
+          "Option3" : "Predicate",
+          "Option4" : "None of these",
+          "Question" : "A part of sentence which contains a subject and a predicate is called....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiH-LG2Z80gMZCY-v8" : {
+          "Answer" : "Sentence",
+          "Date" : "2020-8-27 9:58:26",
+          "Option1" : "Sentence",
+          "Option2" : "Subject",
+          "Option3" : "Noun ",
+          "Option4" : "Predicate",
+          "Question" : "A group of words which makes complete sense is called....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiHQ_EY4vu8b7kpCJn" : {
+          "Answer" : "Four",
+          "Date" : "2020-8-27 10:0:18",
+          "Option1" : "Four",
+          "Option2" : "Three",
+          "Option3" : "Two",
+          "Option4" : "One",
+          "Question" : "Sentences are  of ...... kinds ",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiHteYykaajuAb6PWG" : {
+          "Answer" : "Imperative",
+          "Date" : "2020-8-27 10:2:21",
+          "Option1" : "Imperative",
+          "Option2" : "Exclamatory",
+          "Option3" : "Declarative",
+          "Option4" : "Interrogative",
+          "Question" : "A sentence that expresses a command is called.... ",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiIFMTCcvKGxewv8Pm" : {
+          "Answer" : "Beaten hard",
+          "Date" : "2020-8-27 10:3:54",
+          "Option1" : "Beaten hard",
+          "Option2" : "Love able",
+          "Option3" : "Irritable ",
+          "Option4" : "Master",
+          "Question" : "\"Pounded\" means....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiI_UUIxzUhUibQXbH" : {
+          "Answer" : "Oily tongue ",
+          "Date" : "2020-8-27 10:5:20",
+          "Option1" : "Oily tongue ",
+          "Option2" : "Money",
+          "Option3" : "Gift",
+          "Option4" : "Family",
+          "Question" : "Tortoise convinced the birds through his....",
+          "author" : "sehartahir297@gmail.com"
+        },
+        "-MFiIo0fj9ff3HgaXE2c" : {
+          "Answer" : "Moral lesson",
+          "Date" : "2020-8-27 10:6:20",
+          "Option1" : "Moral lesson",
+          "Option2" : "Smell",
+          "Option3" : "Name",
+          "Option4" : "None of these",
+          "Question" : "Traditional stories has a strong....",
+          "author" : "sehartahir297@gmail.com"
+        }
+      },
+      "Urdu" : {
+        "-MFnb0wZypjN_O4AYIRa" : {
+          "Answer" : "امریکہ",
+          "Date" : "2020-8-28 10:48:24",
+          "Option1" : "پاکستان",
+          "Option2" : "برطانیہ",
+          "Option3" : "امریکہ",
+          "Option4" : "جاپان",
+          "Question" : "س۔15واشنگٹن جس ملک کا شہر ہے",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnbU-99slHKAzaYGIV" : {
+          "Answer" : "تضادات",
+          "Date" : "2020-8-28 10:50:22",
+          "Option1" : "تضادات",
+          "Option2" : "تض",
+          "Option3" : "تضادوں",
+          "Option4" : "تضادے",
+          "Question" : "س16۔تضاد کا جمع ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnbyw0QsjlFbHrfyat" : {
+          "Answer" : "رجحانات",
+          "Date" : "2020-8-28 10:52:33",
+          "Option1" : "رحجانوں",
+          "Option2" : "رجحانات",
+          "Option3" : "رجھان",
+          "Option4" : "راجحانات",
+          "Question" : "س17۔رحجان کا جمع ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFncPIqjnbl0MRxLIsw" : {
+          "Answer" : "رفت",
+          "Date" : "2020-8-28 10:54:25",
+          "Option1" : "آنا",
+          "Option2" : "رفت",
+          "Option3" : "استقبال",
+          "Option4" : "پیشکش",
+          "Question" : "س18۔آمد کا متضاد ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFncnKEKzv-pRhF7MjJ" : {
+          "Answer" : "پستی",
+          "Date" : "2020-8-28 10:56:8",
+          "Option1" : "اونچائی",
+          "Option2" : "برتری",
+          "Option3" : "بڑائی",
+          "Option4" : "پستی",
+          "Question" : "س19۔بلندی کا متضاد ہے۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFndZ3UjQ7CB5ULr6E5" : {
+          "Answer" : "حرارت",
+          "Date" : "2020-8-28 10:59:28",
+          "Option1" : "سردی",
+          "Option2" : "حرارت",
+          "Option3" : "گرمی",
+          "Option4" : "ٹھنڈ",
+          "Question" : "س20۔تپش کا مترادف ہے",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFne0bJtJmGD3RTEWPw" : {
+          "Answer" : "لفظ",
+          "Date" : "2020-8-28 11:1:28",
+          "Option1" : "کلمہ",
+          "Option2" : "اسم",
+          "Option3" : "لفظ",
+          "Option4" : "جملہ",
+          "Question" : "س21۔حروف کے مجموعے کو کہتے ہیں۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFneHm-mv51LXqUiKpV" : {
+          "Answer" : "2",
+          "Date" : "2020-8-28 11:2:39",
+          "Option1" : "2",
+          "Option2" : "3",
+          "Option3" : "4",
+          "Option4" : "5",
+          "Question" : "س22۔لفظ کی اقسام ہیں",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnekKSi8pwUm9vVItq" : {
+          "Answer" : "مہمل",
+          "Date" : "2020-8-28 11:4:40",
+          "Option1" : "اسم",
+          "Option2" : "فعل",
+          "Option3" : "کلمہ",
+          "Option4" : "مہمل",
+          "Question" : "س23۔بے معنی کو کہتے  ہیں",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnf56BoyigjBpmzKks" : {
+          "Answer" : "کلمہ",
+          "Date" : "2020-8-28 11:6:9",
+          "Option1" : "کلمہ",
+          "Option2" : "مہمل",
+          "Option3" : "اسم",
+          "Option4" : "فعل",
+          "Question" : "س24۔الفاظ کے مجموعے کو کہتے ہیں۔",
+          "author" : "rizwanatameem@gmail.com"
+        },
+        "-MFnfPYg4AxtgfxKPfRy" : {
+          "Answer" : "کلمہ",
+          "Date" : "2020-8-28 11:7:33",
+          "Option1" : "کلمہ",
+          "Option2" : "مہمل",
+          "Option3" : "اسم",
+          "Option4" : "فعل",
+          "Question" : "س25۔ہر با معنی لفظ کہلاتا ہے",
+          "author" : "rizwanatameem@gmail.com"
+        }
+      }
+    },
+    "null" : {
+      "null" : {
+        "-MFkhkHovi8KeD234M2Y" : {
+          "Answer" : "لگڑبھگےاور چیتے",
+          "Date" : "2020-8-27 21:18:54",
+          "Option1" : "لگڑبھگےاور چیتے",
+          "Option2" : "مگرمچھ ",
+          "Option3" : "ہرن",
+          "Option4" : "زرافہ",
+          "Question" : "   کونسے جانور ہاتھی کے بچوں کو کھا \n                     جاتے ہیں؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkkaqz7dZsceqVmaxo" : {
+          "Answer" : "دانت",
+          "Date" : "2020-8-27 21:31:22",
+          "Option1" : "دانت",
+          "Option2" : "‏کان",
+          "Option3" : "پاؤں",
+          "Option4" : "ٹانگیں",
+          "Question" : "       ہاتھی کے _____ لمبے ہوتے ہیں۔",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFklUfx-guCPkV14Uwv" : {
+          "Answer" : "سننے کی",
+          "Date" : "2020-8-27 21:35:14",
+          "Option1" : "دیکھنے کی",
+          "Option2" : "سننے کی",
+          "Option3" : "دوڑنے کی",
+          "Option4" : "شکار کرنے کی",
+          "Question" : "ہاتھی میں ___ کی صلاحیت تیز ہوتی ہے۔",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkmCcAs1viOvJZpgMj" : {
+          "Answer" : "ماضی کا",
+          "Date" : "2020-8-27 21:38:22",
+          "Option1" : "مستقبل کا",
+          "Option2" : "ماضی کا",
+          "Option3" : "حال کا",
+          "Option4" : "اسم کا",
+          "Question" : " کہانی ___ زمانے کا کوئی واقعہ ہوتا ہے۔ ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkn7HZ_xPa_AyEp9td" : {
+          "Answer" : "پانی کی",
+          "Date" : "2020-8-27 21:42:22",
+          "Option1" : "کھانے کی",
+          "Option2" : "شکار کی ",
+          "Option3" : "پانی کی",
+          "Option4" : "گھڑے کی ",
+          "Question" : "  کہانی پیاسا کوا میں کوا کس تلاش میں \n                           تھا؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFknmS1W9fx_u_FlkI4" : {
+          "Answer" : "کوشش سے کامیابی ملتی ہے",
+          "Date" : "2020-8-27 21:45:15",
+          "Option1" : "لالچ بری بلا ہے",
+          "Option2" : "کوشش سے کامیابی ملتی ہے",
+          "Option3" : "اتفاق میں برکت ہے",
+          "Option4" : "نیکی کر دریا میں ڈال",
+          "Question" : "         کہانی پیاسا کوا کا نتیجہ ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkoToCpBzBusZwbgAV" : {
+          "Answer" : "انگور",
+          "Date" : "2020-8-27 21:48:17",
+          "Option1" : "سیب",
+          "Option2" : "آم",
+          "Option3" : "انگور",
+          "Option4" : "انار",
+          "Question" : "کہانی میں لومڑی کیا توڑنے کی کوشش کر \n                       رہی تھی؟ ",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkpEyw-A-ts9phRfRH" : {
+          "Answer" : "انگور کھٹے ہیں",
+          "Date" : "2020-8-27 21:51:38",
+          "Option1" : "انگور میٹھے ہیں",
+          "Option2" : "انگور کھٹے ہیں",
+          "Option3" : "انگور کڑوے ہیں",
+          "Option4" : "انگور اونچے ہیں",
+          "Question" : "       لومڑی جاتے ہوئے کیا کہنے لگی؟",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkugCLM0E-a75tWyqh" : {
+          "Answer" : "واحد",
+          "Date" : "2020-8-27 22:15:25",
+          "Option1" : "مذکر",
+          "Option2" : "متضاد",
+          "Option3" : "مثبت جملہ",
+          "Option4" : "واحد",
+          "Question" : "       ایک شخص یا چیز کو کہتے ہیں",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkvG0z4wuEH6UwLMqD" : {
+          "Answer" : "زبانیں",
+          "Date" : "2020-8-27 22:17:56",
+          "Option1" : "زبانے",
+          "Option2" : "زبانیں",
+          "Option3" : "زبانی",
+          "Option4" : "ان میں سے کوئی نہیں",
+          "Question" : "                 زبان کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkvdkBedU2smQE5Gak" : {
+          "Answer" : "مرغیاں",
+          "Date" : "2020-8-27 22:19:37",
+          "Option1" : "مرغے",
+          "Option2" : "مرغیاں",
+          "Option3" : "مرغا",
+          "Option4" : "ان میں سے کوئی نہیں",
+          "Question" : "                مرغی کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkvzsOyCphbVZ6dDNp" : {
+          "Answer" : "کاموں",
+          "Date" : "2020-8-27 22:21:7",
+          "Option1" : "کامی",
+          "Option2" : "کاموں",
+          "Option3" : "کامے",
+          "Option4" : "قوم",
+          "Question" : "                  کام کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkwSgD68FUFToHWlAn" : {
+          "Answer" : "گھونسلے",
+          "Date" : "2020-8-27 22:23:9",
+          "Option1" : "گھونسلیاں",
+          "Option2" : "گھونسلے",
+          "Option3" : "گھونسلی",
+          "Option4" : "گھاس",
+          "Question" : "               گھونسلا کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFkxdgiLWk0nGqJldZM" : {
+          "Answer" : "دنوں",
+          "Date" : "2020-8-27 22:28:21",
+          "Option1" : "دانوں",
+          "Option2" : "دنوں",
+          "Option3" : "جھاڑو",
+          "Option4" : "دانے",
+          "Question" : "                  دن کی جمع ہے",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnhG04t5RX13ae_Mox" : {
+          "Answer" : "Parents,non muslim",
+          "Date" : "2020-8-28 11:15:38",
+          "Option1" : "Parents,child",
+          "Option2" : "Parents,non muslim",
+          "Option3" : "Parents muslim",
+          "Option4" : "All of these",
+          "Question" : "Choose the right optional\n1:Zakat can not be given to onse ",
+          "author" : "ambertahir303@gmail.com"
+        },
+        "-MFnj-_pSNSmXPbWAz1D" : {
+          "Answer" : "To believe in heart",
+          "Date" : "2020-8-28 11:23:14",
+          "Option1" : "To believe in heart",
+          "Option2" : "To believe in seeing",
+          "Option3" : "To believe in knowledge",
+          "Option4" : "To believe in light ",
+          "Question" : "What is the meaning of faith?",
+          "author" : "tehzeebaslam866@gmail.com"
+        },
+        "-MFnkCh_qZm3d7-BqydP" : {
+          "Answer" : "Kind people",
+          "Date" : "2020-8-28 11:28:30",
+          "Option1" : "Cruel people",
+          "Option2" : "Kind people",
+          "Option3" : "Bad people",
+          "Option4" : "Honest people",
+          "Question" : "Who are the friends of Allah?",
+          "author" : "tehzeebaslam866@gmail.com"
+        }
+      }
+    }
+  },
+  "Score" : {
+    "Class III" : {
+      "English" : {
+        "-MFh_OQU51VLLc0JvbM8" : {
+          "Class" : "Class III",
+          "Name" : "bilalmohib7896@gmail.com",
+          "Score" : 2,
+          "Subject" : "English",
+          "Time" : "2020-8-27 6:43:32",
+          "TimeSpent" : "8",
+          "totalQuestions" : "2"
+        },
+        "-MFhbiqlNWAm8OAUH6ZU" : {
+          "Class" : "Class III",
+          "Name" : "mohib2156@gmail.com",
+          "Score" : 2,
+          "Subject" : "English",
+          "Time" : "2020-8-27 6:53:44",
+          "TimeSpent" : "6",
+          "totalQuestions" : "2"
+        }
+      }
+    }
+  }
+}
