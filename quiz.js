@@ -51,7 +51,7 @@ var User={
     Time:dateTime
 }
 
-firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).push(User);
+firebase.database().ref(`AnonymousUser`).push(User);
 
 
 
