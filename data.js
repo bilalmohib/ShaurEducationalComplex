@@ -104,6 +104,24 @@ function sendMesssage()
 
     //getting the question
     var question=document.getElementById("question").value;
+
+    //Checking for square
+    var res=question.split(" ");
+    //console.log(res.length);
+    for(let i=0;i<res.length;i++)
+    {
+       if(res[i]=="exp")
+       { 
+          var joupper=res[i+1];
+         console.log(res[i+1]);
+          res[i+1]=`<sup>${joupper}</sup>`;
+          res[i] = res[i].replace("exp", "");
+       }
+    }
+
+    question=res.join(" ");
+    //Checking for square
+
     //getting the options
     var option1=document.getElementById("option1").value;
     var option2=document.getElementById("option2").value;
@@ -123,7 +141,7 @@ function sendMesssage()
       return;      
     }
 
-//console.log(question+"\n"+option1+option2+option3+option4+answer+dateTime);
+
 
 
 var key=firebase.database().ref('Quiz/').push().key;
@@ -140,10 +158,13 @@ var Quiz={
 
 firebase.database().ref(`Quiz/${className}/${subjectName}/`).push(Quiz);
 alert("DATA IS SUBMITTED SUCCESSFULLY.");
-var x = window.location.href;
-x = x.split( '#' );
-window.location.href = x[0];
-
+//Clearing the values
+    question="";
+    option1="";
+    option2="";
+    option3="";
+    option4="";
+    answer="";
 
 }
 // Listen for form submit
@@ -181,3 +202,4 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
 }
 });
+
