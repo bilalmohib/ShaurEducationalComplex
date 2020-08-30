@@ -56,7 +56,7 @@ var User={
     Time:dateTime
 }
 
-firebase.database().ref(`AnonymousUser`).push(User);
+firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).push(User);
 
 
 
@@ -239,5 +239,6 @@ console.log(keys.length)
       //console.log(keys);
     });
   }
+
 
 
