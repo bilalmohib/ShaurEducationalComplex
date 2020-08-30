@@ -104,7 +104,7 @@ function sendMesssage()
 
     //getting the question
     var question=document.getElementById("question").value;
-if(subjectName="Math")
+if(subjectName==="Math")
 {
     //Checking for square
     var res=question.split(" ");
@@ -158,27 +158,22 @@ var Quiz={
 }
 
 firebase.database().ref(`Quiz/${className}/${subjectName}/`).push(Quiz);
-alert("DATA IS SUBMITTED SUCCESSFULLY.");
 //Clearing the values
-    question="";
-    option1="";
-    option2="";
-    option3="";
-    option4="";
-    answer="";
-
-}
+   
+alert("DATA IS SUBMITTED SUCCESSFULLY.");
+document.getElementById("Quiz").reset();
+//refresh
+// var x = window.location.href;
+// x = x.split( '#' );
+// window.location.href = x[0];
 // Listen for form submit
 document.getElementById('submit').addEventListener('click', submitForm);
-
+}
 // Submit form
 function submitForm(e){
 e.preventDefault();
-
-
 // Show alert
 //document.querySelector('.alert').style.display = 'block';
-
 // Hide alert after 3 seconds
 setTimeout(function(){
   document.querySelector('.alert').style.display = 'none';
@@ -203,5 +198,7 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
 }
 });
+
+
 
 
