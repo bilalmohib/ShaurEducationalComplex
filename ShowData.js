@@ -224,8 +224,19 @@ function deleteItem(e)
 
 function deleteAll()
 {
-    let userRef = this.database.ref(`Quiz/${className}/${subjectName}`);
+    
+    var password=prompt("Please Enter the password to continue");
+    if(password=="sdfekrh34jkdsj")
+    {
+      let userRef = this.database.ref(`Quiz/${className}/${subjectName}`);
     userRef.remove()
+        alert("Deleted successfully")
+    }
+    else
+    {
+      alert("Wrong password! Try again!");
+      return;
+    }
     //refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
     var x = window.location.href;
     x = x.split( '#' );
@@ -356,6 +367,8 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
 });
 
 
-setInterval(30000,()=>{
-  location.reload();
+setInterval(30000,function(){
+var x = window.location.href;
+x = x.split( '#' );
+window.location.href = x[0];
 })
