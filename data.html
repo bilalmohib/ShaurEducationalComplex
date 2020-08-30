@@ -9,7 +9,7 @@
 "Images/logo.ico" 
         type = "image/x-icon"> 
   <link rel="stylesheet" href="data.css">
-   <title>Admin</title>
+  <title>Admin</title>
 </head>
 
 <body>
@@ -29,36 +29,35 @@
     <h1 id="clas" style="color: rgb(10, 32, 90); font-size: 30px;"></h1>
     <h2 id="sub" style="color: rgb(182, 238, 199);font-size: 30px;"></h2>
     <h1 style="font-size:35px; color: rgb(255, 255, 255);">Question</h1>
-    <!-- <form id="Quiz" action="data.html"> -->
+    <form id="Quiz">
     <textarea name="Questions" placeholder="Enter the question for quiz" id="question" cols="30" rows="5"></textarea>
 
     <!-- answers -->
 
     <label for="option1">Option 1: </label>
-    <input id="option1" required type="text">
+    <input id="option1" type="text">
     <br>
     <label for="option2">Option 2: </label>
-    <input id="option2" required type="text">
+    <input id="option2" type="text">
     <br>
     <label for="option3">Option 3: </label>
-    <input id="option3" required type="text">
+    <input id="option3" type="text">
     <br>
     <label for="option4">Option 4: </label>
-    <input id="option4" required type="text">
+    <input id="option4" type="text">
     <br>
     <label for="answer" style="color: rgb(224, 38, 38);">Answer: </label>
-    <input id="answer" required placeholder="Enter the right answer" type="text">
+    <input id="answer" placeholder="Enter the right answer" type="text">
     <br>
     <!-- answers -->
     <input type="submit" onclick="sendMesssage()" id="submit">
-
+  </form>
     <br>
     <h1 title="Ask the administrator to ENABLE(show) DISABLE(hide) this subject if you want" id="ED"></h1>
     <input type="button" onclick="disableQuiz()" style="color: red; display:none;" value="Disable" id="disable">
     <input type="button" style="color: green; display:none;" onclick="enableQuiz()" value="Enable" id="enable">
-    <!-- </form> -->
+    
     <button style="text-align: center; width: 200px; font-size: 20px;" onclick="logout()">Logout</button>
-
 
   </div>
 
