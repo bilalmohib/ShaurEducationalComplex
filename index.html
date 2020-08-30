@@ -4,122 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShaurEducationalComplex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleMain.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
      <!-- add icon link -->
      <link rel = "icon" href =  "Images/logo.ico" type = "image/x-icon">      
-       <link rel="stylesheet" tyle="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
     
-    
+    <style>
+      .header {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background-color: #f1f1f1;
+      }
+      
+      .header h2 {
+        text-align: center;
+      }
+      
+      .progress-container {
+        width: 100%;
+        height: 8px;
+        background: #ccc;
+      }
+      
+      .progress-bar {
+        height: 8px;
+        background: #1f6cdf;
+        width: 0%;
+      }
+      
+      .content {
+        padding: 100px 0;
+        margin: 50px auto 0 auto;
+        width: 80%;
+      }
+      </style>
    
     
 </head>
-<body>
+<body class="bg-dark">
   
-  <!-- This is the first blue block -->
-         <!-- This is for testing may it works -->
-     <div class="container7">
-      <div class="box7">
-          <div class="container7inside">
+  <!-- This is the firs tblock -->
+  <div class="container-fluid p-3 mb-2 bg-light text-dark">
+              <div class="icondowns">
+                <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
+                <div><a href="https://twitter.com/"><i style="margin-top: 0px;"  class="icondtc fab fa-twitter"></i></a></div>        
+                <div><a href="https://www.instagram.com/"><i  style="margin-top: 0px;" class="icondic fab fa-instagram"></i></a></div> 
+                <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i  style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
+                <div><a href="https://api.whatsapp.com/"><i  style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a></div>
+                </div>
+</div>
+<!-- This is navigation bar -->
+<div class="sticky-top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img id="logoSchool" width="100px" height="80px" src="Images/logo.ico" alt="Logo Of ShaurEducationalComplex">
+    <a class="navbar-brand text-primary" id="logoText">Shaur Educational Complex</a>
+    <a class="navbar-brand text-primary" id="logoTextHide" title="Shaur Educational Complex">SEC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
 
-              <div class="box7inside">
-              <a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i id="iconabove" class="fab fa-facebook-f"></i></a>      
-              </div>
-              <div class="box7inside">
-              <a href="https://twitter.com/eadksk?lang=en"><i id="iconabove" class="fab fa-twitter"></i></a>        
-              </div>
-              <div class="box7inside">
-                  <a href="https://www.instagram.com/cengizcoskunnn/?hl=en"><i id="iconabove" class="fab fa-instagram"></i></a>
-                   
-              </div>
-              <div class="box7inside">
-                  <a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i id="iconabove" class="fab fa-youtube"></i></a>
-  
-              </div>
-              <div class="box7inside">
-                  <a href="https://api.whatsapp.com/"><i id="iconabove" class="fab fa-whatsapp"></i></a>
-              </div>    
+
+        <li id="home" class="nav-item active">
+          <a class="nav-link p-3 mb-2 bg-primary text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+
+      
+       
+
+
+       
+        <li class="nav-item">
+          <a class="nav-link p-3 mb-2 bg-primary text-white" href="ElearningPortal.html">E-learning Portal</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3 mb-2 bg-primary text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Quiz-Portal
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="home.html">Start Quiz</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="Admin.html">Admin Portal</a>
+            
           </div>
-          <!-- This is for testing may it works  -->
-      </div>
-      <div class="box7para">        
-        The Institute of Excellence in Education
-      </div>
-      
-  </div>
-  <!-- This is the first blue block -->
-  
- <!-- This is the navigation bar -->
- <nav>
-   <img id="logo2" src="Images/logo.ico" alt="School Logo">
-   <span id="logo3" style="color:rgb(255, 255, 255);">Shaur Educational Complex</span>
-   <label for="btn" class="icon">
-       
-     <span style="font-size:35px; color:white;" id="_bar_Id_" class="fa fa-bars"></span>
-   </label>
-   <input type="checkbox" id="btn">
-   <ul>
-    
-  
-    <li>
-      <label for="btn-4" class="show">Quiz-Portal<span class="fas fa-caret-down"></span> 
-      </label>
-      <a href="#">Quiz-Portal<span class="fas fa-caret-down"></span></a>
-      <input type="checkbox" id="btn-4">
-      
-      <ul>
-        <li><a href="home.html">Quiz</a></li>
-        <li><a href="Admin.html">Admin-Portal</a></li>   
-       </ul>
-    </li>
+        </li>
+        
+
+
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3 mb-2 bg-primary text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Images
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="PictureGallery/ArtGallery.html">Art Gallery</a>
+            <a class="dropdown-item" href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a>
+              <a class="dropdown-item" href="PictureGallery/Cultural Day.html">Cultural Day</a>
+              <a class="dropdown-item" href="PictureGallery/FunGallery.html">Fun Factory Trip</a>
+          </div>
+        </li>
 
 
 
-     <li>
-       <label for="btn-1" class="show">About Us <span class="fas fa-caret-down"></span> 
-       </label>
-       <a href="#">About Us<span class="fas fa-caret-down"></span></a>
-       <input type="checkbox" id="btn-1">
-       
-       <ul>
-         <li><a href="#aboutnav">Introduction</a></li>
-         <li><a href="#img2">Events</a></li>
-        </ul>
-     </li>
-
-     <li>
-      <label for="btn-2" class="show">E-learning <span class="fas fa-caret-down"></span> 
-      </label>
-      <a href="#">E-learning<span class="fas fa-caret-down"></span></a>
-      <input type="checkbox" id="btn-2">
-      
-      <ul>
-        <li><a href="ElearningPortal.html">EL-Portal</a></li>
-       </ul>
-    </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3 mb-2 bg-primary text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contact Us
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#welcomePara">About Us</a>
+            <a class="dropdown-item" href="Contact.html">Give Feedback
+            </a>
+          </div>
+        </li>
 
 
-    <li>
-      <label for="btn-3" class="show">Images<span class="fas fa-caret-down"></span> 
-      </label>
-      <a href="#">Images<span class="fas fa-caret-down"></span></a>
-      <input type="checkbox" id="btn-3">
-      
-      <ul style="width: 240px;">
-        <li style="width: 240px;"><a href="PictureGallery/ArtGallery.html">Art Gallery</a></li>
-        <li style="width: 240px;"><a id="aac" href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a></li>
-        <li style="width: 240px;"><a href="PictureGallery/Cultural Day.html">Cultural Day</a></li>
-        <li style="width: 240px;"><a href="PictureGallery/FunGallery.html">Fun Gallery</a></li>
-       </ul>
-    </li>
-     </li> 
-     <li><a href="Contact.html">Contact Us</a></li>
-  
-   
-   </ul>
- </nav>
- <!-- This is the navigation bar -->
+      </ul>
+    </div> 
+  </nav>
+  <div class="bg-white text-primary progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div> 
+</div>
+ <!-- This is th navigation bar -->
      
 <!-- This is the slideshow -->
 <div id="slideshow">
@@ -134,29 +149,29 @@
     <div class="carousel-item active">
       <img id="image" src="Images/SlideShow/1.JPG" class="d-block w-100" alt="This is image 1">
       <div class="carousel-caption d-none d-md-block">
-        <h1 style="color: #063146;">Students Drawing At Art Day</h1>
-        <p style="color: #366881;">Students Drawing At the annual art competition</p>
+        <h1 class="text-primary">Students Drawing At Art Day</h1>
+        <p class="p-3 mb-2 text-white">Students Drawing At the annual art competition</p>
       </div>
     </div>
     <div class="carousel-item">
       <img id="image" src="Images/SlideShow/2.jpg" class="d-block w-100" alt="This is image 2">
       <div class="carousel-caption d-none d-md-block">
-        <h1 style="color: #063146;">Art Day</h1>
-        <p style="color: #366881;">Students showing their drawings at art competition</p>
+        <h1 class="text-primary">Art Day</h1>
+        <p class="p-3 mb-2 text-white">Students showing their drawings at art competition</p>
       </div>
     </div>
     <div class="carousel-item">
       <img id="image" src="Images/SlideShow/3.JPG" class="d-block w-100" alt="This is image 3">
       <div class="carousel-caption d-none d-md-block">
-        <h1 style="color: #063146;">Annual Award Ceremony</h1>
-        <p style="color: #366881;">Annual Award ceremony at Alhamra Art Complex</p>
+        <h1 class="text-primary">Annual Award Ceremony</h1>
+        <p class="p-3 mb-2 text-white">Annual Award ceremony at Alhamra Art Complex</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img id="image" src="Images/SlideShow/4.png" class="d-block w-100" alt="This is image 2">
+      <img id="image" src="https://shaureducationalscomplex.web.app/Images/fun%20day%20at%20fun%20factory/20.jpg" class="d-block w-100" alt="This is image 2">
       <div class="carousel-caption d-none d-md-block">
-        <h1 style="color: #063146;">School Main View</h1>
-        <p style="color: #366881;">This is the front view of the school</p>
+        <!-- <h1 class="text-primary">School Main View</h1>
+        <p class="p-3 mb-2 bg-info text-white">This is the front view of the school</p> -->
       </div>
     </div>
 
@@ -176,12 +191,10 @@
 
 
 <!-- this is the marquee tag -->
-<div id="containermarq">
-<marquee id="marq" width="80%" direction="left" height="40px">
-  <div id="txtmarq">
+<marquee class="p-3 mb-2 bg-primary text-white" id="marq" width="100%" direction="left" height="40px" onmouseout="this.start();" onmouseover="this.stop();"> 
+  <div  id="txtmarq">
     Welcome to Shaur Educational Complex School.<q><b>Important</b> Online Quizzes will be starting from 1-September-2020 so be ready for that</q> Our staff is struggling hard to provide the best of the education.Due to COVOID-19 the school is temporiroly closed so we will give work at our <a href="ElearningPortal.html" style="color: inherit;">E-learning Portal</a> soon.So stay connected with us.CELL NO 0321-8406295
   </div>
-</div>
 </marquee>
 <!-- this is the marquee tag -->
 
@@ -189,11 +202,11 @@
 
 
 <!-- A warm welcome -->
-<div id="aboutnav" class="welcome">
-   <div  id="welcomehead"><div></div>
-     <br><span id="about">Knowledge Comes <span style="color: rgb(204, 160, 204); font-size: inherit; font-family: inherit;">but Wisdom Lingers :</span></span>
-     <div id="welcomepara">
-      The name of the school has its semantic value. Allah Almighty
+<div style="margin-top: -11px; font-size: large;" class="p-3 mb-2 bg-white text-dark">
+
+<div id="headWelcome"><span class="text-success">Knowledge Comes </span><span class="text-info">but Wisdom Lingers:</span></div>
+  <div id="welcomePara" class="font-weight-bolder p-1 mb-5 bg-transparent text-dark" style="font-family: 'Montserrat', sans-serif;">
+    The name of the school has its semantic value. Allah Almighty
       shows his like for those who are thoughtful in their actions. So our school
       imparts “ Shaur ” , hikmat and consciousness to its learners.
       Our school has a constructive and creative approach. The school
@@ -210,75 +223,59 @@
       Our school prepares the students to face the new challenges of life.
       They get tactics and skills to be equipped for the practical life of present
       and the future.
-       <br><br><br><br>
-     </div>
-   </div>
-</div>
+  </div>
+</div>  
+  
 <!-- A warm welcome -->
 
 
+<!-- This is the image hover -->
+<div class="container-fluid">
+  <div class="bg-light row">
 
-
-<div id="welcomehead">
-  <span id="about">Events :</span>
-</div>
-
-<!-- This is the community support -->
-<div class="container3">
-  <div class="box3">  
-    <img id="img2" src="Images/art comptition/3.JPG">
-    <div class="overlay1">
-      <div class="text">Art Competition</div>
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-12 mb-4">
+      <a href="PictureGallery/ArtGallery.html"><img src="Images/art comptition/3.JPG" title="This is Art competition image" class="img-fluid mb-4" alt=""></a>
     </div>
-    <div class="txtover"><a href="PictureGallery/ArtGallery.html">Art Competition</a></div>
- </div>
+    <div class="col-lg-2 col-md-12 mb-4">
+      <a href="PictureGallery/Annual Award Ceremony.html"><img src="Images/annual award ceremony/15.JPG" title="This is Annual Award Ceremony" class="img-fluid mb-4" alt=""></a>
+    </div>
+    <div class="col-lg-4 col-md-12 mb-4">
+      <a href="PictureGallery/FunGallery.html"><img src="Images/fun day at fun factory/14.jpg" title="This is Fun Factory Trip" class="img-fluid mb-4" alt="" data-wow-delay="0.3s"></a>
+    </div>
 
- <div class="box3">
-   <img id="img2" src="Images/annual award ceremony/12.JPG">
-   <div class="overlay1">
-    <div class="text">Annual Award Ceremony</div>
-  </div>
-  <div class="txtover"><a href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a></div>
-</div>
+    <div class="col-lg-2 col-md-12 mb-4">
+      <a href="PictureGallery/Annual Award Ceremony.html"><img src="Images/annual award ceremony/19.JPG" class="img-fluid mb-4" title="This is Annual Award Ceremony" alt="" data-wow-delay="0.3s"></a>
+    </div>
+    </div>
+<!-- This is the image hover -->
 
- <div class="box3">
-  <img id="img2" src="Images/cultural day/13.jpg">
-  <div class="overlay1">
-    <div class="text">Cultural Day</div>
-  </div>
-  <div class="txtover"><a href="PictureGallery/Cultural Day.html">Cultural Day</a></div>
-</div>
 
- <div class="box3">
-  <img id="img2" src="Images/fun day at fun factory/14.jpg">
-  <div class="overlay1">
-    <div class="text">Fun Factory Trip</div>
-  </div>
-  <div class="txtover"><a href="PictureGallery/FunGallery.html">Fun Factory Trip</a></div>
-</div>
-</div>
-<!-- This is the community support -->
-
-<div id="mapbox">
-  <div id="divsocial">
-    <div style="color: black;visibility: visible;"><span style="font-size: 20px;" id="about">SEC on Social Media</span></div>
+<!-- This is the map -->
+<div class="container-fluid bg-white text-primary" id="mapbox">
+  <div  id="divsocial">
+    <div ><span id="about">SEC on Social Media</span></div>
     <br>
           <div id="icondown">
-          <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i id="icondf" class="fab fa-facebook-f"></i></a></div>
-          <div><a href="https://twitter.com/"><i id="icondt" class="fab fa-twitter"></i></a></div>        
-          <div><a href="https://www.instagram.com/"><i id="icondi" class="fab fa-instagram"></i></a></div> 
-          <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i id="icondy" class="fab fa-youtube"></i></a></div>
-          <div><a href="https://api.whatsapp.com/"><i id="icondw" class="fab fa-whatsapp"></i></a></div>
+          <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i class="icondfc fab fa-facebook-f"></i></a></div>
+          <div><a href="https://twitter.com/"><i class="icondtc fab fa-twitter"></i></a></div>        
+          <div><a href="https://www.instagram.com/"><i class="icondic fab fa-instagram"></i></a></div> 
+          <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i class="icondyc fab fa-youtube"></i></a></div>
+          <div><a href="https://api.whatsapp.com/"><i class="icondwc fab fa-whatsapp"></i></a></div>
           </div>
   </div>
   
-<iframe id="map" src="https://www.google.com/maps/d/embed?mid=1AIsf-4etCQOgWKawr8kp-6CFGp1jsZ-9" width="640" height="480"></iframe>
+<iframe id="map" src="https://www.google.com/maps/d/u/0/embed?mid=1AIsf-4etCQOgWKawr8kp-6CFGp1jsZ-9" width="640" height="480"></iframe>
 </div>
+<!-- This is the map -->
 
-<div class="container6">
+
+<!-- This is the last div -->
+<div class="bg-light text-primary container6">
   <div class="box6">
       <br><br>
-  <div style="margin-left: 10px; color: orange; font-size: 18px;" id="hocontainer6">28-saeed block,ibne saeed road,canal bank scheme,Lahore</div>
+  <div class="text-primary" style="margin-left: 10px; font-size: 18px; font-family: 'Montserrat', sans-serif;
+   font-weight:bolder;" id="hocontainer6">28-saeed block,ibne saeed road,canal bank scheme,Lahore</div>
   <!-- <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;UAN: 111-729-526 &nbsp;&nbsp;&nbsp;<i id="icon" class="fas fa-globe-americas"></i>&nbsp;&nbsp;(+0092-213) 4130786-90</div> -->
   <br>
   <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;SCHOOL NO: 0310-4802299</div>
@@ -292,91 +289,51 @@
   <div class="box6">
       <br>
       <br>
-      <div id="usefullink" style="color: orange;">Useful Links</div>
+      <div class="text-primary" id="usefullink" style="font-family: 'Montserrat', sans-serif;
+      font-weight:bolder;">Useful Links</div>
       <br>
       <div id="boxdash">__</div>
   </div>
   <div class="box6">
       <br>
       <br>
-      <div id="usefullink" style="color: orange; font-size: 20px;">Connect With Us</div><br><br>
+      <div class="text-primary" id="usefullink" style="font-family: 'Montserrat', sans-serif;
+      font-weight:bolder; font-size: 20px;">Connect With Us</div><br><br>
       <div id="icondown"  style="margin-left: -10px; padding: 0px;">
-        <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i style="margin-top: 0px;" id="icondf" class="fab fa-facebook-f"></i></a></div>
-        <div><a href="https://twitter.com/"><i style="margin-top: 0px;" id="icondt" class="fab fa-twitter"></i></a></div>        
-        <div><a href="https://www.instagram.com/"><i  style="margin-top: 0px;" id="icondi" class="fab fa-instagram"></i></a></div> 
-        <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i  style="margin-top: 0px;" id="icondy" class="fab fa-youtube"></i></a></div>
-        <div><a href="https://api.whatsapp.com/"><i  style="margin-top: 0px;" id="icondw" class="fab fa-whatsapp"></i></a></div>
+        <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
+        <div><a href="https://twitter.com/"><i style="margin-top: 0px;" class="icondtc fab fa-twitter"></i></a></div>        
+        <div><a href="https://www.instagram.com/"><i  style="margin-top: 0px;" class="icondic fab fa-instagram"></i></a></div> 
+        <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i  style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
+        <div><a href="https://api.whatsapp.com/"><i  style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a></div>
         </div>
       <br>
   </div>
 </div>
+<!-- This is the last div -->
 
-
-    
-    
-    
-    
-<style>
-  label{
-    font-size: 30px;
-    color: black;
-    text-shadow: 1px 1px 1px blue;
-  }
-  #btn{
-    font-size: 30px;
-    color: white;
-  }
-  #btn1
-  {
-    transform: translate(-50%,-50%);
-    position: fixed;
-    top: 5%;
-    left: 50%;
-    z-index: 100000000;
-    font-size: 30px;
-    color: white;
-    border-radius: 10%;
-    background-color: red;
-  }
-  #email,#password,#Sname,#Gname,#classS,#mobile
-  {
-    max-width: 400px;
-  }
-</style>
-
-
-  <script>
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
-  (function() {
-    'use strict';
-    window.addEventListener('load', function() {
-      // Fetch all the forms we want to apply custom Bootstrap validation styles to
-      var forms = document.getElementsByClassName('needs-validation');
-      // Loop over them and prevent submission
-      var validation = Array.prototype.filter.call(forms, function(form) {
-        form.addEventListener('submit', function(event) {
-          if (form.checkValidity() === false) {
-            event.preventDefault();
-            event.stopPropagation();
-          }
-          form.classList.add('was-validated');
-        }, false);
-      });
-    }, false);
-  })();
-  </script>
+<div class="container-fluid bg-primary text-white" id="copyRight">
+  Copyright © 2020 SEC
 </div>
 
 
-<!-- This is the bootstrap js -->
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
- <!-- This is the bootstrap js -->
- <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-<div style="text-align:center; width:100%;" id="copyright">Copyright © 2020 Shaur Educational Complex</div>
+<script>
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
 
+
+
+<!-- This is bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- This is bootstrap -->
 </body>
-<script src="app3.js"></script>
 </html>
-

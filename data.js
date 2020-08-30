@@ -122,6 +122,8 @@ function sendMesssage()
     question=res.join(" ");
     //Checking for square
 
+  }
+
     //getting the options
     var option1=document.getElementById("option1").value;
     var option2=document.getElementById("option2").value;

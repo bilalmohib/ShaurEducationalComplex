@@ -537,7 +537,7 @@ function go() {
 let promise =new Promise(function(resolve,reject){
 
 ///////////////////////////////////////////
-firebase.database().ref(`AnonymousUser`).once('value', function(data){
+
   if(data.val()){
     resolve(data.val());
   }
@@ -547,7 +547,7 @@ firebase.database().ref(`AnonymousUser`).once('value', function(data){
  
   })
 
-})
+}
 
 promise.then(function(data){
   var quiz = data;
@@ -585,7 +585,7 @@ else if (check3 == false && check1 == true && check2 == true) {
 
 
 
-}
+
 
 
 

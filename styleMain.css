@@ -1,0 +1,383 @@
+/* This is the icons */
+.icondowns
+{
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards;
+    line-height: 0px;
+    display: flex;
+    flex-flow: row;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+.icondfc{
+    border-radius: 50%;
+    background-color: blue;
+    width:30px;
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+   color: white;
+    margin-top: 5px;
+    font-size: 25px;
+    transition: 0.2s linear;
+
+}
+.icondtc{
+    border-radius: 20%;
+    text-align: left;
+    background-color: skyblue;
+    color: white;
+
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+   text-align: center;
+   line-height: 30px;
+    font-size: 30px;
+    transition: 0.2s linear;
+    margin-left: 5px;
+}
+.icondic{
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color:white;
+    /* instagram color code */
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    /* instagram color code */     
+
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 30px;
+    transition: 0.2s linear;
+    margin-left: 5px;
+}
+body {
+    position: relative; 
+  }
+.icondyc{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: red;
+
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 30px;
+    transition: 0.2s linear;
+    margin-left: 5px;
+}
+.icondwc{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: green;
+
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 30px;
+    transition: 0.2s linear;
+    margin-left: 5px;
+}
+/* This is the icons */
+
+/* This is the navigation bar */
+#logoSchool
+{
+    margin-left: 40px;
+    margin-right: 60px;
+}
+#logoText
+{
+    margin-right: 70px;
+    color:black;
+    font-size: 20px;
+    font-family: 'Russo One', sans-serif;
+}
+nav
+{
+    margin-top: 0px;
+}
+#navigationBar
+{
+}
+#navbarDropdown
+{
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+.nav-link
+{
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+}
+#logoTextHide
+{
+    display: none;
+}
+/* This is the navigation bar */
+#image
+{
+    height: 500px;
+}
+#marq
+{
+    height: 50px;
+}
+#headWelcome
+{
+    font-size:32px;
+    font-weight: bolder;
+}
+#welcomePara
+{
+ 
+}
+.imageHover
+{
+    width: 330px;
+}
+
+/*This is the map box */
+#mapbox
+{
+    border-bottom: 0px transparent;
+    display: flex;
+    box-shadow: none;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards;
+    height: 400px;
+}
+#map
+{
+    height: 400px;
+   width: 80%;
+}
+#icondown
+{
+
+    min-height: fit-content;
+    margin-left: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    animation-name: fade;
+    animation-duration: 3s;             
+    animation-fill-mode: forwards;
+    line-height: 20px;
+    
+}
+
+
+
+.container6{
+    margin-top: 0px;
+    width: 100%;
+    min-height: 350px;
+    background:transparent;
+    border: 1px black;
+    background-color: #25272e;
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box6{
+    width: 70vh;
+    height: fit-content;
+    box-sizing: border-box;
+    font-size: 17px;
+    color: grey;
+}
+#hocontainer6{
+    font-size: 17px;
+    
+}
+#icon{
+    width: 20px;
+    height: 20px;
+    color:green;
+}
+#usefullink{
+    color: white;
+    font-size: 20px;
+    margin-left: 12px;
+}
+#boxdash{
+    font-size: 60px;
+    margin-top: -60px;
+    margin-left: 12px;
+    color: darkgreen;
+}
+#iconbox{
+    font-size: 30px;
+    margin-top: 10px;
+    color: blue;
+    margin-left: 10px;
+}
+
+#divsocial{
+    height: 400px;
+    width: 20%;
+    color: #1b1b1b;
+    font-size: 25px;
+    border: 1px solid white;
+    background-color: white;
+}
+#copyRight
+{
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 50px;
+    border-radius: 5px;
+}
+#about
+{
+    font-size: 25px;
+}
+@media all and (max-width:1100px)
+{
+    #logoText
+    {
+        margin-right: 20px;
+    }
+    #logoSchool
+    {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+ 
+}
+@media all and (max-width:1080px)
+{
+    #logoText
+    {
+        margin-right: 20px;
+    }
+    #logoSchool
+    {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    #home
+    {
+        display: none;
+    }
+}
+@media all and (max-width:1035px)
+{
+    #logoText
+    {
+        margin-right: 0px;
+    }
+    #logoSchool
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #home
+    {
+        display: none;
+    }
+}
+@media all and (max-width:988px)
+{
+    #home
+    {
+        display: block;
+    }
+}
+@media all and (max-width:400px)
+{
+    #logoSchool
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 70px;
+        height: 70px;
+    }
+    #logoText
+    {
+        display: none;
+    }
+    #logoTextHide
+    {
+        display: block;
+        font-family: 'Russo One', sans-serif;
+    }
+    #copyRight
+{
+    height: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#about
+{
+font-size: 20px;
+}
+}
+@media all and (max-width:320px)
+{
+    #logoSchool
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+#headWelcome
+{
+    font-size:25px;
+    font-weight: initial;
+}
+#welcomePara
+{
+    font-size: 16px;
+}
+#about
+{
+font-size: 18px;
+display: none;
+}
+}
+@media all and (max-width:300px)
+{
+    #logoSchool
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    #headWelcome
+{
+    font-size:23px;
+}
+#welcomePara
+{
+    font-size: 14px;
+    font-weight: initial;
+}
+}

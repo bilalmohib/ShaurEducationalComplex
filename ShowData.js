@@ -80,9 +80,11 @@ let subjectName = sessionStorage.getItem("subjectName");
 var clas=document.getElementById("clas").innerHTML=className;
 var sub=document.getElementById("sub").innerHTML="Subject: "+subjectName;
 ////////////////////////////////////////////////////////
-while(className==""||subjectName=="")
+if(className==null||subjectName==null)
 {
   alert("Please go back and choose the class and the subject to proceed");
+  location.href="SeeData.html";
+  
 }
 console.log(className+"\n"+subjectName);
 
@@ -352,3 +354,8 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
 }
 });
+
+
+setInterval(30000,()=>{
+  location.reload();
+})
