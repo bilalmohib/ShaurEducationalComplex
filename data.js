@@ -1,4 +1,5 @@
 
+
 var database=firebase.database();
 /////////////////////////////////////////////////////////////////////
 // Initialize the FirebaseUI Widget using Firebase.
@@ -161,11 +162,10 @@ firebase.database().ref(`Quiz/${className}/${subjectName}/`).push(Quiz);
 //Clearing the values
    
 alert("DATA IS SUBMITTED SUCCESSFULLY.");
-document.getElementById("Quiz").reset();
 //refresh
-// var x = window.location.href;
-// x = x.split( '#' );
-// window.location.href = x[0];
+var x = window.location.href;
+x = x.split( '#' );
+window.location.href = x[0];
 // Listen for form submit
 document.getElementById('submit').addEventListener('click', submitForm);
 }
@@ -198,7 +198,4 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
 }
 });
-
-
-
 
