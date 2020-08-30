@@ -36,6 +36,11 @@ var user_name = sessionStorage.getItem("name");
 /////////////////////////////////////////
 var className = sessionStorage.getItem("className");
 var subjectName = sessionStorage.getItem("subjectName");
+if(className==null||subjectName==null)
+{
+  alert("Please go back and choose the class and the subject to proceed");
+  location.href="selectQuizCategory.html";
+}
 console.log(className+"\n"+subjectName);
 ///////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -234,3 +239,4 @@ console.log(keys.length)
       //console.log(keys);
     });
   }
+
