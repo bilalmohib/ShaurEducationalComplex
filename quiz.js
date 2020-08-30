@@ -1,6 +1,7 @@
 alert("One Minute for each MCQS of ALL THE Subjects\nTwo Minutes for each MCQS of For MATH Subject");
 var database =firebase.database();
 
+var check3 = false;
 
 let dt = new Date(new Date().setTime(0));
 let ctime = dt.getTime();
@@ -43,6 +44,54 @@ if(className==null||subjectName==null)
 }
 console.log(className+"\n"+subjectName);
 ///////////////////////////////////////////////////////////
+//Checking for the users to resubmit the quiz
+let promise =new Promise(function(resolve,reject){
+
+  ///////////////////////////////////////////
+  firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', function(data){
+    if(data.val()){
+      resolve(data.val());
+    }
+    else{
+      reject(`The USER ${user_name} IS GIVING THIS TEST FOR FIRST TIME`);
+    }
+    })
+  
+  })
+  
+  promise.then(function(data){
+    var quiz = data;
+    var keys = Object.keys(quiz);
+      for (let i = 0; i < keys.length; i++) {
+  
+        var key = keys[i];
+        var Name = quiz[key].Name;
+        //     console.log("The username from firebase database: ",Name); 
+  
+        if (user_name == Name) {
+          //  alert("The user has given the test ");
+          check3 = true;
+        }
+        console.log("The username from firebase database: ", Name + i + check3);
+  
+  
+      }
+      
+  console.log(check3);
+  
+  if(check3 == true) {
+      alert("The user has given the test Ask the administrator to resubmit if you think it was mistake");
+      location.href = "selectQuizCategory.html";
+  }
+  else if (check3 == false) {
+        alert(`Welcome ${user_name}`);
+  }
+  })
+  .catch(function(err){
+    alert(err);
+  })
+// Checking for the users to resubmit the quiz  
+
 /////////////////////////////////////////////////////////////////////////////////////////
 var today = new Date();
   var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -239,6 +288,3 @@ console.log(keys.length)
       //console.log(keys);
     });
   }
-
-
-
