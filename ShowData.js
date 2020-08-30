@@ -8,12 +8,12 @@ console.log(user_name);
 
 if(user_name=="mohib2156@gmail.com")
 {
-  alert("Welcome Sir");
+  alert(`Welcome ${user_name} You are allowed`);
   user_name="";
 }
 else
 {
-  alert("You are not allowed sorry")
+  alert("Error! Access Denied Only Administrators allowed")
   logout();
 }
 
