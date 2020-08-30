@@ -550,7 +550,7 @@ function go() {
 let promise =new Promise(function(resolve,reject){
 
 ///////////////////////////////////////////
-firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).once('value', function(data){
+firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', function(data){
   if(data.val()){
     resolve(data.val());
   }
