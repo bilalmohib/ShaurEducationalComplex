@@ -104,7 +104,8 @@ function sendMesssage()
 
     //getting the question
     var question=document.getElementById("question").value;
-
+if(subjectName="Math")
+{
     //Checking for square
     var res=question.split(" ");
     //console.log(res.length);
@@ -122,7 +123,7 @@ function sendMesssage()
     question=res.join(" ");
     //Checking for square
 
-  }
+}
 
     //getting the options
     var option1=document.getElementById("option1").value;
@@ -142,8 +143,6 @@ function sendMesssage()
       alert("Please check One of the options of four must be an answer");
       return;      
     }
-
-
 
 
 var key=firebase.database().ref('Quiz/').push().key;
@@ -204,4 +203,5 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
     ED.innerHTML=`The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
 }
 });
+
 
