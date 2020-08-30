@@ -8,7 +8,11 @@ var check4=false;
 let user_name = sessionStorage.getItem("name");
 console.log("The user name getted from the login students authentication: ", user_name + "\n");
 
-
+if(user_name==null)
+{
+  alert("Please go back and login to start the quiz");
+  location.href="home.html";
+}
 
 
 
