@@ -254,6 +254,20 @@ var option4;
 var dateTime;
 //getting the right answer
 var answer;
+
+
+//Getting the values to show on the modal
+var questionInside;
+
+var option1Inside;
+var option2Inside;
+var option3Inside;
+var option4Inside;
+var dateTimeInside;
+
+var answerInside;
+//Getting the values to show on the modal
+
 function modal()
 {
    document.getElementById("modal").style="display:none;";
@@ -273,6 +287,26 @@ function modal()
 
     //getting the question
     question=document.getElementById("question").value;
+    if(subjectName==="Math")
+{
+    //Checking for square
+    var res=question.split(" ");
+    //console.log(res.length);
+    for(let i=0;i<res.length;i++)
+    {
+       if(res[i]=="exp")
+       { 
+          var joupper=res[i+1];
+         console.log(res[i+1]);
+          res[i+1]=`<sup>${joupper}</sup>`;
+          res[i] = res[i].replace("exp", "");
+       }
+    }
+
+    question=res.join(" ");
+    //Checking for square
+
+}
     //getting the options
     option1=document.getElementById("option1").value;
     option2=document.getElementById("option2").value;
@@ -315,6 +349,9 @@ userRef.update({
 
 function editItem(e)
 {
+console.log(e.parentNode);
+
+
     document.getElementById("modal").style="display:block;";
      
     var today = new Date();
@@ -325,25 +362,7 @@ function editItem(e)
 
     val=e.parentNode.childNodes[2].innerHTML;
     console.log(val);
-    let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
-    
-console.log(input);
-userRef.update({
-  Question:question,
-  Option1:option1,
-  Option2:option2,
-  Option3:option3,
-  Option4:option4,
-  author:email_id,
-  Answer:answer,
-  Date:dateTime,
-});
-
-
-  //refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
-//     var x = window.location.href;
-// x = x.split( '#' );
-// window.location.href = x[0];
+ 
 }
 
 //canel function implementation
