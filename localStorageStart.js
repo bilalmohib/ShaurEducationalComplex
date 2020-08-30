@@ -4,8 +4,17 @@ var subjectName;
 var check1 = false;
 var check2 = false;
 var check3 = false;
+var check4=false;
 let user_name = sessionStorage.getItem("name");
 console.log("The user name getted from the login students authentication: ", user_name + "\n");
+
+
+
+
+
+
+//console.log(question+"\n"+option1+option2+option3+option4+answer+dateTime);
+
 
 
 
@@ -537,7 +546,7 @@ function go() {
 let promise =new Promise(function(resolve,reject){
 
 ///////////////////////////////////////////
-
+firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).once('value', function(data){
   if(data.val()){
     resolve(data.val());
   }
@@ -547,7 +556,7 @@ let promise =new Promise(function(resolve,reject){
  
   })
 
-}
+})
 
 promise.then(function(data){
   var quiz = data;
@@ -585,9 +594,11 @@ else if (check3 == false && check1 == true && check2 == true) {
 
 
 
-
+}
 
 
 
 var database = firebase.database();
+
+
 
