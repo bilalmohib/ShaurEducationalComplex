@@ -1,5 +1,4 @@
 
-
 var database=firebase.database();
 /////////////////////////////////////////////////////////////////////
 // Initialize the FirebaseUI Widget using Firebase.
@@ -105,20 +104,30 @@ function sendMesssage()
 
     //getting the question
     var question=document.getElementById("question").value;
-  
-  //getting the options
-    var option1=document.getElementById("option1").value;
-    var option2=document.getElementById("option2").value;
-    var option3=document.getElementById("option3").value;
-    var option4=document.getElementById("option4").value;
-    //getting the right answer
-    var answer=document.getElementById("answer").value;
+
+     //getting the options
+     var option1=document.getElementById("option1").value;
+     var option2=document.getElementById("option2").value;
+     var option3=document.getElementById("option3").value;
+     var option4=document.getElementById("option4").value;
+     //getting the right answer
+     var answer=document.getElementById("answer").value;
+
 
 if(subjectName==="Math")
 {
     //Checking for square
     var res=question.split(" ");
-    //console.log(res.length);
+    //Splitting the options in case of maths
+    var op1=option1.split(" ");
+    var op2=option2.split(" ");
+    var op3=option3.split(" ");
+    var op4=option4.split(" ");
+
+    var ans=answer.split(" ");
+
+
+    //Question
     for(let i=0;i<res.length;i++)
     {
        if(res[i]=="exp")
@@ -129,13 +138,79 @@ if(subjectName==="Math")
           res[i] = res[i].replace("exp", "");
        }
     }
+    //Checking for the options
+    //Option 1
+    for(let i=0;i<op1.length;i++)
+    {
+       if(op1[i]=="exp")
+       { 
+          let joupper=op1[i+1];
+         console.log(op1[i+1]);
+          op1[i+1]=`<sup>${joupper}</sup>`;
+          op1[i] = op1[i].replace("exp", "");
+       }
+    }
+    //Option 2
+    for(let i=0;i<op2.length;i++)
+    {
+       if(op2[i]=="exp")
+       { 
+          let joupper=op2[i+1];
+         console.log(op2[i+1]);
+          op2[i+1]=`<sup>${joupper}</sup>`;
+          op2[i] = res[i].replace("exp", "");
+       }
+    }
+    //Option 3
+    for(let i=0;i<op3.length;i++)
+    {
+       if(op3[i]=="exp")
+       { 
+          let joupper=op3[i+1];
+         console.log(op3[i+1]);
+          op3[i+1]=`<sup>${joupper}</sup>`;
+          op3[i] = op3[i].replace("exp", "");
+       }
+    }
+    //Option 4
+    for(let i=0;i<op4.length;i++)
+    {
+       if(op4[i]=="exp")
+       { 
+          let joupper=op4[i+1];
+         console.log(op4[i+1]);
+          op4[i+1]=`<sup>${joupper}</sup>`;
+          op4[i] = op4[i].replace("exp", "");
+       }
+    }
+    //Answer
+    for(let i=0;i<ans.length;i++)
+    {
+       if(ans[i]=="exp")
+       { 
+          let joupper=ans[i+1];
+         console.log(ans[i+1]);
+          ans[i+1]=`<sup>${joupper}</sup>`;
+          ans[i] = ans[i].replace("exp", "");
+       }
+    }
 
     question=res.join(" ");
+
+    //Joining the options and the answer
+    option1=op1.join(" ");
+    option2=op2.join(" ");
+    option3=op3.join(" ");
+    option4=op4.join(" ");
+    answer=ans.join(" ");
+
+    
     //Checking for square
 
 }
 
-    
+   
+
     if(question==""||option1==""||option2==""||option3==""||option4==""||answer=="")
     {
       alert("Please fill all the fields to submit for the quiz");
