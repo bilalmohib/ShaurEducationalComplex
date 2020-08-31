@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +13,115 @@
     <!-- style.css -->
     <link rel="stylesheet" href="stylesheet.css" />
     <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+      #end
+      {
+          font-size: 50px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(9, 27, 61);
+          text-shadow: 2px 2px 2px white;
+          text-align: center;
+          transition: 1s linear;
+          transform: scaleY(1.5);
+      }
+      .wrapper
+      {
+        background: linear-gradient(#e6e0e0 0%, #181270 10%, #4ca084 50%, #7a71af 100%);
+        transform: rotate3d(0);
+        transition: 10s linear;
+      }
+      #bas
+      {
+        font-size: 30px;
+        color: rgb(16, 13, 58);
+        width: fit-content;
+        font-family:sans-serif;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      #bas:hover
+      {
+        background-color: rgb(16, 13, 58);
+        color: aliceblue;
+        transition:1s linear;
+      }
+      #chal
+      {
+        font-size: 30px;
+        color: rgb(27, 153, 48);
+        width: 100px;
+        font-family:sans-serif;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      #chal:hover
+      {
+        background-color: rgb(11, 78, 11);
+        color: aliceblue;
+        transition:1s linear;
+      }
+      #send
+      {
+        font-size: 30px;
+        color: aliceblue;
+        width:auto;
+        font-family:sans-serif;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: rgb(11, 34, 78);
+      }
+      #send:hover
+      {
+        background-color: rgb(255, 255, 255);
+        color: rgb(20, 16, 70);
+        transition:1s linear;
+      }
+      #feedback
+      {
+       background-color: #ffffff;
+       opacity: 0.9;
+         z-index: 10;
+         border-radius: 10px;
+         box-shadow: 5px 5px 2px 1px blue;
+         width: 40%;
+         height: 80vh;
+         height:auto;
+         position: absolute;
+         top: 0%;
+    transform: translateX(50%) translateY(20%);
+    display: none;
+      }
+      #comments
+      {
+        font-size: 30px;
+        width: 80%;
+        margin-left: 10px;
+      }
+      #comments:focus {
+        background: linear-gradient(#e6e0e0 0%, #6d9cb8 10%, #4ca084 50%, #463b85 100%);
+        transition: 0.4s linear;
+}
+@media all and (max-width:400px)
+{
+  #feedback
+      {
+        transform: translateX(5%) translateY(5%);
+        width: 90%;
+      }
+      #comments
+      {
+        height: auto;
+      }
+
+}
+    </style>
 </head>
 <body>
-    <div class="wrapper">
-        <div>
+    <div id="wadaDaba" class="wrapper">
+        <div style="border: 5px solid green; border-radius: 5%; opacity: 0.9;">
             
      
-           <i class="fas fa-award award_icon"></i>
+           <h1 id="end">Result</h1>
 
 
            <h1 id="clas" style="color: rgb(10, 32, 90);"></h2>
@@ -26,11 +129,23 @@
             
            <h3 class="username"> <span class="name"></span></h3>
 
-           <p class="userpoints">Your Points <span class="points"></span></p>
+           <p class="userpoints">Your Marks: <span class="points"></span></p>
          <p class="usertime"> Time taken <span class="time_taken"></span></p>
+         <button id="chal">HOME</button>&nbsp;&nbsp;&nbsp;&nbsp;
+         <button id="bas" onclick="show()">FeedBack</button>
         </div>
     </div>
     
+
+
+    <div id="feedback">
+      <h1 style="text-shadow:1px 1px 1px #181270;">Give Your FeedBack</h1>
+<textarea name="comment" id="comments" cols="25" rows="10"></textarea>
+<br>
+<button id="send" onclick="SendComment()">Submit</button>
+    </div>
+
+
     
     <script src="https://kit.fontawesome.com/d56261bbb9.js"></script>
 
@@ -62,5 +177,17 @@
 
         <!-- user info -->
         <script src="userInfo.js"></script>
+        <script>
+
+
+          setInterval(10000,function(){
+            document.getElementById("wadaDaba").style="background: linearGradient(#e6e0e0 0%, #181270 10%, #4ca084 50%, #7a71af 100%);transform: rotate3d(0);transition: 10s linear;";
+          })
+
+          document.getElementById("chal").addEventListener("click",function(){
+            location.href="index.html";
+          })
+        </script>
 </body>
 </html>
+
