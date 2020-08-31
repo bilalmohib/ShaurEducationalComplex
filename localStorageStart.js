@@ -583,16 +583,16 @@ promise.then(function(data){
 console.log(check3);
 
 if(check3 == true) {
-    alert("The user has given the test ");
+    alert("The user has given the test Ask the administrator to resubmit if you think it was a mistake.");
 }
 else if (check3 == false && check1 == true && check2 == true) {
-      alert("Welcome");
+      alert(`${user_name},welcome to the quiz`);
       location.href = "quiz.html";
 }
 })
 .catch(function(err){
-  alert(err);
-  alert("Welcome");
+  console.log(err);
+  alert(`${user_name} welcome to the quiz`);
   location.href = "quiz.html";
 })
 
@@ -603,6 +603,7 @@ else if (check3 == false && check1 == true && check2 == true) {
 
 
 var database = firebase.database();
+
 
 
 
