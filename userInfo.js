@@ -92,5 +92,6 @@ function SendComment()
 
 alert("Thanks for your valuable feedback");
 document.getElementById("feedback").style="display:none;";
+location.href="index.html";    
 }
 
