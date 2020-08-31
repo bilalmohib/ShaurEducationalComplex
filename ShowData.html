@@ -11,6 +11,11 @@
   <link rel="stylesheet" href="ShowData.css">
   <title>Admin</title>
   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+
+  
+
+
 </head>
 
 <body>
@@ -89,7 +94,8 @@
 
 <!-- modal for input -->
 <div id="modal">
-
+  <button style="display: flex;justify-content: start; color: aliceblue; background-color: crimson; font-size: 20px;" onclick="cancel()">Minimize</button>
+  <p style="min-width: 100%; font-size: 25px; color:black;"><b>Note: </b>You can now drag it where you want</p>
   <span>Enter the updated Question</span><br>
   <label for="question">Question: </label>
   <input id="question" placeholder="Enter the question" required type="text">
@@ -121,6 +127,19 @@
 
 
 </body>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $("#modal").draggable();
+  } );
+  </script>
+
 <script src="ShowData.js"></script>
+
+
 
 </html>
