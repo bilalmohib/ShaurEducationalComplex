@@ -84,11 +84,11 @@ let promise =new Promise(function(resolve,reject){
       location.href = "selectQuizCategory.html";
   }
   else if (check3 == false) {
-        alert(`Welcome ${user_name}`);
+        (`Welcome ${user_name}`);
   }
   })
   .catch(function(err){
-    alert(err);
+    console.log(err);
   })
 // Checking for the users to resubmit the quiz  
 
