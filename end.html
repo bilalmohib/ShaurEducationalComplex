@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -83,13 +84,12 @@
          z-index: 10;
          border-radius: 10px;
          box-shadow: 5px 5px 2px 1px blue;
-         width: 40%;
+         width: 50%;
          height: 80vh;
          height:auto;
          position: absolute;
          top: 0%;
     transform: translateX(50%) translateY(20%);
-    display: none;
       }
       #comments
       {
@@ -100,6 +100,19 @@
       #comments:focus {
         background: linear-gradient(#e6e0e0 0%, #6d9cb8 10%, #4ca084 50%, #463b85 100%);
         transition: 0.4s linear;
+}
+@media all and (max-width:600px)
+{
+  #feedback
+      {
+        transform: translateX(5%) translateY(5%);
+        width: 90%;
+      }
+      #comments
+      {
+        height: auto;
+      }
+
 }
 @media all and (max-width:400px)
 {
@@ -114,6 +127,10 @@
       }
 
 }
+.name
+{
+  font-size: 20px;
+}
     </style>
 </head>
 <body>
@@ -127,7 +144,7 @@
            <h1 id="clas" style="color: rgb(10, 32, 90);"></h2>
              <h2 id="sub" style="color: rgb(5, 53, 19);"></h3>
             
-           <h3 class="username"> <span class="name"></span></h3>
+           <span class="name"></span>
 
            <p class="userpoints">Your Marks: <span class="points"></span></p>
          <p class="usertime"> Time taken <span class="time_taken"></span></p>
@@ -139,7 +156,7 @@
 
 
     <div id="feedback">
-      <h1 style="text-shadow:1px 1px 1px #181270;">Give Your FeedBack</h1>
+      <h1 style="text-shadow:1px 1px 1px #181270;">How was the test gone.Give feedback</h1>
 <textarea name="comment" id="comments" cols="25" rows="10"></textarea>
 <br>
 <button id="send" onclick="SendComment()">Submit</button>
@@ -190,4 +207,5 @@
         </script>
 </body>
 </html>
+
 
