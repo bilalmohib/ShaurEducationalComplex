@@ -235,11 +235,11 @@ function deleteItem(e)
 
     var val=e.parentNode.childNodes[1].innerHTML;
     console.log(val);
-    let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
+    let userRef = this.database.ref(`Score/${className}/${subjectName}/${val}`);
     userRef.remove()
     //refresh
     var x = window.location.href;
-    x = x.split( '#' );
+    x = x.split('#');
     window.location.href = x[0];
 }
 
