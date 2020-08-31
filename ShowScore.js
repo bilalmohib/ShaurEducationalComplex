@@ -183,6 +183,8 @@ var result;
    <b>Percentage: </b> ${percentage}%</br>
    <b>Status: </b> ${result}</br>
     <b>Time taken: </b> ${TimeSpentInMinutes} Minutes</br>
+<b>Test given at: </b> ${Date}</br>
+
    `;
 
     li.appendChild(para);
