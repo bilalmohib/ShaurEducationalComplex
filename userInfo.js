@@ -60,3 +60,37 @@ var Score={
 firebase.database().ref(`Score/${className}/${subjectName}/`).push(Score);
 
 
+
+
+function show()
+{
+  document.getElementById("feedback").style="display:block;";
+}
+
+function SendComment()
+{
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var dateTime = date+' '+time;
+  dateTime=dateTime.toString();
+
+  var comment=document.getElementById("comments").value;
+
+  console.log(comment);
+
+  var key=firebase.database().ref('Score/').push().key;
+  var FeedBack={
+      Name:user_name,
+      Class:className,
+      Subject:subjectName,
+      Opinion:comment,
+      Time:dateTime
+  }
+  
+  firebase.database().ref(`FeedBack`).push(FeedBack);
+
+alert("Thanks for your valuable feedback");
+document.getElementById("feedback").style="display:none;";
+}
+
