@@ -105,6 +105,15 @@ function sendMesssage()
 
     //getting the question
     var question=document.getElementById("question").value;
+  
+  //getting the options
+    var option1=document.getElementById("option1").value;
+    var option2=document.getElementById("option2").value;
+    var option3=document.getElementById("option3").value;
+    var option4=document.getElementById("option4").value;
+    //getting the right answer
+    var answer=document.getElementById("answer").value;
+
 if(subjectName==="Math")
 {
     //Checking for square
@@ -114,7 +123,7 @@ if(subjectName==="Math")
     {
        if(res[i]=="exp")
        { 
-          var joupper=res[i+1];
+          let joupper=res[i+1];
          console.log(res[i+1]);
           res[i+1]=`<sup>${joupper}</sup>`;
           res[i] = res[i].replace("exp", "");
@@ -126,14 +135,7 @@ if(subjectName==="Math")
 
 }
 
-    //getting the options
-    var option1=document.getElementById("option1").value;
-    var option2=document.getElementById("option2").value;
-    var option3=document.getElementById("option3").value;
-    var option4=document.getElementById("option4").value;
-    //getting the right answer
-    var answer=document.getElementById("answer").value;
-
+    
     if(question==""||option1==""||option2==""||option3==""||option4==""||answer=="")
     {
       alert("Please fill all the fields to submit for the quiz");
