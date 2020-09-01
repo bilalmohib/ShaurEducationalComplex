@@ -217,7 +217,7 @@ function deleteItem(e) {
 function deleteAll() {
 
   var password = prompt("Please Enter the password to continue");
-  if (password == "sdfekrh34jkdsj") {
+  if (password == "sdfh34jkdsj!@#$@!") {
     let userRef = this.database.ref(`Quiz/${className}/${subjectName}`);
     userRef.remove()
     alert("Deleted successfully")
