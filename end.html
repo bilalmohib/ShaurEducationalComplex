@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
             type = "image/x-icon"> 
     <!-- style.css -->
     <link rel="stylesheet" href="stylesheet.css" />
-    <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  
     <style>
       #end
       {
@@ -73,6 +74,22 @@
         background-color: rgb(255, 255, 255);
         color: rgb(20, 16, 70);
         transition:1s linear;
+      }
+      #print
+      {
+        font-size: 30px;
+        color: rgb(8, 34, 56);
+        width:auto;
+        font-family:sans-serif;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: rgb(253, 253, 253);
+      }
+      #print:hover
+      {
+        background-color: rgb(7, 68, 31);
+        color: rgb(228, 227, 241);
+        transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
       }
       #feedback
       {
@@ -148,6 +165,7 @@
          <p class="usertime"> Time taken <span class="time_taken"></span></p>
          <button id="chal">HOME</button>&nbsp;&nbsp;&nbsp;&nbsp;
          <button id="bas" onclick="show()">FeedBack</button>
+         <button id="print" onclick="window.print()">Save or Take Print</button>
         </div>
     </div>
     
