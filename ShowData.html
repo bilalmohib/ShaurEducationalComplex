@@ -13,7 +13,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
 
-  
+  <style>
+     #print
+      {
+        font-size: 30px;
+        color: rgb(8, 34, 56);
+        width:auto;
+        font-family:sans-serif;
+        margin: 0 auto;
+        border-radius: 10px;
+        background-color: rgb(253, 253, 253);
+      }
+      #print:hover
+      {
+        background-color: rgb(7, 68, 31);
+        color: rgb(228, 227, 241);
+        transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
+      }
+  </style>
 
 
 </head>
@@ -33,6 +50,9 @@
     <h1 id="clas" style="color: rgb(10, 32, 90); font-size: 30px;"></h1>
     <h2 id="sub" style="color: rgb(182, 238, 199);font-size: 30px;"></h2>
 
+<br>
+<button id="print" onclick="window.print()">Print Or Save</button>    
+
     <div style="background:transparent;">
         <ol id="list">
     
@@ -42,7 +62,8 @@
 <br>
 
   <!-- dddddsfasdddddfsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
-  <button id="deleteAll" onclick="deleteAll()">DELETE ALL</button>    
+  <button id="deleteAll" onclick="deleteAll()">DELETE ALL</button> &nbsp;&nbsp;&nbsp;&nbsp;   
+  <button id="print" onclick="window.print()">Print Or Save</button>    
   <h1 id="ED"></h1>  
     <input type="button" onclick="disableQuiz()" style="color: red;" value="Disable" id="disable">
     <input type="button" style="color: green;" onclick="enableQuiz()" value="Enable" id="enable">
@@ -143,3 +164,4 @@
 
 
 </html>
+
