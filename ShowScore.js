@@ -246,8 +246,16 @@ function deleteItem(e)
 
 function deleteAll()
 {
+  var password = prompt("Please Enter the password to continue");
+  if (password == "sdfh34jkdsj!@#$@!") {
     let userRef = this.database.ref(`Score/${className}/${subjectName}`);
-    userRef.remove()
+    userRef.remove();
+    alert("Deleted successfully")
+  }
+  else {
+    alert("Wrong password! Try again!");
+    return;
+  }
     //refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
     var x = window.location.href;
     x = x.split( '#' );
