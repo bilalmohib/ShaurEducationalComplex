@@ -1,27 +1,27 @@
 alert("One Minute for each MCQS of ALL THE Subjects\nTwo Minutes for each MCQS of For MATH Subject");
-var database =firebase.database();
+var database = firebase.database();
 
 var check3 = false;
 
 let dt = new Date(new Date().setTime(0));
 let ctime = dt.getTime();
-let seconds = Math.floor((ctime % (1000 * 60))/ 1000);
-let minutes = Math.floor((ctime % (1000 * 60 * 60))/( 1000 * 60));
+let seconds = Math.floor((ctime % (1000 * 60)) / 1000);
+let minutes = Math.floor((ctime % (1000 * 60 * 60)) / (1000 * 60));
 console.log(seconds, minutes);
 let time = 0;
-let mytime = setInterval(function(){
-        time++;
-        
-        if(seconds < 59) {
-            seconds++;
-        } else {
-            seconds = 0;
-            minutes++;
-        }
-        let formatted_sec = seconds < 10 ? `0${seconds}`: `${seconds}`;
-        let formatted_min = minutes < 10 ? `0${minutes}`: `${minutes}`
-        document.querySelector("span.time").innerHTML = `${formatted_min} : ${formatted_sec}`;
-    }, 1000);
+let mytime = setInterval(function () {
+  time++;
+
+  if (seconds < 59) {
+    seconds++;
+  } else {
+    seconds = 0;
+    minutes++;
+  }
+  let formatted_sec = seconds < 10 ? `0${seconds}` : `${seconds}`;
+  let formatted_min = minutes < 10 ? `0${minutes}` : `${minutes}`
+  document.querySelector("span.time").innerHTML = `${formatted_min} : ${formatted_sec}`;
+}, 1000);
 
 
 
@@ -31,78 +31,77 @@ let mytime = setInterval(function(){
 let user_points = sessionStorage.getItem("points");
 let user_time = sessionStorage.getItem("time");
 var user_name = sessionStorage.getItem("name");
-    document.querySelector("span.name").innerHTML = user_name;
+document.querySelector("span.name").innerHTML = user_name;
 
 
 /////////////////////////////////////////
 var className = sessionStorage.getItem("className");
 var subjectName = sessionStorage.getItem("subjectName");
-if(className==null||subjectName==null)
-{
+if (className == null || subjectName == null) {
   alert("Please go back and choose the class and the subject to proceed");
-  location.href="selectQuizCategory.html";
+  location.href = "selectQuizCategory.html";
 }
-console.log(className+"\n"+subjectName);
+console.log(className + "\n" + subjectName);
 ///////////////////////////////////////////////////////////
 //Checking for the users to resubmit the quiz
-let promise =new Promise(function(resolve,reject){
+let promise = new Promise(function (resolve, reject) {
 
   ///////////////////////////////////////////
-  firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', function(data){
-    if(data.val()){
+  firebase.database().ref(`Score/${className}/${subjectName}/`).once('value', function (data) {
+    if (data.val()) {
       resolve(data.val());
     }
-    else{
+    else {
       reject(`The USER ${user_name} IS GIVING THIS TEST FOR FIRST TIME`);
     }
-    })
-  
   })
-  
-  promise.then(function(data){
-    var quiz = data;
-    var keys = Object.keys(quiz);
-      for (let i = 0; i < keys.length; i++) {
-  
-        var key = keys[i];
-        var Name = quiz[key].Name;
-        //     console.log("The username from firebase database: ",Name); 
-  
-        if (user_name == Name) {
-          //  alert("The user has given the test ");
-          check3 = true;
-        }
-        console.log("The username from firebase database: ", Name + i + check3);
-  
-  
-      }
-      
+
+})
+
+promise.then(function (data) {
+  var quiz = data;
+  var keys = Object.keys(quiz);
+  for (let i = 0; i < keys.length; i++) {
+
+    var key = keys[i];
+    var Name = quiz[key].Name;
+    //     console.log("The username from firebase database: ",Name); 
+
+    if (user_name == Name) {
+      //  alert("The user has given the test ");
+      check3 = true;
+    }
+    console.log("The username from firebase database: ", Name + i + check3);
+
+
+  }
+
   console.log(check3);
-  
-  if(check3 == true) {
-      alert("The user has given the test Ask the administrator to resubmit if you think it was mistake");
-      location.href = "selectQuizCategory.html";
+
+  if (check3 == true) {
+    alert("The user has given the test Ask the administrator to resubmit if you think it was mistake");
+    location.href = "selectQuizCategory.html";
   }
   else if (check3 == false) {
-        (`Welcome ${user_name}`);
+    (`Welcome ${user_name}`);
   }
-  })
-  .catch(function(err){
+})
+  .catch(function (err) {
     console.log(err);
   })
 // Checking for the users to resubmit the quiz  
 
 /////////////////////////////////////////////////////////////////////////////////////////
 var today = new Date();
-  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-  var times = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  var dateTime = date+' '+times;
-  dateTime=dateTime.toString();
-var User={
-    Name:user_name,
-    Class:className,
-    Subject:subjectName,
-    Time:dateTime
+var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+var times = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date + ' ' + times;
+dateTime = dateTime.toString();
+var User = {
+  Name: user_name,
+  Class: className,
+  Subject: subjectName,
+  Time: dateTime
 }
 
 firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).push(User);
@@ -118,63 +117,69 @@ firebase.database().ref(`AnonymousUser/${className}/${subjectName}/`).push(User)
 
 
 
-document.getElementById("clas").innerHTML=subjectName;
-document.getElementById("sub").innerHTML=className;
+document.getElementById("clas").innerHTML = subjectName;
+document.getElementById("sub").innerHTML = className;
 ///////////////////////////////////////////////////////////
 /////////////////////////////////////////
 
 let question_count = 0;
 let points = 0;
 
-window.onload = function() {
-   show(question_count);
+window.onload = function () {
+  show(question_count);
 }
 
 
 var timerCount;
 
-if(subjectName=="Math")
-{
-  timerCount=setInterval(next,120000); 
+if (subjectName == "Math") {
+  timerCount = setInterval(next, 120000);
 }
-else
-{
-  timerCount=setInterval(next,60000);
+else {
+  timerCount = setInterval(next, 60000);
 }
 
 
-  
-  function next() {
-    clearInterval(timerCount);   
-if(subjectName=="Math")
-{
-  timerCount=setInterval(next,120000); 
-}
-else
-{
-  timerCount=setInterval(next,60000);
-}
-  firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value',(data)=>{
-    var quiz=data.val();
-    var keys=Object.keys(quiz);
-          /////////////////////////////////////////////////////////////
-    var totalQuestions=keys.length;//Total Questions sending
+
+function next() {
+  clearInterval(timerCount);
+  if (subjectName == "Math") {
+    timerCount = setInterval(next, 120000);
+  }
+  else {
+    timerCount = setInterval(next, 60000);
+  }
+  firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value', (data) => {
+    var quiz = data.val();
+    var keys = Object.keys(quiz);
+    /////////////////////////////////////////////////////////////
+    var totalQuestions = keys.length;//Total Questions sending
     ////////////////////////////////////////////////////////////
     //////////////////////////////////////////////////
-  sessionStorage.setItem("QuestionLength",totalQuestions);
-  ////////////////////////////////////////////////////
-console.log(keys.length)
-    var key=keys[question_count];
-    var Question=quiz[key].Question;
-    var Answer=quiz[key].Answer;
+    sessionStorage.setItem("QuestionLength", totalQuestions);
+    ////////////////////////////////////////////////////
+    console.log(keys.length)
+    var key = keys[question_count];
+    var Question = quiz[key].Question;
+    var Answer = quiz[key].Answer;
 
-    if (question_count >= keys.length-1) {
+    if (question_count >= keys.length - 1) {
       sessionStorage.setItem("time", time);
       clearInterval(mytime);
+
+
+      
+      // declaring a condtition
+      let condition = 0;
+      sessionStorage.setItem("condition", condition);
+      // declaring a condtition
+
+
       location.href = "end.html";
+
     }
     console.log(question_count);
-  
+
 
     var optionObtained;
 
@@ -182,63 +187,63 @@ console.log(keys.length)
 
     console.log(optionObtained);
 
-    var promise=new Promise(function(resolve,reject){
-      optionObtained=document.querySelector("li.option.active");
-  
-      if(optionObtained!=null){
-          resolve("The user selected the answer");
-          user_answer = optionObtained.innerHTML;
-      }
-      else{
-          reject("The answer was not selected");
-          user_answer="";
-      }
-  })
-  
-  promise.then(function(data){
-  console.log(data)
-  })
-  .catch(function(err){
-     console.log(err)
-  })
+    var promise = new Promise(function (resolve, reject) {
+      optionObtained = document.querySelector("li.option.active");
 
-    
+      if (optionObtained != null) {
+        resolve("The user selected the answer");
+        user_answer = optionObtained.innerHTML;
+      }
+      else {
+        reject("The answer was not selected");
+        user_answer = "";
+      }
+    })
+
+    promise.then(function (data) {
+      console.log(data)
+    })
+      .catch(function (err) {
+        console.log(err)
+      })
+
+
     // check if the answer is right or wrong
     if (user_answer == Answer) {
       points += 10;
-      
+
       sessionStorage.setItem("points", points);
-     
+
     }
-   // console.log(points);
-  
+    // console.log(points);
+
     question_count++;
     show(question_count);
     //console.log(keys);
-    
+
   });
-  }
-  
+}
 
 
-  function show(count) {
+
+function show(count) {
   //  let question=document.getElementById("question");
-    let question = document.getElementById("questions");
-  
+  let question = document.getElementById("questions");
 
-    firebase.database().ref(`Quiz/${className}/${subjectName}/`).on('value',(data)=>{
-      var quiz=data.val();
-      var keys=Object.keys(quiz);
-  
-      var key=keys[question_count];
-      var Question=quiz[key].Question;
-      var Option1=quiz[key].Option1;
-      var Option2=quiz[key].Option2;
-      var Option3=quiz[key].Option3;
-      var Option4=quiz[key].Option4;
-      var Author=quiz[key].author;
 
-      question.innerHTML = `
+  firebase.database().ref(`Quiz/${className}/${subjectName}/`).on('value', (data) => {
+    var quiz = data.val();
+    var keys = Object.keys(quiz);
+
+    var key = keys[question_count];
+    var Question = quiz[key].Question;
+    var Option1 = quiz[key].Option1;
+    var Option2 = quiz[key].Option2;
+    var Option3 = quiz[key].Option3;
+    var Option4 = quiz[key].Option4;
+    var Author = quiz[key].author;
+
+    question.innerHTML = `
       <h2>Q${count + 1}. ${Question}</h2>
        <ul class="option_group">
       <li class="option">${Option1}</li>
@@ -246,45 +251,48 @@ console.log(keys.length)
       <li class="option">${Option3}</li>
       <li class="option">${Option4}</li>
     </ul>`;
-      toggleActive();   
-  
-      //console.log(keys);
-    });
+    toggleActive();
 
-  }
+    //console.log(keys);
+  });
 
-  
+}
 
 
-  function toggleActive() {
- 
 
-    firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value',(data)=>{
-      let option = document.querySelectorAll("li.option");
 
-      var quiz=data.val();
+function toggleActive() {
+
+
+  firebase.database().ref(`Quiz/${className}/${subjectName}`).on('value', (data) => {
+    let option = document.querySelectorAll("li.option");
+
+    var quiz = data.val();
     //  console.log(quiz);
-      var keys=Object.keys(quiz);
-  
-      var key=keys[question_count];
-      var Question=quiz[key].Question;
-      var Option1=quiz[key].Option1;
-      var Option2=quiz[key].Option2;
-      var Option3=quiz[key].Option3;
-      var Option4=quiz[key].Option4;
- 
-      for (let i = 0; i < option.length; i++) {
-        option[i].onclick = function() {
-          for (let i = 0; i < option.length; i++) {
-            if (option[i].classList.contains("active")) {
-              option[i].classList.remove("active");
-            }
+    var keys = Object.keys(quiz);
+
+    var key = keys[question_count];
+    var Question = quiz[key].Question;
+    var Option1 = quiz[key].Option1;
+    var Option2 = quiz[key].Option2;
+    var Option3 = quiz[key].Option3;
+    var Option4 = quiz[key].Option4;
+
+    for (let i = 0; i < option.length; i++) {
+      option[i].onclick = function () {
+        for (let i = 0; i < option.length; i++) {
+          if (option[i].classList.contains("active")) {
+            option[i].classList.remove("active");
           }
-          option[i].classList.add("active");
-        };
-      }
+        }
+        option[i].classList.add("active");
+      };
+    }
 
 
-      //console.log(keys);
-    });
-  }
+    //console.log(keys);
+  });
+}
+
+
+
