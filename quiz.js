@@ -205,6 +205,30 @@ function next() {
     })
       .catch(function (err) {
         console.log(err)
+/////////////////////////////Giving the functionalities of the check every answer wrong
+/////////////////////////////Giving the functionalities of the check every answer wrong
+var today = new Date();
+var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date + ' ' + time;
+dateTime = dateTime.toString();
+
+var key = firebase.database().ref('HistoryTrack/').push().key;
+
+var HistoryTrack = {
+  Name: user_name,
+  Class: className,
+  Subject: subjectName,
+  CorrectAnswer:Answer,
+  WrongAnswer:user_answer,
+  Time: dateTime
+}
+var str = user_name;
+var res = str.replace("@", "");
+res=res.replace(".","");
+firebase.database().ref(`HistoryTrack/${className}/${subjectName}/${res}`).push(HistoryTrack);
+/////////////////////////////Giving the functionalities of the check every answer wrong
+/////////////////////////////Giving the functionalities of the check every answer wrong
       })
 
 
@@ -212,8 +236,34 @@ function next() {
     if (user_answer == Answer) {
       points += 10;
 
+
       sessionStorage.setItem("points", points);
 
+    }
+    else if(user_answer!=Answer)
+    {
+/////////////////////////////Giving the functionalities of the check every answer wrong
+var today = new Date();
+var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date + ' ' + time;
+dateTime = dateTime.toString();
+
+var key = firebase.database().ref('HistoryTrack/').push().key;
+
+var HistoryTrack = {
+  Name: user_name,
+  Class: className,
+  Subject: subjectName,
+  CorrectAnswer:Answer,
+  WrongAnswer:user_answer,
+  Time: dateTime
+}
+var str = user_name;
+var res = str.replace("@", "");
+res=res.replace(".","");
+firebase.database().ref(`HistoryTrack/${className}/${subjectName}/${res}`).push(HistoryTrack);
+/////////////////////////////Giving the functionalities of the check every answer wrong
     }
     // console.log(points);
 
