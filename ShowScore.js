@@ -6,7 +6,7 @@ var email_id;
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
 if (user_name == "mohib2156@gmail.com") {
-  alert("Welcome Sir");
+  alert(`Welcome Sir ${user_name} Now you can check history of each students just type the email in the search bar and press submit button it will appear from thursday because from now it will track every students answer`);
   user_name = "";
 }
 else if (user_name != "mohib2156@gmail.com") {
@@ -276,7 +276,7 @@ if(StudentEmail=="")
 
   //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
   var studentRecord = database.ref(`HistoryTrack/${className}/${subjectName}/${res}`);
-  studentRecord.on('value', function (snapshot) {
+  studentRecord.once('value', function (snapshot) {
     snapshot.forEach(function (childSnapshot) {
       var childData = childSnapshot.val();
       // console.log(childData.message)
@@ -287,6 +287,7 @@ if(StudentEmail=="")
       var StudentClass = document.createTextNode('Class: ' + childData.Class);
       var StudentSubject = document.createTextNode('Subject: ' + childData.Subject);
       //Student Info
+      var QuestionAt = document.createTextNode('Question At : ' + childData.QuestionAt);
       var CorrectAnswer = document.createTextNode('Correct Answer : ' + childData.CorrectAnswer);
       var WrongAnswer = document.createTextNode('Wrong Answer: ' + childData.WrongAnswer);
       //Time
@@ -307,6 +308,8 @@ if(StudentEmail=="")
 
 
       lit.appendChild(document.createElement('br'));
+      lit.appendChild(QuestionAt);
+      lit.appendChild(document.createElement('br'));
       lit.appendChild(CorrectAnswer);
       lit.appendChild(document.createElement('br'));
       lit.appendChild(WrongAnswer);
@@ -323,4 +326,3 @@ if(StudentEmail=="")
   });
   //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
 }
-  
