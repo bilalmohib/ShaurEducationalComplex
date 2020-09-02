@@ -219,6 +219,7 @@ var HistoryTrack = {
   Name: user_name,
   Class: className,
   Subject: subjectName,
+  QuestionAt:Question,
   CorrectAnswer:Answer,
   WrongAnswer:user_answer,
   Time: dateTime
@@ -255,6 +256,7 @@ var HistoryTrack = {
   Name: user_name,
   Class: className,
   Subject: subjectName,
+  QuestionAt:Question,
   CorrectAnswer:Answer,
   WrongAnswer:user_answer,
   Time: dateTime
@@ -343,6 +345,5 @@ function toggleActive() {
     //console.log(keys);
   });
 }
-
 
 
