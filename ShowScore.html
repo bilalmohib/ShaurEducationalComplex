@@ -30,6 +30,51 @@
        color: rgb(228, 227, 241);
        transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
      }
+     #showHistory
+     {
+       font-size: 30px;
+       color: rgb(16, 56, 8);
+       width:auto;
+       font-family:sans-serif;
+       margin: 0 auto;
+       border-radius: 10px;
+       background-color: rgb(253, 253, 253);
+     }
+     #showHistory:hover
+     {
+       background-color: rgb(190, 179, 24);
+       color: rgb(170, 165, 231);
+       transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
+     }
+     .uls{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 0, 0);
+    max-width: 90%;
+    font-size: 30px;
+}
+.uls:hover{
+    background-color: rgb(10, 17, 78);
+    color: aliceblue;
+    border: 5px solid rgb(255, 252, 252);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    max-width: 90%;
+    font-size: 30px;
+}
+#scoreList
+{
+    max-width: 90%; 
+}
+@media all and (max-width: 400px)
+{
+    .uls
+    {
+        font-size: 20px;
+        max-width: 100%;
+    }
+    #scoreList{
+        width: 100%;
+    }
+}
  </style>
 
 </head>
@@ -64,8 +109,8 @@
         </ol>
         
     </div>
-<br>
 
+<br>
   <!-- dddddsfasdddddfsddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd -->
   <button id="deleteAll" onclick="deleteAll()">DELETE ALL</button>    &nbsp;&nbsp;&nbsp;&nbsp;   
   <button id="print" onclick="window.print()">Print Or Save</button> 
@@ -73,6 +118,47 @@
     <input type="button" onclick="disableQuiz()" style="color: red;" value="Disable" id="disable">
     <input type="button" style="color: green;" onclick="enableQuiz()" value="Enable" id="enable">
     <!-- </form> -->
+
+
+
+
+
+
+
+
+
+
+
+<h1 style="color: rgb(231, 231, 231); background:transparent; font-size: 40px; font-style: italic;">History of students</h1>
+
+<input type="text" id="historymail" placeholder="Enter the email for history">
+<button id="showHistory" onclick="showHistory()">Submit</button>
+
+    <!-- This is for history of correct and wrong answers of students -->
+    <p>
+      <ol style="width: 100%; border: 1px solid black; color: blue; " id="scoreList">
+       <span>Students Response History
+       </span>
+      </ol>
+    </p>  
+    <!-- This is for history of correct and wrong answers of students -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <button style="text-align: center; width: 200px; font-size: 20px;" onclick="logout()">Logout</button>
    
 
@@ -122,3 +208,4 @@
 <script src="ShowScore.js"></script>
 
 </html>
+
