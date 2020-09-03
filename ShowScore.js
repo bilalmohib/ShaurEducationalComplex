@@ -5,11 +5,11 @@ var email_id;
 
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
-if (user_name == "mohib2156@gmail.com"||user_name=="ambertahir303@gmail.com") {
+if (user_name == "mohib2156@gmail.com") {
   alert(`Welcome Sir ${user_name}`);
   user_name = "";
 }
-else{
+else if (user_name != "mohib2156@gmail.com") {
   alert("Access Denied Only Administrator can access");
   logout();
 }
@@ -44,7 +44,7 @@ function login() {
   var userEmail = document.getElementById("email_field").value;
   var userPass = document.getElementById("password_field").value;
 
-  while (userEmail != "mohib2156@gmail.com"||userEmail!="ambertahir303@gmail.com") {
+  while (userEmail != "mohib2156@gmail.com") {
     logout();
     alert("You are not the right person to access this");
     return;
@@ -173,6 +173,7 @@ function gotData(data) {
    <b>Percentage: </b> ${percentage}%</br>
    <b>Status: </b> ${result}</br>
     <b>Time taken: </b> ${TimeSpentInMinutes} Minutes</br>
+    <b>Test Given AT: </b> ${Date}</br>
    `;
 
     li.appendChild(para);
@@ -224,9 +225,9 @@ function deleteItem(e) {
   let userRef = this.database.ref(`Score/${className}/${subjectName}/${val}`);
   userRef.remove();
   //refresh
-  // var x = window.location.href;
-  // x = x.split('#');
-  // window.location.href = x[0];
+  var x = window.location.href;
+  x = x.split('#');
+  window.location.href = x[0];
 }
 
 
