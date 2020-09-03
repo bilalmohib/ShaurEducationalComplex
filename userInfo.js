@@ -90,7 +90,7 @@ function SendComment() {
     return;
   }
 
-  var key = firebase.database().ref('Score/').push().key;
+  var key = firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push().key;
   var FeedBack = {
     Name: user_name,
     Class: className,
@@ -99,7 +99,7 @@ function SendComment() {
     Time: dateTime
   }
 
-  firebase.database().ref(`FeedBack`).push(FeedBack);
+  firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push(FeedBack);
 
   alert("Thanks for your valuable feedback");
   document.getElementById("feedback").style = "display:none;";
