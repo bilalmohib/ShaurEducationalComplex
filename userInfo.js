@@ -4,7 +4,7 @@ let user_name = sessionStorage.getItem("name");
 let user_name1 = sessionStorage.getItem("name1");
 
 let user_points = sessionStorage.getItem("points");
-let user_time = sessionStorage.getItem("time");
+var user_time = sessionStorage.getItem("time");
 let totalQuestions = sessionStorage.getItem("QuestionLength");
 
 
@@ -32,14 +32,14 @@ var sub = document.getElementById("sub").innerHTML = "Subject: " + subjectName;
 ////////////////////////////////////////Implementing/////////////////////////////////////////////////////////
 var condition = sessionStorage.getItem("condition");
 window.onload = () => {
-  if (condition == 0) 
-  {
+  if (condition == 0) {
     //This is This is This is This is score sending
     //function sendMesssage()
     //{
     //   var text1=document.getElementById("prima");
     //   var text2;
     // console.log(text1.childNodes)
+    document.querySelector("span.time_taken").innerHTML = `:${user_time} seconds`;
     var today = new Date();
     var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
@@ -69,7 +69,8 @@ window.onload = () => {
 
 
 
-function show() {
+function show() 
+{
   document.getElementById("feedback").style = "display:block;";
 }
 
@@ -83,6 +84,11 @@ function SendComment() {
   var comment = document.getElementById("comments").value;
 
   console.log(comment);
+
+  if (comment == "") {
+    alert("Enter the feed back to continue");
+    return;
+  }
 
   var key = firebase.database().ref('Score/').push().key;
   var FeedBack = {
@@ -98,4 +104,3 @@ function SendComment() {
   alert("Thanks for your valuable feedback");
   document.getElementById("feedback").style = "display:none;";
 }
-
