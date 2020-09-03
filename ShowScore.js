@@ -6,7 +6,7 @@ var email_id;
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
 if (user_name == "mohib2156@gmail.com") {
-  alert(`Welcome Sir ${user_name} Now you can check history of each students just type the email in the search bar and press submit button it will appear from thursday because from now it will track every students answer`);
+  alert(`Welcome Sir ${user_name}`);
   user_name = "";
 }
 else if (user_name != "mohib2156@gmail.com") {
@@ -218,16 +218,15 @@ function errData(err) {
 
 
 function deleteItem(e) {
-  console.log(e.parentNode.childNodes[1].innerHTML);
-
+  // console.log(e.parentNode.childNodes[1].innerHTML);
   var val = e.parentNode.childNodes[1].innerHTML;
   console.log(val);
-  let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
-  userRef.remove()
+  let userRef = this.database.ref(`Score/${className}/${subjectName}/${val}`);
+  userRef.remove();
   //refresh
-  var x = window.location.href;
-  x = x.split('#');
-  window.location.href = x[0];
+  // var x = window.location.href;
+  // x = x.split('#');
+  // window.location.href = x[0];
 }
 
 
@@ -276,7 +275,7 @@ if(StudentEmail=="")
 
   //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
   var studentRecord = database.ref(`HistoryTrack/${className}/${subjectName}/${res}`);
-  studentRecord.once('value', function (snapshot) {
+  studentRecord.on('value', function (snapshot) {
     snapshot.forEach(function (childSnapshot) {
       var childData = childSnapshot.val();
       // console.log(childData.message)
