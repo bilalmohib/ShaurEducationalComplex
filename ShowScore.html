@@ -9,7 +9,6 @@
 "Images/logo.ico" 
         type = "image/x-icon"> 
   <link rel="stylesheet" href="ShowData.css">
-  <script data-ad-client="ca-pub-9663266928056619" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <title>Admin</title>
   <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
   
@@ -42,15 +41,16 @@
      }
      #showHistory:hover
      {
-       background-color: rgb(190, 179, 24);
-       color: rgb(170, 165, 231);
+       background-color: rgb(16, 11, 90);
+       color: rgb(255, 255, 255);
        transition: 1s cubic-bezier(0.23, 1, 0.320, 1);
      }
      .uls{
     background-color: rgb(255, 255, 255);
-    border: 5px solid rgb(255, 0, 0);
+    border: 5px solid rgb(63, 126, 7);
     max-width: 90%;
-    font-size: 30px;
+    font-size: 34px;
+    border-radius: 10px;
 }
 .uls:hover{
     background-color: rgb(10, 17, 78);
@@ -58,12 +58,34 @@
     border: 5px solid rgb(255, 252, 252);
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     max-width: 90%;
-    font-size: 30px;
+    font-size: 35px;
 }
+
+.ulsu{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(63, 126, 7);
+    max-width: 95%;
+    font-size: 35px;
+    border-radius: 10px;
+}
+.ulsu:hover{
+    background-color: rgb(10, 17, 78);
+    color: aliceblue;
+    border: 5px solid rgb(255, 252, 252);
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    max-width: 95%;
+    font-size: 35px;
+}
+
 #scoreList
 {
     max-width: 90%; 
 }
+#FeedList
+{
+    max-width: 90%; 
+}
+
 @media all and (max-width: 400px)
 {
     .uls
@@ -72,6 +94,9 @@
         max-width: 100%;
     }
     #scoreList{
+        width: 100%;
+    }
+    #FeedList{
         width: 100%;
     }
 }
@@ -136,8 +161,8 @@
 
     <!-- This is for history of correct and wrong answers of students -->
     <p>
-      <ol style="width: 100%; border: 1px solid black; color: blue; " id="scoreList">
-       <span>Students Response History
+      <ol style="width: 100%; border: 1px solid rgb(138, 12, 12); color: blue; " id="scoreList">
+       <span style="color: rgb(158, 29, 119);background-color: rgb(194, 209, 223);border-radius: 10px;">Students Response History
        </span>
       </ol>
     </p>  
@@ -148,7 +173,17 @@
 
 
 
+<!--This is the feed back-->
 
+    <!-- This is for history of correct and wrong answers of students -->
+    <p>
+      <ol style="width: 100%; border: 1px solid rgb(18, 136, 190); color: rgb(9, 9, 58); " id="FeedList">
+       <span style="color: rgb(111, 29, 158);background-color: rgb(255, 255, 255);border-radius: 10px;">Student Comments
+       </span>
+      </ol>
+    </p>  
+    <!-- This is for history of correct and wrong answers of students -->
+<!--This is the feed back-->
 
 
 
@@ -208,4 +243,3 @@
 <script src="ShowScore.js"></script>
 
 </html>
-
