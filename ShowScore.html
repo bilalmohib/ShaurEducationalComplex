@@ -39,6 +39,14 @@
        border-radius: 10px;
        background-color: rgb(253, 253, 253);
      }
+     #historymail{
+        font-size: 30px;
+        
+     }
+     #historymail:focus {
+        background: linear-gradient(#e6e0e0 0%, #6d9cb8 10%, #4ca084 50%, #3316d6 100%);
+        transition: 0.4s linear;
+     }
      #showHistory:hover
      {
        background-color: rgb(16, 11, 90);
@@ -154,16 +162,15 @@
 
 
 
-<h1 style="color: rgb(231, 231, 231); background:transparent; font-size: 40px; font-style: italic;">History of students</h1>
-
-<input type="text" id="historymail" placeholder="Enter the email for history">
+<div style="color: rgb(231, 231, 231); background-color: #3316d6; font-size: 30px; font-style: italic;">Students Report</div>
+<hr>
+<input style="width: 300px; font-size: 28px;" type="text" id="historymail" placeholder="Enter the email for student records">
 <button id="showHistory" onclick="showHistory()">Submit</button>
 
     <!-- This is for history of correct and wrong answers of students -->
     <p>
       <ol style="width: 100%; border: 1px solid rgb(138, 12, 12); color: blue; " id="scoreList">
-       <span style="color: rgb(158, 29, 119);background-color: rgb(194, 209, 223);border-radius: 10px;">Students Response History
-       </span>
+        <div style="color: rgb(27, 31, 24); background-color: darkgreen;">Students Records</div>
       </ol>
     </p>  
     <!-- This is for history of correct and wrong answers of students -->
@@ -178,8 +185,7 @@
     <!-- This is for history of correct and wrong answers of students -->
     <p>
       <ol style="width: 100%; border: 1px solid rgb(18, 136, 190); color: rgb(9, 9, 58); " id="FeedList">
-       <span style="color: rgb(111, 29, 158);background-color: rgb(255, 255, 255);border-radius: 10px;">Student Comments
-       </span>
+        <div style="background-color: rgb(9, 42, 71); color: rgb(231, 231, 231);">Students FeedBack</div>
       </ol>
     </p>  
     <!-- This is for history of correct and wrong answers of students -->
