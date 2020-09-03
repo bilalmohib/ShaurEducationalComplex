@@ -5,11 +5,11 @@ var email_id;
 
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
-if (user_name == "mohib2156@gmail.com") {
-  alert(`Welcome Sir ${user_name}`);
+if (user_name == "mohib2156@gmail.com"||user_name=="ambertahir303@gmail.com") {
+  alert(`Welcome ${user_name}`);
   user_name = "";
 }
-else if (user_name != "mohib2156@gmail.com") {
+else{
   alert("Access Denied Only Administrator can access");
   logout();
 }
@@ -44,7 +44,7 @@ function login() {
   var userEmail = document.getElementById("email_field").value;
   var userPass = document.getElementById("password_field").value;
 
-  while (userEmail != "mohib2156@gmail.com") {
+  while (userEmail != "mohib2156@gmail.com"||userEmail!="ambertahir303@gmail.com") {
     logout();
     alert("You are not the right person to access this");
     return;
@@ -260,45 +260,43 @@ firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (da
 
 
 
-
 function showHistory() 
 {
 let StudentEmail=document.getElementById("historymail").value;
+
 if(StudentEmail=="")
 {
   alert("Please enter the student email to see his/her history");
   return;
 }
-  var res = StudentEmail.replace("@", "");
+
+  let res = StudentEmail.replace("@", "");
   res = res.replace(".", "");
 
   console.log(res)
 
   //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
-  var studentRecord = database.ref(`HistoryTrack/${className}/${subjectName}/${res}`);
+  let studentRecord = database.ref(`HistoryTrack/${className}/${subjectName}/${res}`);
   studentRecord.on('value', function (snapshot) {
     snapshot.forEach(function (childSnapshot) {
-      var childData = childSnapshot.val();
+      let childData = childSnapshot.val();
       // console.log(childData.message)
-
+      res="";
+      console.log(res)
 
       //Student Info
-      var StudentName = document.createTextNode('Student Name: ' + childData.Name);
-      var StudentClass = document.createTextNode('Class: ' + childData.Class);
-      var StudentSubject = document.createTextNode('Subject: ' + childData.Subject);
+      let StudentName = document.createTextNode('Student Name: ' + childData.Name);
+      let StudentClass = document.createTextNode('Class: ' + childData.Class);
+      let StudentSubject = document.createTextNode('Subject: ' + childData.Subject);
       //Student Info
-      var QuestionAt = document.createTextNode('Question At : ' + childData.QuestionAt);
-      var CorrectAnswer = document.createTextNode('Correct Answer : ' + childData.CorrectAnswer);
-      var WrongAnswer = document.createTextNode('Wrong Answer: ' + childData.WrongAnswer);
+      let QuestionAt = document.createTextNode('Question At : ' + childData.QuestionAt);
+      let CorrectAnswer = document.createTextNode('Correct Answer : ' + childData.CorrectAnswer);
+      let WrongAnswer = document.createTextNode('Wrong Answer: ' + childData.WrongAnswer);
       //Time
-      var TimeDone = document.createTextNode('Date: ' + childData.Time);
+      let TimeDone = document.createTextNode('Date: ' + childData.Time);
 
-
-
-
-
-      var ult = document.getElementById("scoreList");
-      var lit = document.createElement("li");
+      let ult = document.getElementById("scoreList");
+      let lit = document.createElement("li");
       lit.setAttribute('class', 'uls');
       lit.appendChild(StudentName);
       lit.appendChild(document.createElement('br'));
@@ -319,10 +317,66 @@ if(StudentEmail=="")
       lit.appendChild(document.createElement('br'));
       ult.appendChild(lit);
 
-
-
       //Hey this is
     });
   });
   //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
 }
+
+
+//For getting the students feedback
+
+window.onload=()=>{
+
+  //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
+
+  //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
+  let studentFeedBack = database.ref(`FeedBack/${className}/${subjectName}/`);
+  studentFeedBack.on('value', function (snapshot) {
+    snapshot.forEach(function (childSnapshot) {
+      let childData = childSnapshot.val();
+      // console.log(childData.message)
+
+      //Student Info
+      let StudentName = document.createTextNode('Student Name: ' + childData.Name);
+      let StudentClass = document.createTextNode('Class: ' + childData.Class);
+      let StudentSubject = document.createTextNode('Subject: ' + childData.Subject);
+      //Student Info
+      let Comment = document.createTextNode('Comment : ' + childData.Opinion);
+           //Time
+      let Time = document.createTextNode('Date: ' + childData.Time);
+
+      let ult = document.getElementById("FeedList");
+      let lit = document.createElement("li");
+      lit.setAttribute('class', 'ulsu');
+      lit.appendChild(StudentName);
+      lit.appendChild(document.createElement('br'));
+      lit.appendChild(StudentClass);
+      lit.appendChild(document.createElement('br'));
+      lit.appendChild(StudentSubject);
+
+
+      lit.appendChild(document.createElement('br'));
+      lit.appendChild(Comment);
+      lit.appendChild(document.createElement('br'));
+      lit.appendChild(Time);
+      lit.appendChild(document.createElement('br'));
+    
+      ult.appendChild(lit);
+
+
+
+      //Hey this is
+    });
+  });
+
+  //This is the perfect way to retrieve data leaving all the dull ways of youtubers now
+  
+  
+    
+
+
+}
+//This is for feed back
+
+
