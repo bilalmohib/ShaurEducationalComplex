@@ -45,7 +45,7 @@ function login() {
   var userEmail = document.getElementById("email_field").value;
   var userPass = document.getElementById("password_field").value;
 
-  while (userEmail != "mohib2156@gmail.com"||userEmail!="ambertahir303@gmail.com") {
+  while (userEmail != "mohib2156@gmail.com"&&userEmail!="ambertahir303@gmail.com") {
     logout();
     alert("You are not the right person to access this");
     return;
