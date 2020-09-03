@@ -96,7 +96,8 @@ function SendComment() {
     Class: className,
     Subject: subjectName,
     Opinion: comment,
-    Time: dateTime
+    Time: dateTime,
+    Key:key
   }
 
   firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push(FeedBack);
