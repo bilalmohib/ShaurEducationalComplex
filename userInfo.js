@@ -90,17 +90,17 @@ function SendComment() {
     return;
   }
 
-  var key = firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push().key;
-  var FeedBack = {
+  let keys = firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push().key;
+  let FeedBack = {
     Name: user_name,
     Class: className,
     Subject: subjectName,
     Opinion: comment,
     Time: dateTime,
-    Key:key
+    Key:keys
   }
 
-  firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push(FeedBack);
+  firebase.database().ref(`FeedBack/${className}/${subjectName}/`+keys).push(FeedBack);
 
   alert("Thanks for your valuable feedback");
   document.getElementById("feedback").style = "display:none;";
