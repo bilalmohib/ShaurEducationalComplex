@@ -5,11 +5,11 @@ var email_id;
 
 let user_name = sessionStorage.getItem("Name");
 console.log(user_name);
-if (user_name == "mohib2156@gmail.com") {
+if (user_name == "mohib2156@gmail.com"||user_name=="ambertahir303@gmail.com") {
   alert(`Welcome Sir ${user_name}`);
   user_name = "";
 }
-else if (user_name != "mohib2156@gmail.com") {
+else{
   alert("Access Denied Only Administrator can access");
   logout();
 }
@@ -44,7 +44,7 @@ function login() {
   var userEmail = document.getElementById("email_field").value;
   var userPass = document.getElementById("password_field").value;
 
-  while (userEmail != "mohib2156@gmail.com") {
+  while (userEmail != "mohib2156@gmail.com"||userEmail!="ambertahir303@gmail.com") {
     logout();
     alert("You are not the right person to access this");
     return;
