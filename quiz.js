@@ -205,31 +205,6 @@ function next() {
     })
       .catch(function (err) {
         console.log(err)
-/////////////////////////////Giving the functionalities of the check every answer wrong
-/////////////////////////////Giving the functionalities of the check every answer wrong
-var today = new Date();
-var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date + ' ' + time;
-dateTime = dateTime.toString();
-
-var key = firebase.database().ref('HistoryTrack/').push().key;
-
-var HistoryTrack = {
-  Name: user_name,
-  Class: className,
-  Subject: subjectName,
-  QuestionAt:Question,
-  CorrectAnswer:Answer,
-  WrongAnswer:user_answer,
-  Time: dateTime
-}
-var str = user_name;
-var res = str.replace("@", "");
-res=res.replace(".","");
-firebase.database().ref(`HistoryTrack/${className}/${subjectName}/${res}`).push(HistoryTrack);
-/////////////////////////////Giving the functionalities of the check every answer wrong
-/////////////////////////////Giving the functionalities of the check every answer wrong
       })
 
 
@@ -246,8 +221,8 @@ firebase.database().ref(`HistoryTrack/${className}/${subjectName}/${res}`).push(
 /////////////////////////////Giving the functionalities of the check every answer wrong
 var today = new Date();
 var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date + ' ' + time;
+var times = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date + ' ' + times;
 dateTime = dateTime.toString();
 
 var key = firebase.database().ref('HistoryTrack/').push().key;
@@ -345,5 +320,4 @@ function toggleActive() {
     //console.log(keys);
   });
 }
-
 
