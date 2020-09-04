@@ -100,7 +100,7 @@ function SendComment() {
     Key:keys
   }
 
-  firebase.database().ref(`FeedBack/${className}/${subjectName}/`+keys).push(FeedBack);
+  firebase.database().ref(`FeedBack/${className}/${subjectName}/`).push(FeedBack);
 
   alert("Thanks for your valuable feedback");
   document.getElementById("feedback").style = "display:none;";
