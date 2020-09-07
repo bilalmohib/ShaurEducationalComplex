@@ -209,16 +209,6 @@ function errData(err) {
 
 function deleteItem(e) {
   // console.log(e.parentNode.childNodes[1].innerHTML);
-  let password=prompt("Enter the password to delete");
-  if(password=="2381!dsfjk3224sd")
-  {
-    alert("Data deleted successfully");
-  }
-  else
-  {
-    alert("Please enter a valid password");
-    return;
-  }
   var val = e.parentNode.childNodes[1].innerHTML;
   console.log(val);
   let userRef = this.database.ref(`Score/${className}/${subjectName}/${val}`);
@@ -269,8 +259,9 @@ if(StudentEmail=="")
   return;
 }
 
-  let res = StudentEmail.replace("@", "");
-  res = res.replace(".", "");
+let res = StudentEmail.split("@").join("");
+res = res.split(".").join("");
+
 
   console.log(res)
 
