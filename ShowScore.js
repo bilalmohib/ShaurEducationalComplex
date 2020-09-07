@@ -208,6 +208,15 @@ function errData(err) {
 
 
 function deleteItem(e) {
+  var password=prompt("Enter the password to delete this");
+  if(password=="12312!@##2affA")
+  {
+    alert("Deleted Successfully");
+  }
+  else
+  {
+    return;
+  }
   // console.log(e.parentNode.childNodes[1].innerHTML);
   var val = e.parentNode.childNodes[1].innerHTML;
   console.log(val);
@@ -221,6 +230,16 @@ function deleteItem(e) {
 
 
 function deleteAll() {
+  alert("Do you really want to delete all the data");
+  var password=prompt("Enter the password to delete all items");
+  if(password=="%*&$@##2affA!~$#")
+  {
+    alert("Deleted Successfully");
+  }
+  else
+  {
+    return;
+  }
   let userRef = this.database.ref(`Score/${className}/${subjectName}`);
   userRef.remove()
   //refreshing the page there is error in firebase i will tell you if you remove this 3 lines then check whats the error
