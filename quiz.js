@@ -236,9 +236,9 @@ var HistoryTrack = {
   WrongAnswer:user_answer,
   Time: dateTime
 }
-var str = user_name;
-var res = str.replace("@", "");
-res=res.replace(".","");
+let str = user_name;
+let res = str.split("@").join("");
+res = res.split(".").join("");
 firebase.database().ref(`HistoryTrack/${className}/${subjectName}/${res}`).push(HistoryTrack);
 /////////////////////////////Giving the functionalities of the check every answer wrong
     }
@@ -320,4 +320,3 @@ function toggleActive() {
     //console.log(keys);
   });
 }
-
