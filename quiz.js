@@ -239,6 +239,32 @@ var HistoryTrack = {
 let str = user_name;
 let res = str.split("@").join("");
 res = res.split(".").join("");
+res = res.split("`").join("");
+res = res.split("!").join("");
+res = res.split(".").join("");
+res = res.split("#").join("");
+res = res.split("%").join("");
+res = res.split("^").join("");
+res = res.split("&").join("");
+res = res.split("*").join("");
+res = res.split("(").join("");
+res = res.split(")").join("");
+res = res.split('"').join("");
+res = res.split("'").join("");
+res = res.split("_").join("");
+res = res.split("-").join("");
+res = res.split("+").join("");
+res = res.split("=").join("");
+res = res.split("}").join("");
+res = res.split("{").join("");
+res = res.split("]").join("");
+res = res.split("[").join("");
+res = res.split("|").join("");
+res = res.split("/").join("");
+res = res.split("?").join("");
+res = res.split(";").join("");
+res = res.split(",").join("");
+
 firebase.database().ref(`HistoryTrack/${className}/${subjectName}/${res}`).push(HistoryTrack);
 /////////////////////////////Giving the functionalities of the check every answer wrong
     }
