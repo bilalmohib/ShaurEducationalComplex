@@ -280,6 +280,32 @@ if(StudentEmail=="")
 
 let res = StudentEmail.split("@").join("");
 res = res.split(".").join("");
+res = res.split("`").join("");
+res = res.split("!").join("");
+res = res.split(".").join("");
+res = res.split("#").join("");
+res = res.split("%").join("");
+res = res.split("^").join("");
+res = res.split("&").join("");
+res = res.split("*").join("");
+res = res.split("(").join("");
+res = res.split(")").join("");
+res = res.split('"').join("");
+res = res.split("'").join("");
+res = res.split("_").join("");
+res = res.split("-").join("");
+res = res.split("+").join("");
+res = res.split("=").join("");
+res = res.split("}").join("");
+res = res.split("{").join("");
+res = res.split("]").join("");
+res = res.split("[").join("");
+res = res.split("|").join("");
+res = res.split("/").join("");
+res = res.split("?").join("");
+res = res.split(";").join("");
+res = res.split(",").join("");
+
 
 
   console.log(res)
@@ -386,5 +412,8 @@ window.onload=()=>{
 
 }
 //This is for feed back
+
+
+
 
 
