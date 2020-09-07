@@ -171,6 +171,141 @@ function gotData(data)
 
     //create edit Button
     var editBtn = document.createElement("button");
+var email_id;
+
+}
+
+}
+
+
+function login() {
+
+  var userEmail = document.getElementById("email_field").value;
+  var userPass = document.getElementById("password_field").value;
+
+  while (userEmail != "mohib2156@gmail.com"&&userEmail!="ambertahir303@gmail.com") {
+    logout();
+    alert("You are not the right person to access this");
+    return;
+  }
+
+  firebase.auth().signInWithEmailAndPassword(userEmail, userPass).catch(function (error) {
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+
+    window.alert("Error : " + errorMessage);
+
+    // ...
+  });
+
+}
+
+function logout() {
+  firebase.auth().signOut();
+}
+//////////////////////////////////////////////////////////////////////
+
+
+
+
+////////////////////////////////////////////////////////
+var clas = document.getElementById("clas").innerHTML = className;
+var sub = document.getElementById("sub").innerHTML = "Subject: " + subjectName;
+////////////////////////////////////////////////////////
+if (className == null || subjectName == null) {
+  alert("Please go back and choose the class and the subject to proceed");
+  location.href = "SeeData.html";
+
+}
+console.log(className + "\n" + subjectName);
+
+
+function disableQuiz() {
+
+  var Condition = {
+    Value: false
+  }
+
+  firebase.database().ref(`Condition/${className}/${subjectName}`).set(Condition);
+}
+
+function enableQuiz() {
+
+  var Condition = {
+    Value: true
+  }
+
+  firebase.database().ref(`Condition/${className}/${subjectName}`).set(Condition);
+}
+
+
+var ref = database.ref(`Quiz/${className}/${subjectName}`);
+ref.once('value', gotData, errData);
+
+
+function gotData(data) 
+{
+  //console.log(data.val());
+  var tod = data.val();
+  var keys = Object.keys(tod);
+
+
+
+  for (var i = 0; i < keys.length; i++) {
+
+
+    var k = keys[i];
+    var ins = k.toString()
+    var Question = tod[k].Question;
+    var Author = tod[k].author;
+    var Option1 = tod[k].Option1;
+    var Option2 = tod[k].Option2;
+    var Option3 = tod[k].Option3;
+    var Option4 = tod[k].Option4;
+    var Answer = tod[k].Answer;
+    var Time = tod[k].Date;
+
+
+
+
+    //create li text node
+    var li = document.createElement("li");
+
+
+    //create element span
+
+    var para = document.createElement("div");
+    para.setAttribute("id", "para");
+    para.innerHTML = `<b>Question:-</b>${Question} </br>
+   <b>Option1:</b> ${Option1}</br>
+   <b>Option2:</b> ${Option2}</br>
+   <b>Option3:</b> ${Option3}</br>
+   <b>Option4:</b> ${Option4}</br>
+   <b>Answer:</b> ${Answer}</br>
+    <b>Author:</b> ${Author}</br>
+    <b>Time Submitted:</b> ${Time}</br>
+   `;
+
+    li.appendChild(para);
+
+
+    var para1 = document.createElement("span");
+    para1.setAttribute("id", "para1");
+    para1.innerHTML = ins;
+    li.appendChild(para1);
+
+
+    //create delete button
+    var delBtn = document.createElement("button");
+    delBtn.setAttribute("onclick", "deleteItem(this)");
+    delBtn.innerHTML = "DELETE";
+    delBtn.setAttribute("id", "deleteButton");
+
+    var buttons = document.createElement("div");
+    buttons.setAttribute("id", "buttonDiv")
+
+    var editBtn = document.createElement("button");
     editBtn.innerHTML = "EDIT";
     editBtn.setAttribute("id", "editButton");
     editBtn.setAttribute("onclick", "editItem(this)");
@@ -422,24 +557,12 @@ function editItem(e) {
 function cancel() {
   document.getElementById('modal').style = "display:none;";
 }
-firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (data) => {
-  var condition = data.val().Value;
-  console.log(condition);
-  if (condition == false) {
-    var ED = document.getElementById("ED");
-    ED.style = "color:red";
-    ED.innerHTML = `The subject ${subjectName} of ${className} is currently <b>DISABLED<b>`;
-  }
-  if (condition == true) {
-    var ED = document.getElementById("ED");
-    ED.style = "color:green";
-    ED.innerHTML = `The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
-  }
-});
 
 
-setInterval(30000, function () {
+
+
+setInterval(function () {
   var x = window.location.href;
   x = x.split('#');
   window.location.href = x[0];
-})
+},30000)
