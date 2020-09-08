@@ -431,3 +431,18 @@ function cancel() {
   document.getElementById('modal').style = "display:none;";
 }
 
+
+firebase.database().ref(`Condition/${className}/${subjectName}`).on('value', (data) => {
+  var condition = data.val().Value;
+  console.log(condition);
+  if (condition == false) {
+    var ED = document.getElementById("ED");
+    ED.style = "color:red";
+    ED.innerHTML = `The subject ${subjectName} of ${className} is currently <b>DISABLED<b>`;
+  }
+  if (condition == true) {
+    var ED = document.getElementById("ED");
+    ED.style = "color:green";
+    ED.innerHTML = `The subject ${subjectName} of ${className} is <b>ENABLED<b> currently`;
+  }
+});
