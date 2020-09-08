@@ -338,7 +338,7 @@ function errData(err) {
 function deleteItem(e) {
   console.log(e.parentNode.childNodes[2].innerHTML);
 
-  var val = e.parentNode.childNodes[2].innerHTML;
+  let val = e.parentNode.childNodes[2].innerHTML;
   console.log(val);
   let userRef = this.database.ref(`Quiz/${className}/${subjectName}/${val}`);
   userRef.remove()
@@ -558,11 +558,3 @@ function cancel() {
   document.getElementById('modal').style = "display:none;";
 }
 
-
-
-
-setInterval(function () {
-  var x = window.location.href;
-  x = x.split('#');
-  window.location.href = x[0];
-},30000)
