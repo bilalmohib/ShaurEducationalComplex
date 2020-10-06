@@ -43,6 +43,9 @@
         margin: 50px auto 0 auto;
         width: 80%;
       }
+      #head{
+        text-align: center;
+      }
       </style>
    <meta name="google-site-verification" content="Q534sjcmFrEIqTdqah7JZePEWfdC6f4b6MYSYx0x4lY" />
     
@@ -110,6 +113,7 @@
             <a class="dropdown-item" href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a>
               <a class="dropdown-item" href="PictureGallery/Cultural Day.html">Cultural Day</a>
               <a class="dropdown-item" href="PictureGallery/FunGallery.html">Fun Factory Trip</a>
+              <a class="dropdown-item" href="AdministratorSite.html">AdministratorSite</a>
           </div>
         </li>
 
@@ -137,6 +141,8 @@
  <!-- This is th navigation bar -->
      
 <!-- This is the slideshow -->
+
+<div id="boxes">
 <div id="slideshow">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -174,8 +180,6 @@
         <p class="p-3 mb-2 bg-info text-white">This is the front view of the school</p> -->
       </div>
     </div>
-
-
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -185,6 +189,10 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+</div>
+<div class="bg-light" id="notice">
+  <div id="head" class="text-light" style="font-size:30px; background-color: purple;"></div>
 </div>
 </div>
 <!-- This is the slideshow -->
@@ -329,6 +337,26 @@
   </script>
 
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+          authDomain: "quizappfirebases.firebaseapp.com",
+          databaseURL: "https://quizappfirebases.firebaseio.com",
+          projectId: "quizappfirebases",
+          storageBucket: "quizappfirebases.appspot.com",
+          messagingSenderId: "985601574561",
+          appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+          measurementId: "G-FPVCTWWN6M"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+
 
 <!-- This is bootstrap -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -336,4 +364,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <!-- This is bootstrap -->
 </body>
+<script src="index.js"></script>
 </html>
+

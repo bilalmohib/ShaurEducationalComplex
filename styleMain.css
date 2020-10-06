@@ -1,3 +1,29 @@
+#slideshow{
+    width: 60%;
+    position: relative;
+    float: left;
+    display: block;
+  }
+  #boxes{
+      display: flex;
+  }
+  #notice{
+      width: 40%;
+      height: 500px;
+      background-color:white;
+      display: block;
+      position: relative;
+      font-size: 22px;
+    border: 1px solid blue;
+    
+  }
+#CompleteDiv
+{
+    width: 100%;
+    border: 1px solid black;
+    display: inline;
+    float: left;
+}
 /* This is the icons */
 .icondowns
 {

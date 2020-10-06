@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AdministratorPortal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet">
+    <!-- style.css -->
+    <link rel="stylesheet" href="stylesheetSite.css">
+      <style>
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 60px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        }
+        #logosec
+        {
+            width: 150px;
+            height: 150px;
+        }
+        @media screen and (max-width:820px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 50px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:680px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 40px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:560px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 30px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        }
+        #logosec
+        {
+            width: 100px;
+            height: 100px;
+        } 
+        }
+        @media screen and (max-width:435px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 25px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:365px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 20px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:320px)
+        {
+        #logosec
+        {
+            width: 80px;
+            height: 80px;
+        } 
+        }
+
+         
+        @media screen and (max-width:300px)
+        {
+        #maintitle
+        {
+            font-family: 'Srisakdi', cursive;
+            font-size: 15px;
+            font-weight: bolder;
+            color: rgb(18, 25, 124);
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 2px white;
+        } 
+        }
+        @media screen and (max-width:277px)
+        {
+        #logosec
+        {
+            width: 70px;
+            height: 70px;
+            margin-top: 30px;
+        } 
+        }
+        /* For Uploading the image */
+        #upload{
+            width: auto;
+            margin: 50px;
+            font-size: 20px;
+            background-color: purple;
+        }
+        #upload:hover{
+            width: auto;
+            margin: 50px;
+            font-size: 20px;
+            background-color:rgb(75, 2, 75);
+            color: white;
+            transition: 0.1s linear;
+        }
+        #txtarea
+        {
+           font-size: 20px;
+           min-width: 80%;
+           height: 200px;
+        }
+    </style>
+     <link rel = "icon" href =  
+     "Images/logo.ico" 
+             type = "image/x-icon"> 
+</head>
+
+<body>
+    
+ 
+    <div class="wrapper">
+
+        <!-- This is for login -->
+        <div id="login_div" style="text-align: center;" class="main-div">
+            <img src="Images/logo.ico" style="position: relative; text-align: center; margin-top: 20px;" width="100px"
+                height="100px" alt="">
+            <h2
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aliceblue; width: 100%; font-size: 30px;">
+                Shaur Educational Complex</h2>
+            <input type="email" placeholder="Email..." id="email_field" />
+            <input type="password" placeholder="Password..." id="password_field" />
+
+            <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
+        </div>
+        <!-- This is for login -->
+
+
+        <div id="user_div" style="width:fit-content;" class="loggedin-div">
+            
+  
+            <div style="width: 100%; text-align: center;"><img src="Images/logo.ico" id="logosec" alt=""></div>
+            <h1 id="maintitle">Shaur Educational Complex</h1>
+
+            <h1>Heading</h1>
+            <input type="text" name="" style="font-size: 20px;" id="head">
+           
+            <h1>Notification</h1>
+
+           <textarea name="" id="txtarea" cols="2" rows="2"></textarea>
+
+           
+
+            <button onclick="sendData()" id="upload">Add Notification</button>
+
+
+            <button style="text-align: center; width: 200px;background-color: rgb(98, 0, 255); font-size: 20px;" onclick="logout()">Logout</button>
+
+        </div>
+    </div>
+    <!-- This is for showing after the login is held -->
+
+
+    <script>
+        var input = document.getElementById("txtarea");
+        input.addEventListener("keyup", function(event) {
+          if (event.keyCode === 13) {
+           event.preventDefault();
+           document.getElementById("upload").click();       
+          }             
+        });
+        </script>  
+    
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+          authDomain: "quizappfirebases.firebaseapp.com",
+          databaseURL: "https://quizappfirebases.firebaseio.com",
+          projectId: "quizappfirebases",
+          storageBucket: "quizappfirebases.appspot.com",
+          messagingSenderId: "985601574561",
+          appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+          measurementId: "G-FPVCTWWN6M"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+
+
+
+
+
+
+
+
+    <!-- site.js -->
+    <script src="startEnter.js"></script>
+</body>
+
+</html>
