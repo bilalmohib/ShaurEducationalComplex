@@ -151,9 +151,10 @@ nav
     display: none;
 }
 /* This is the navigation bar */
-#image
+.image
 {
     height: 500px;
+    width:100%;
 }
 #marq
 {

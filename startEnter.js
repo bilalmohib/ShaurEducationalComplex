@@ -83,3 +83,24 @@ alert("Message Sent")
 }
 
 
+let uploadImage=()=>{
+  const ref=firebase.storage().ref();
+  const file=document.querySelector("#photo").files[0];
+  const name=new Date() + '-' +file.name;
+
+  const metaData={
+    contentType:file.type
+  }
+
+  const task=ref.child(name).put(file,metaData)
+
+  task
+  .then(snapshot=>snapshot.ref.getDownloadURL())
+  .then(url=>{
+    console.log(url)
+    alert("Image Uploaded Successfully")
+    const image=document.querySelector('#image')
+    image.src=url;
+  })
+
+}

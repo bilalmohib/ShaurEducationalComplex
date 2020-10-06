@@ -9,6 +9,7 @@
     <title>AdministratorPortal</title>
     <link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@700&display=swap" rel="stylesheet">
     <!-- style.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesheetSite.css">
       <style>
         #maintitle
@@ -122,20 +123,7 @@
         } 
         }
         /* For Uploading the image */
-        #upload{
-            width: auto;
-            margin: 50px;
-            font-size: 20px;
-            background-color: purple;
-        }
-        #upload:hover{
-            width: auto;
-            margin: 50px;
-            font-size: 20px;
-            background-color:rgb(75, 2, 75);
-            color: white;
-            transition: 0.1s linear;
-        }
+        
         #txtarea
         {
            font-size: 20px;
@@ -163,7 +151,7 @@
             <input type="email" placeholder="Email..." id="email_field" />
             <input type="password" placeholder="Password..." id="password_field" />
 
-            <button style="width: 100px; margin-left: 100px; font-size: 20px;" onclick="login()">Login</button>
+            <button type="button" style="width: 100px; margin-left: 100px; font-size: 20px;" class="btn btn-primary" onclick="login()">Login</button>
         </div>
         <!-- This is for login -->
 
@@ -174,19 +162,29 @@
             <div style="width: 100%; text-align: center;"><img src="Images/logo.ico" id="logosec" alt=""></div>
             <h1 id="maintitle">Shaur Educational Complex</h1>
 
-            <h1>Heading</h1>
+            <h1 class="text-light">Heading</h1>
             <input type="text" name="" style="font-size: 20px;" id="head">
            
-            <h1>Notification</h1>
+            <h1 class="text-dark">Notification</h1>
 
            <textarea name="" id="txtarea" cols="2" rows="2"></textarea>
 
            
 
-            <button onclick="sendData()" id="upload">Add Notification</button>
+           <br>
+           <button type="button" onclick="sendData()" id="upload" style="font-size:20px;" class="btn btn-dark">Save Notification</button>
 
+ 
+           <br><br>
+           
+           <img id="image" alt="Here is the image which will be uploaded"/>
 
-            <button style="text-align: center; width: 200px;background-color: rgb(98, 0, 255); font-size: 20px;" onclick="logout()">Logout</button>
+            <input id="photo" style="font-size: 20px;"  type="file"><br>
+            <br>
+            <button type="button" style="font-size: 20px;" onclick="uploadImage()" id="uploadphoto" class="btn btn-success">Upload Photo</button>
+
+            <br><br>
+            <button type="button" style="font-size: 20px;" class="btn btn-danger" onclick="logout()">Logout</button>
 
         </div>
     </div>
@@ -210,6 +208,7 @@
 
     <script>
         // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         var firebaseConfig = {
           apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
           authDomain: "quizappfirebases.firebaseapp.com",
@@ -222,11 +221,14 @@
         };
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
+      
       </script>
 
 
 
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
 
