@@ -50,10 +50,10 @@
    <meta name="google-site-verification" content="Q534sjcmFrEIqTdqah7JZePEWfdC6f4b6MYSYx0x4lY" />
     
 </head>
-<body class="bg-dark">
+<body>
   
   <!-- This is the firs tblock -->
-  <div class="container-fluid p-3 mb-2 bg-light text-dark">
+  <div id="icontop" class="container-fluid p-3 mb-2 bg-light text-dark">
               <div class="icondowns">
                 <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
                 <div><a href="https://twitter.com/"><i style="margin-top: 0px;"  class="icondtc fab fa-twitter"></i></a></div>        
@@ -61,7 +61,32 @@
                 <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i  style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
                 <div><a href="https://api.whatsapp.com/"><i  style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a></div>
                 </div>
+                <div class="wrapper">
+                  <!-- <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                  </label>
+                 <input type="checkbox" class="checkbox" id="checkbox"> -->
+
+                 <label class="switch">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <input type="checkbox" id="checkbox" checked>
+                  <span class="slider round"></span>
+                </label>
+                </div>
 </div>
+
+<script type="text/javascript">
+  const checkbox=document.getElementById('checkbox');
+
+  checkbox.addEventListener('change',()=>{
+    document.body.classList.toggle('bg-dark');
+    
+  })
+</script>
+
 <!-- This is navigation bar -->
 <div class="sticky-top">
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
