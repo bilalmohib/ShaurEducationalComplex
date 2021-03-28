@@ -1,54 +1,13 @@
 #icontop{
     display: flex;
+    background-color: white;
+    border-bottom: 5px solid grey;
 }
 
-
-/* .label {
-    background-color: #111;
-    display: flex;
-    border-radius: 50px;
-    height: 26px;
-    width: 50px;
-    align-items: center;
-    position: relative;
-    justify-content: space-between;
-    padding: 5px;
-}
-.checkbox:checked + .label .ball{
-  transform:translateX(24px);
-}
-.fa-moon{
-    color:#f1c40f;
-}
-.fa-sun{
-    color: #f39c12;
-}
-.ball{
-    height: 22px;
-    width: 22px;
-    background-color: #fff;
-    top: 2px;
-    left: 2px;
-    border-radius: 50px;
-    position: absolute;
-    transition: transform 0.2s linear;
-} */
 body.light
 {
     background-color: #1b1b1b;
 }
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
   
   .slider {
     position: absolute;
@@ -95,7 +54,7 @@ body.light
   }
   
 #slideshow {
-    width: 60%;
+    width: 100%;
     position: relative;
     float: left;
     display: block;
@@ -240,10 +199,33 @@ nav {
     border-radius: 10px;
 }
 
+.navbar
+{
+    background-color: white;
+}
+
 .nav-link {
-    color: aliceblue;
+    color: rgb(58, 58, 58);
     margin: 10px;
-    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+.nav-link:hover {
+    color: black;
+    font-weight: dark;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#navbarDropdown
+{
+    color: rgb(58, 58, 58);
+}
+
+#navbarDropdown:hover
+{
+    color: black;
 }
 
 #logoTextHide {
@@ -462,7 +444,7 @@ nav {
         font-weight: initial;
     }
     #welcomePara {
-        font-size: 16px;
+        font-size: 18px;
     }
     #about {
         font-size: 18px;
@@ -481,7 +463,7 @@ nav {
         font-size: 23px;
     }
     #welcomePara {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: initial;
     }
 }

@@ -1,243 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShaurEducationalComplex</title>
-    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styleMain.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-     <!-- add icon link -->
-     <link rel = "icon" href =  "Images/logo.ico" type = "image/x-icon">      
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
-    
-    <style>
-      .header {
-        position: fixed;
-        top: 0;
-        z-index: 1;
-        width: 100%;
-        background-color: #f1f1f1;
-      }
-      
-      .header h2 {
-        text-align: center;
-      }
-      
-      .progress-container {
-        width: 100%;
-        height: 8px;
-        background: #ccc;
-      }
-      
-      .progress-bar {
-        height: 8px;
-        background: #1f6cdf;
-        width: 0%;
-      }
-      
-      .content {
-        padding: 100px 0;
-        margin: 50px auto 0 auto;
-        width: 80%;
-      }
-      #head{
-        text-align: center;
-      }
-      </style>
-   <meta name="google-site-verification" content="Q534sjcmFrEIqTdqah7JZePEWfdC6f4b6MYSYx0x4lY" />
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShaurEducationalComplex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styleMain.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <!-- add icon link -->
+  <link rel="icon" href="Images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+
+  <style>
+    .header {
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      background-color: #f1f1f1;
+    }
+
+    .header h2 {
+      text-align: center;
+    }
+
+    .progress-container {
+      width: 100%;
+      height: 8px;
+      background: #ccc;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background: #1f6cdf;
+      width: 0%;
+    }
+
+    .content {
+      padding: 100px 0;
+      margin: 50px auto 0 auto;
+      width: 80%;
+    }
+
+    #head {
+      text-align: center;
+    }
+  </style>
+  <meta name="google-site-verification" content="Q534sjcmFrEIqTdqah7JZePEWfdC6f4b6MYSYx0x4lY" />
 </head>
 <body>
-  
+
   <!-- This is the firs tblock -->
-  <div id="icontop" class="container-fluid p-3 mb-2 bg-light text-dark">
-              <div class="icondowns">
-                <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
-                <div><a href="https://twitter.com/"><i style="margin-top: 0px;"  class="icondtc fab fa-twitter"></i></a></div>        
-                <div><a href="https://www.instagram.com/"><i  style="margin-top: 0px;" class="icondic fab fa-instagram"></i></a></div> 
-                <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i  style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
-                <div><a href="https://api.whatsapp.com/"><i  style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a></div>
-                </div>
-                <div class="wrapper">
-                  <!-- <label for="checkbox" class="label">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                    <div class="ball"></div>
-                  </label>
-                 <input type="checkbox" class="checkbox" id="checkbox"> -->
-
-                 <label class="switch">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                  <input type="checkbox" id="checkbox" checked>
-                  <span class="slider round"></span>
-                </label>
-                </div>
-</div>
-
-<script type="text/javascript">
-  const checkbox=document.getElementById('checkbox');
-
-  checkbox.addEventListener('change',()=>{
-    document.body.classList.toggle('bg-dark');
-    
-  })
-</script>
-
-<!-- This is navigation bar -->
-<div class="sticky-top">
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <img id="logoSchool" width="100px" height="80px" src="Images/logo.ico" alt="Logo Of ShaurEducationalComplex">
-    <a class="navbar-brand text-primary" id="logoText">Shaur Educational Complex</a>
-    <a class="navbar-brand text-primary" id="logoTextHide" title="Shaur Educational Complex">SEC</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+  <div id="icontop" class="container-fluid p-3 mb-2 text-dark">
+    <div class="icondowns">
+      <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i
+            style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
+      <div><a href="https://twitter.com/"><i style="margin-top: 0px;" class="icondtc fab fa-twitter"></i></a></div>
+      <div><a href="https://www.instagram.com/"><i style="margin-top: 0px;" class="icondic fab fa-instagram"></i></a>
+      </div>
+      <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i
+            style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
+      <div><a href="https://api.whatsapp.com/"><i style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
 
 
-        <li id="home" class="nav-item active">
-          <a class="nav-link p-3 mb-2 bg-primary text-white" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
+  <!-- This is navigation bar -->
+  <div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <img id="logoSchool" width="100px" height="80px" src="Images/logo.ico" alt="Logo Of ShaurEducationalComplex">
+      <a class="navbar-brand text-primary" id="logoText">Shaur Educational Complex</a>
+      <a class="navbar-brand text-primary" id="logoTextHide" title="Shaur Educational Complex">SEC</a>
+      <button class="navbar-toggler text-dark" style="background-color: cornflowerblue;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-dark" style="color: black;"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
 
 
-      
-       
+          <li id="home" class="nav-item active">
+            <a class="nav-link p-3 mb-2 text-dark" href="index.html">Home <span
+                class="sr-only">(current)</span></a>
+          </li>
 
 
-       
-        <li class="nav-item">
-          <a class="nav-link p-3 mb-2 bg-primary text-white" href="ElearningPortal.html">E-learning Portal</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle p-3 mb-2 bg-primary text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Exam-Portal
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="home.html">Start Exam</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="Admin.html">Admin Portal</a>
-            
-          </div>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link p-3 mb-2 text-dark" href="ElearningPortal.html">E-learning Portal</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle p-3 mb-2" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Exam-Portal
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="home.html">Start Exam</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="Admin.html">Admin Portal</a>
 
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle p-3 mb-2 bg-primary text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             Images
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="PictureGallery/ArtGallery.html">Art Gallery</a>
-            <a class="dropdown-item" href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle p-3 mb-2" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Images
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="PictureGallery/ArtGallery.html">Art Gallery</a>
+              <a class="dropdown-item" href="PictureGallery/Annual Award Ceremony.html">Annual Award Ceremony</a>
               <a class="dropdown-item" href="PictureGallery/Cultural Day.html">Cultural Day</a>
               <a class="dropdown-item" href="PictureGallery/FunGallery.html">Fun Factory Trip</a>
               <a class="dropdown-item" href="AdministratorSite.html">AdministratorSite</a>
-          </div>
-        </li>
+            </div>
+          </li>
 
 
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle p-3 mb-2 bg-primary text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Contact Us
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#welcomePara">About Us</a>
-            <a class="dropdown-item" href="Contact.html">Give Feedback
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle p-3 mb-2" href="#" id="navbarDropdown"
+              role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact Us
             </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#welcomePara">About Us</a>
+              <a class="dropdown-item" href="Contact.html">Give Feedback
+              </a>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+    </nav>
+    <div class="bg-white text-primary progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <!-- This is th navigation bar -->
+
+  <!-- This is the slideshow -->
+
+  <div id="boxes">
+    <div id="slideshow">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="image" class="d-block w-100" alt="This is image 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-primary">Students Drawing At Art Day</h1>
+              <p class="p-3 mb-2 text-white">Students Drawing At the annual art competition</p>
+            </div>
           </div>
-        </li>
-
-
-      </ul>
-    </div> 
-  </nav>
-  <div class="bg-white text-primary progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div> 
-</div>
- <!-- This is th navigation bar -->
-     
-<!-- This is the slideshow -->
-
-<div id="boxes">
-<div id="slideshow">
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="image"  class="d-block w-100" alt="This is image 1">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 class="text-primary">Students Drawing At Art Day</h1>
-        <p class="p-3 mb-2 text-white">Students Drawing At the annual art competition</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="image"  class="d-block w-100" alt="This is image 2">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 class="text-primary">Art Day</h1>
-        <p class="p-3 mb-2 text-white">Students showing their drawings at art competition</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="image"  class="d-block w-100" alt="This is image 3">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 class="text-primary">Annual Award Ceremony</h1>
-        <p class="p-3 mb-2 text-white">Annual Award ceremony at Alhamra Art Complex</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img class="image"  class="d-block w-100" alt="This is image 4">
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h1 class="text-primary">School Main View</h1>
+          <div class="carousel-item">
+            <img class="image" class="d-block w-100" alt="This is image 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-primary">Art Day</h1>
+              <p class="p-3 mb-2 text-white">Students showing their drawings at art competition</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="image" class="d-block w-100" alt="This is image 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="text-primary">Annual Award Ceremony</h1>
+              <p class="p-3 mb-2 text-white">Annual Award ceremony at Alhamra Art Complex</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="image" class="d-block w-100" alt="This is image 4">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h1 class="text-primary">School Main View</h1>
         <p class="p-3 mb-2 bg-info text-white">This is the front view of the school</p> -->
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-<div class="bg-light" id="notice">
-  <div id="head" class="text-light" style="font-size:30px; background-color: purple;"></div>
-</div>
-</div>
-<!-- This is the slideshow -->
+  <!-- This is the slideshow -->
 
 
-<!-- this is the marquee tag -->
-<marquee class="p-3 mb-2 bg-primary text-white" id="marq" width="100%" direction="left" height="40px" onmouseout="this.start();" onmouseover="this.stop();"> 
-  <div  id="txtmarq">
-    Welcome to Shaur Educational Complex School.<q><b>Important</b> Online Quizzes will be starting from 1-September-2020 so be ready for that</q> Our staff is struggling hard to provide the best of the education.Due to COVOID-19 the school is temporiroly closed so we will give work at our <a href="ElearningPortal.html" style="color: inherit;">E-learning Portal</a> soon.So stay connected with us.CELL NO 0321-8406295
-  </div>
-</marquee>
-<!-- this is the marquee tag -->
+  <!-- this is the marquee tag -->
+  <marquee class="p-3 mb-2 bg-primary text-white" id="marq" width="100%" direction="left" height="40px"
+    onmouseout="this.start();" onmouseover="this.stop();">
+    <div id="txtmarq">
+      Welcome to Shaur Educational Complex School.<q><b>Important</b> Online Quizzes will be starting from
+        1-September-2020 so be ready for that</q> Our staff is struggling hard to provide the best of the education.Due
+      to COVOID-19 the school is temporiroly closed so we will give work at our <a href="ElearningPortal.html"
+        style="color: inherit;">E-learning Portal</a> soon.So stay connected with us.CELL NO 0321-8406295
+    </div>
+  </marquee>
+  <!-- this is the marquee tag -->
 
 
 
 
-<!-- A warm welcome -->
-<div style="margin-top: -11px; font-size: large;" class="p-3 mb-2 bg-white text-dark">
+  <!-- A warm welcome -->
+  <div style="margin-top: -11px; font-size: large;" class="p-3 mb-2 bg-white text-dark">
 
-<div id="headWelcome"><span class="text-success">Knowledge Comes </span><span class="text-info">but Wisdom Lingers:</span></div>
-  <div id="welcomePara" class="font-weight-bolder p-1 mb-5 bg-transparent text-dark" style="font-family: 'Montserrat', sans-serif;">
-    The name of the school has its semantic value. Allah Almighty
+    <div id="headWelcome"><span class="text-success">Knowledge Comes </span><span class="text-info">but Wisdom
+        Lingers:</span></div>
+    <div id="welcomePara" class="font-weight-bolder p-1 mb-5 bg-transparent text-dark"
+      style="font-family: 'Montserrat', sans-serif;">
+      The name of the school has its semantic value. Allah Almighty
       shows his like for those who are thoughtful in their actions. So our school
       imparts “ Shaur ” , hikmat and consciousness to its learners.
       Our school has a constructive and creative approach. The school
@@ -254,145 +240,164 @@
       Our school prepares the students to face the new challenges of life.
       They get tactics and skills to be equipped for the practical life of present
       and the future.
+    </div>
   </div>
-</div>  
-  
-<!-- A warm welcome -->
+
+  <!-- A warm welcome -->
 
 
-<!-- This is the image hover -->
-<div class="container-fluid">
-  <div class="bg-light row">
+  <!-- This is the image hover -->
+  <div class="container-fluid">
+    <div class="bg-light row">
 
-    <!--Grid column-->
-    <div class="col-lg-4 col-md-12 mb-4">
-      <a href="PictureGallery/ArtGallery.html"><img src="Images/art comptition/3.JPG" title="This is Art competition image" class="img-fluid mb-4" alt=""></a>
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-12 mb-4">
+        <a href="PictureGallery/ArtGallery.html"><img src="Images/art comptition/3.JPG"
+            title="This is Art competition image" class="img-fluid mb-4" alt=""></a>
+      </div>
+      <div class="col-lg-2 col-md-12 mb-4">
+        <a href="PictureGallery/Annual Award Ceremony.html"><img src="Images/annual award ceremony/15.JPG"
+            title="This is Annual Award Ceremony" class="img-fluid mb-4" alt=""></a>
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+        <a href="PictureGallery/FunGallery.html"><img src="Images/fun day at fun factory/14.jpg"
+            title="This is Fun Factory Trip" class="img-fluid mb-4" alt="" data-wow-delay="0.3s"></a>
+      </div>
+
+      <div class="col-lg-2 col-md-12 mb-4">
+        <a href="PictureGallery/Annual Award Ceremony.html"><img src="Images/annual award ceremony/19.JPG"
+            class="img-fluid mb-4" title="This is Annual Award Ceremony" alt="" data-wow-delay="0.3s"></a>
+      </div>
     </div>
-    <div class="col-lg-2 col-md-12 mb-4">
-      <a href="PictureGallery/Annual Award Ceremony.html"><img src="Images/annual award ceremony/15.JPG" title="This is Annual Award Ceremony" class="img-fluid mb-4" alt=""></a>
-    </div>
-    <div class="col-lg-4 col-md-12 mb-4">
-      <a href="PictureGallery/FunGallery.html"><img src="Images/fun day at fun factory/14.jpg" title="This is Fun Factory Trip" class="img-fluid mb-4" alt="" data-wow-delay="0.3s"></a>
-    </div>
-
-    <div class="col-lg-2 col-md-12 mb-4">
-      <a href="PictureGallery/Annual Award Ceremony.html"><img src="Images/annual award ceremony/19.JPG" class="img-fluid mb-4" title="This is Annual Award Ceremony" alt="" data-wow-delay="0.3s"></a>
-    </div>
-    </div>
-<!-- This is the image hover -->
+    <!-- This is the image hover -->
 
 
-<!-- This is the map -->
-<div class="container-fluid bg-white text-primary" id="mapbox">
-  <div  id="divsocial">
-    <div ><span id="about">SEC on Social Media</span></div>
-    <br>
-          <div id="icondown">
-          <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i class="icondfc fab fa-facebook-f"></i></a></div>
-          <div><a href="https://twitter.com/"><i class="icondtc fab fa-twitter"></i></a></div>        
-          <div><a href="https://www.instagram.com/"><i class="icondic fab fa-instagram"></i></a></div> 
-          <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i class="icondyc fab fa-youtube"></i></a></div>
+    <!-- This is the map -->
+    <div class="container-fluid bg-white text-primary" id="mapbox">
+      <div id="divsocial">
+        <div><span id="about">SEC on Social Media</span></div>
+        <br>
+        <div id="icondown">
+          <div><a
+              href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i
+                class="icondfc fab fa-facebook-f"></i></a></div>
+          <div><a href="https://twitter.com/"><i class="icondtc fab fa-twitter"></i></a></div>
+          <div><a href="https://www.instagram.com/"><i class="icondic fab fa-instagram"></i></a></div>
+          <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i
+                class="icondyc fab fa-youtube"></i></a></div>
           <div><a href="https://api.whatsapp.com/"><i class="icondwc fab fa-whatsapp"></i></a></div>
-          </div>
-  </div>
-  
-<iframe id="map" src="https://www.google.com/maps/d/u/0/embed?mid=1AIsf-4etCQOgWKawr8kp-6CFGp1jsZ-9" width="640" height="480"></iframe>
-</div>
-<!-- This is the map -->
-
-
-<!-- This is the last div -->
-<div class="bg-light text-primary container6">
-  <div class="box6">
-      <br><br>
-  <div class="text-primary" style="margin-left: 10px; font-size: 18px; font-family: 'Montserrat', sans-serif;
-   font-weight:bolder;" id="hocontainer6">28-saeed block,ibne saeed road,canal bank scheme,Lahore</div>
-  <!-- <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;UAN: 111-729-526 &nbsp;&nbsp;&nbsp;<i id="icon" class="fas fa-globe-americas"></i>&nbsp;&nbsp;(+0092-213) 4130786-90</div> -->
-  <br>
-  <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;SCHOOL NO: 0310-4802299</div>
-  <br>
-  <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;CELL NO 0321-8406295</div>
-  <br>
-  <!-- <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;UK NO (+44)115 970 6256</div>
-  <br> -->
-  <div>&nbsp;&nbsp;<i id="icon" class="far fa-envelope"></i>&nbsp;&nbsp;shaur2299@gmail.com</div>
-  </div>
-  <div class="box6">
-      <br>
-      <br>
-      <div class="text-primary" id="usefullink" style="font-family: 'Montserrat', sans-serif;
-      font-weight:bolder;">Useful Links</div>
-      <br>
-      <div id="boxdash">__</div>
-  </div>
-  <div class="box6">
-      <br>
-      <br>
-      <div class="text-primary" id="usefullink" style="font-family: 'Montserrat', sans-serif;
-      font-weight:bolder; font-size: 20px;">Connect With Us</div><br><br>
-      <div id="icondown"  style="margin-left: -10px; padding: 0px;">
-        <div><a href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
-        <div><a href="https://twitter.com/"><i style="margin-top: 0px;" class="icondtc fab fa-twitter"></i></a></div>        
-        <div><a href="https://www.instagram.com/"><i  style="margin-top: 0px;" class="icondic fab fa-instagram"></i></a></div> 
-        <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i  style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
-        <div><a href="https://api.whatsapp.com/"><i  style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a></div>
         </div>
-      <br>
-  </div>
-</div>
-<!-- This is the last div -->
+      </div>
 
-<div class="container-fluid bg-primary text-white" id="copyRight">
-  Copyright © 2020 SEC
-</div>
+      <iframe id="map" src="https://www.google.com/maps/d/u/0/embed?mid=1AIsf-4etCQOgWKawr8kp-6CFGp1jsZ-9" width="640"
+        height="480"></iframe>
+    </div>
+    <!-- This is the map -->
 
 
-<script>
-  // When the user scrolls the page, execute myFunction 
-  window.onscroll = function() {myFunction()};
-  
-  function myFunction() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById("myBar").style.width = scrolled + "%";
-  }
-  </script>
+    <!-- This is the last div -->
+    <div class="bg-light text-primary container6">
+      <div class="box6">
+        <br><br>
+        <div class="text-primary" style="margin-left: 10px; font-size: 18px; font-family: 'Montserrat', sans-serif;
+   font-weight:bolder;" id="hocontainer6">28-saeed block,ibne saeed road,canal bank scheme,Lahore</div>
+        <!-- <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;UAN: 111-729-526 &nbsp;&nbsp;&nbsp;<i id="icon" class="fas fa-globe-americas"></i>&nbsp;&nbsp;(+0092-213) 4130786-90</div> -->
+        <br>
+        <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;SCHOOL NO: 0310-4802299</div>
+        <br>
+        <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;CELL NO 0321-8406295</div>
+        <br>
+        <!-- <div>&nbsp;&nbsp;<i id="icon" class="fas fa-phone"></i>&nbsp;&nbsp;UK NO (+44)115 970 6256</div>
+  <br> -->
+        <div>&nbsp;&nbsp;<i id="icon" class="far fa-envelope"></i>&nbsp;&nbsp;shaur2299@gmail.com</div>
+      </div>
+      <div class="box6">
+        <br>
+        <br>
+        <div class="text-primary" id="usefullink" style="font-family: 'Montserrat', sans-serif;
+      font-weight:bolder;">Useful Links</div>
+        <br>
+        <div id="boxdash">__</div>
+      </div>
+      <div class="box6">
+        <br>
+        <br>
+        <div class="text-primary" id="usefullink" style="font-family: 'Montserrat', sans-serif;
+      font-weight:bolder; font-size: 20px;">Connect With Us</div><br><br>
+        <div id="icondown" style="margin-left: -10px; padding: 0px;">
+          <div><a
+              href="https://www.facebook.com/pages/category/Public-Figure/Shaur-Educational-Complex-119492514783280/"><i
+                style="margin-top: 0px;" class="icondfc fab fa-facebook-f"></i></a></div>
+          <div><a href="https://twitter.com/"><i style="margin-top: 0px;" class="icondtc fab fa-twitter"></i></a></div>
+          <div><a href="https://www.instagram.com/"><i style="margin-top: 0px;"
+                class="icondic fab fa-instagram"></i></a></div>
+          <div><a href="https://www.youtube.com/channel/UCHDUrYNjx-1f2fr88uv3ZJw?view_as=subscriber"><i
+                style="margin-top: 0px;" class="icondyc fab fa-youtube"></i></a></div>
+          <div><a href="https://api.whatsapp.com/"><i style="margin-top: 0px;" class="icondwc fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+    <!-- This is the last div -->
 
+    <div class="container-fluid bg-primary text-white" id="copyRight">
+      Copyright © 2020 SEC
+    </div>
 
-   <!-- The core Firebase JS SDK is always required and must be listed first -->
-
-   <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
-
-   <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-database.js"></script>
-
-
-   <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-storage.js"></script>
 
     <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-          apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
-          authDomain: "quizappfirebases.firebaseapp.com",
-          databaseURL: "https://quizappfirebases.firebaseio.com",
-          projectId: "quizappfirebases",
-          storageBucket: "quizappfirebases.appspot.com",
-          messagingSenderId: "985601574561",
-          appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
-          measurementId: "G-FPVCTWWN6M"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-      </script>
+      // When the user scrolls the page, execute myFunction 
+      window.onscroll = function () { myFunction() };
+
+      function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+    </script>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-database.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-storage.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBmQfYy_p1y5A-0tzCeZDPlPJume7YwYPU",
+        authDomain: "quizappfirebases.firebaseapp.com",
+        databaseURL: "https://quizappfirebases.firebaseio.com",
+        projectId: "quizappfirebases",
+        storageBucket: "quizappfirebases.appspot.com",
+        messagingSenderId: "985601574561",
+        appId: "1:985601574561:web:43ac7087ab6fdf51fa92e0",
+        measurementId: "G-FPVCTWWN6M"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
 
 
 
-<!-- This is bootstrap -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-<!-- This is bootstrap -->
+    <!-- This is bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+    <!-- This is bootstrap -->
 </body>
 <script src="index.js"></script>
-</html>
 
+</html>
