@@ -42,3 +42,11 @@ ul li{
 a{
   text-decoration: none;
 }
+
+
+/*Hiding all the data by default*/
+#english3,#math3,#science3,#ss3,#urdu3,#islamiyat3,#ict3,#english4,#math4,#science4,#ss4,#urdu4,#islamiyat4,#ict4,#english5,#math5,#science5,#ss5,#urdu5,#islamiyat5,#ict5,#english6,#math6,#science6,#history6,#urdu6,#islamiyat6,#geography6,#ict6,#english7,#math7,#science7,#history7,#urdu7,#islamiyat7,#geography7,#ict7,#english8,#math8,#ps8,#chemistry8,#urdu8,#islamiyat8,#physics8,#computer8,#biology8,#english9,#math9,#ps9,#chemistry9,#urdu9,#islamiyat9,#physics9,#computer9,#biology9,#english10,#math10,#ps10,#chemistry10,#urdu10,#islamiyat10,#physics10,#computer10,#biology10
+{
+  display: none;
+}
+/*Hiding all the data by default*/
